@@ -32,7 +32,7 @@ const PageNo1 = () => {
         <div className='w-[450px]'>
           <h1 className='text-5xl font-medium ms-4 mt-40 text-wrap: wrap text-center'>Plant a tree for </h1>
           <h1 className='text-5xl font-medium text-center'> better world</h1>
-          <p className='text-wrap: wrap ms-5 text-zinc-300 mt-5  ms-10'>Rectangle follower distribute device layer. Library hand.</p>
+          <p className='text-wrap: wrap  text-zinc-300 mt-5  ms-10'>Rectangle follower distribute device layer. Library hand.</p>
           <p className='text-wrap: wrap  text-center text-zinc-300'>ellipse device strikethrough.</p>
           <div className='flex justify-center'>
             <button className='border-2 borer-solid border-black p-4  mt-4 text-black hover:bg-black hover:text'>shop now</button>
@@ -342,7 +342,7 @@ const PageNo1 = () => {
           <p className='text-center text-lg sm:text-xl mt-2 sm:mt-4 text-gray-600'>Subscribe now and get exclusive offers!</p>
 
           <div className='flex flex-col sm:flex-row items-center justify-center mt-3 sm:mt-5'>
-            <input type="email" placeholder='Your Email Address' className='bg-gray-200 sm:bg-slate-300 h-10 max-w-xs sm:max-w-md mt-2 sm:mt-0 border-none px-4 py-2  focus:outline-none  mt-36' />
+            <input type="email" placeholder='Your Email Address' className='bg-gray-200 sm:bg-slate-300 h-10 max-w-xs sm:max-w-md  sm:mt-0 border-none px-4 py-2  focus:outline-none  mt-36' />
             <button className='bg-black sm:ms-4 text-white px-4 py-2 mt-2 sm:mt-0  hover:bg-gray-800 focus:outline-none'>Subscribe Now</button>
           </div>
         </div>

@@ -8,8 +8,8 @@ const DefualtBlog = () => {
 
 
             <div className='flex justify-around flex-wrap mt-16'>
-                <div className='inline-block overflow-hidden'>
-                    <img className='hover:scale-110 duration-500 transition-transform  max-w-[700px] ' src="https://emart.wpthemedemos.com/wp-content/uploads/2022/10/blog-img-12-1.webp" alt="" />
+                <div className='inline-block overflow-hidden max-h-[500px]  max-w-[750px]'>
+                    <img className='hover:scale-110 duration-500 transition-transform h-full w-full object-cover' src="https://emart.wpthemedemos.com/wp-content/uploads/2022/10/blog-img-12-1.webp" alt="" />
                 </div>
 
 
@@ -53,47 +53,64 @@ const DefualtBlog = () => {
 
             {/* image1 */}
             <div className='flex container gap-5 ms-6 flex-wrap'>
-                <div className='overflow-hidden inline-block'>
-                    <img className='max-w-96 hover:scale-110 duration-500 transition-transform ' src="https://emart.wpthemedemos.com/wp-content/uploads/2022/10/blog-image-three.webp" alt="" />
-                    <p className='mt-3 inline-block font-bold text-slate-500'>Leota Jerez</p
-                    >
-                    <div class="h-3 border-l font-bold border-gray-400 inline-block ms-2"></div>
-                    <p className='inline-block ms-2 text-red-600 font-bold'>19 Oct, 2022</p>
-                    <p className=' font-bold text-wrap text-xl'>5 Incredibly Useful Fashion Tips  For <br /> Small Businesses</p>
-                    <p className='font-semibold  text-slate-500 mt-3'>What makes a slogan or a tagline for an app  <br /> development company....</p>
+                <div className=''>
+                    <div className='overflow-hidden inline-block max-h-[220px] max-w-[400px]'>
+                        <img className='max-w-96 hover:scale-110 duration-500 transition-transform  w-full h-full object-cover' src="https://emart.wpthemedemos.com/wp-content/uploads/2022/10/blog-image-three.webp" alt="" />
+                    </div>
+                    <div>
+                        <p className='mt-3 inline-block font-bold text-slate-500'>Leota Jerez</p
+                        >
+                        <div class="h-3 border-l font-bold border-gray-400 inline-block ms-2"></div>
+                        <p className='inline-block ms-2 text-red-600 font-bold'>19 Oct, 2022</p>
+                        <p className=' font-bold text-wrap text-xl'>5 Incredibly Useful Fashion Tips  For <br /> Small Businesses</p>
+                        <p className='font-semibold  text-slate-500 mt-3'>What makes a slogan or a tagline for an app  <br /> development company....</p>
+                    </div>
                 </div>
 
-                <div className='overflow-hidden inline-block'>
-                    <img className='max-w-96 hover:scale-110 duration-500 transition-transform ' src="https://emart.wpthemedemos.com/wp-content/uploads/2022/10/blog-image-one.webp" alt="" />
-                    <p className='mt-3 inline-block font-bold text-slate-500'>Leota Jerez</p
-                    >
-                    <div class="h-3 border-l font-bold border-gray-400 inline-block ms-2"></div>
-                    <p className='inline-block ms-2 text-red-600 font-bold'>19 Oct, 2022</p>
-                    <p className=' font-bold text-wrap text-xl'>How To Find The Right Fashion For <br /> Your Specific Product</p>
-                    <p className='font-semibold  text-slate-500 mt-3'>What makes a slogan or a tagline for an app  <br /> development company....</p>
+
+                <div className=''>
+                    <div className='overflow-hidden inline-block max-h-[220px] max-w-[400px]'>
+                        <img className='max-w-96 hover:scale-110 duration-500 transition-transform  w-full h-full object-cover' src="https://emart.wpthemedemos.com/wp-content/uploads/2022/10/blog-image-one.webp" alt="" />
+                    </div>
+                    <div>
+                        <p className='mt-3 inline-block font-bold text-slate-500'>Leota Jerez</p
+                        >
+                        <div class="h-3 border-l font-bold border-gray-400 inline-block ms-2"></div>
+                        <p className='inline-block ms-2 text-red-600 font-bold'>19 Oct, 2022</p>
+                        <p className=' font-bold text-wrap text-xl'>How To Find The Right Fashion For <br /> Your Specific Product</p>
+                        <p className='font-semibold  text-slate-500 mt-3'>What makes a slogan or a tagline for an app  <br /> development company....</p>
+                    </div>
                 </div>
             </div>
 
             {/* image2 */}
             <div className='flex container gap-5 ms-6 flex-wrap'>
-                <div className='overflow-hidden inline-block'>
-                    <img className='max-w-96 hover:scale-110 duration-500 transition-transform ' src="https://emart.wpthemedemos.com/wp-content/uploads/2022/10/blog-image-four.webp" alt="" />
-                    <p className='mt-3 inline-block font-bold text-slate-500'>William Westbrook</p
-                    >
-                    <div class="h-3 border-l font-bold border-gray-400 inline-block ms-2"></div>
-                    <p className='inline-block ms-2 text-red-600 font-bold'>19 Oct, 2022</p>
-                    <p className=' font-bold text-wrap text-xl'>The Psychology Behind Fashion <br />Trends: What We Wear</p>
-                    <p className='font-semibold  text-slate-500 mt-3'>What makes a slogan or a tagline for an app  <br /> development company....</p>
+                <div className=''>
+                    <div className='overflow-hidden inline-block max-h-[220px] max-w-[400px]'>
+                        <img className='max-w-96 hover:scale-110 duration-500 transition-transform  w-full h-full object-cover' src="https://emart.wpthemedemos.com/wp-content/uploads/2022/10/blog-image-four.webp" alt="" />
+                    </div>
+                    <div>
+                        <p className='mt-3 inline-block font-bold text-slate-500'>William Westbrook</p
+                        >
+                        <div class="h-3 border-l font-bold border-gray-400 inline-block ms-2"></div>
+                        <p className='inline-block ms-2 text-red-600 font-bold'>19 Oct, 2022</p>
+                        <p className=' font-bold text-wrap text-xl'>The Psychology Behind Fashion <br /> Trends: What We Wear</p>
+                        <p className='font-semibold  text-slate-500 mt-3'>What makes a slogan or a tagline for an app  <br /> development company....</p>
+                    </div>
                 </div>
 
-                <div className='overflow-hidden inline-block'>
-                    <img className='max-w-96 hover:scale-110 duration-500 transition-transform ' src="https://emart.wpthemedemos.com/wp-content/uploads/2022/10/blog-image-five.webp" alt="" />
-                    <p className='mt-3 inline-block font-bold text-slate-500'>Jessica Bryant</p
-                    >
-                    <div class="h-3 border-l font-bold border-gray-400 inline-block ms-2"></div>
-                    <p className='inline-block ms-2 text-red-600 font-bold'>19 Oct, 2022</p>
-                    <p className=' font-bold text-wrap text-xl'>How I Improved My Fashion In One <br /> Easy Lesson</p>
-                    <p className='font-semibold  text-slate-500 mt-3'>What makes a slogan or a tagline for an app  <br /> development company....</p>
+                <div className=''>
+                    <div className='overflow-hidden inline-block max-h-[220px] max-w-[400px]'>
+                        <img className='max-w-96 hover:scale-110 duration-500 transition-transform  w-full h-full object-cover' src="https://emart.wpthemedemos.com/wp-content/uploads/2022/10/blog-image-five.webp" alt="" />
+                    </div>
+                    <div>
+                        <p className='mt-3 inline-block font-bold text-slate-500'>Jessica Bryant</p
+                        >
+                        <div class="h-3 border-l font-bold border-gray-400 inline-block ms-2"></div>
+                        <p className='inline-block ms-2 text-red-600 font-bold'>19 Oct, 2022</p>
+                        <p className=' font-bold text-wrap text-xl'>How I Improved My Fashion In One <br /> Easy Lesson</p>
+                        <p className='font-semibold  text-slate-500 mt-3'>What makes a slogan or a tagline for an app  <br /> development company....</p>
+                    </div>
                 </div>
             </div>
 
@@ -101,24 +118,32 @@ const DefualtBlog = () => {
             {/* image3 */}
 
             <div className='flex container gap-5 ms-6 flex-wrap'>
-                <div className='overflow-hidden inline-block'>
-                    <img className='max-w-96 hover:scale-110 duration-500 transition-transform ' src="https://emart.wpthemedemos.com/wp-content/uploads/2022/10/blog-image-six.webp" alt="" />
-                    <p className='mt-3 inline-block font-bold text-slate-500'>Leota Jerez</p
-                    >
-                    <div class="h-3 border-l font-bold border-gray-400 inline-block ms-2"></div>
-                    <p className='inline-block ms-2 text-red-600 font-bold'>19 Oct, 2022</p>
-                    <p className=' font-bold text-wrap text-xl'>From Runway To Reality: The <br />Latest Fashion Trends</p>
-                    <p className='font-semibold  text-slate-500 mt-3'>What makes a slogan or a tagline for an app  <br /> development company....</p>
+                <div className=''>
+                    <div className='overflow-hidden inline-block max-h-[220px] max-w-[400px]'>
+                        <img className='max-w-96 hover:scale-110 duration-500 transition-transform  w-full h-full object-cover' src="https://emart.wpthemedemos.com/wp-content/uploads/2022/10/blog-image-six.webp" alt="" />
+                    </div>
+                    <div>
+                        <p className='mt-3 inline-block font-bold text-slate-500'>Leota Jerez</p
+                        >
+                        <div class="h-3 border-l font-bold border-gray-400 inline-block ms-2"></div>
+                        <p className='inline-block ms-2 text-red-600 font-bold'>19 Oct, 2022</p>
+                        <p className=' font-bold text-wrap text-xl'>From Runway To Reality: The Latest <br /> Fashion Trends</p>
+                        <p className='font-semibold  text-slate-500 mt-3'>What makes a slogan or a tagline for an app  <br /> development company....</p>
+                    </div>
                 </div>
 
-                <div className='overflow-hidden inline-block'>
-                    <img className='max-w-96 hover:scale-110 duration-500 transition-transform ' src="https://emart.wpthemedemos.com/wp-content/uploads/2022/10/blog-image-seven.webp" alt="" />
-                    <p className='mt-3 inline-block font-bold text-slate-500'>Leota Jerez</p
-                    >
-                    <div class="h-3 border-l font-bold border-gray-400 inline-block ms-2"></div>
-                    <p className='inline-block ms-2 text-red-600 font-bold'>19 Oct, 2022</p>
-                    <p className=' font-bold text-wrap text-xl'>How to Mix & Match Your Clothes <br />for Endless Outfit Options</p>
-                    <p className='font-semibold  text-slate-500 mt-3'>What makes a slogan or a tagline for an app  <br /> development company....</p>
+                <div className=''>
+                    <div className='overflow-hidden inline-block max-h-[220px] max-w-[400px]'>
+                        <img className='max-w-96 hover:scale-110 duration-500 transition-transform  w-full h-full object-cover' src="https://emart.wpthemedemos.com/wp-content/uploads/2022/10/blog-image-seven.webp" alt="" />
+                    </div>
+                    <div>
+                        <p className='mt-3 inline-block font-bold text-slate-500'>Leota Jerez</p
+                        >
+                        <div class="h-3 border-l font-bold border-gray-400 inline-block ms-2"></div>
+                        <p className='inline-block ms-2 text-red-600 font-bold'>19 Oct, 2022</p>
+                        <p className=' font-bold text-wrap text-xl'>How to Mix & Match Your Clothes for <br /> Endless Outfit Options</p>
+                        <p className='font-semibold  text-slate-500 mt-3'>What makes a slogan or a tagline for an app  <br /> development company....</p>
+                    </div>
                 </div>
             </div>
 
@@ -126,24 +151,32 @@ const DefualtBlog = () => {
 
             {/* image4 */}
             <div className='flex container gap-5 ms-6 flex-wrap'>
-                <div className='overflow-hidden inline-block'>
-                    <img className='max-w-96 hover:scale-110 duration-500 transition-transform ' src="https://emart.wpthemedemos.com/wp-content/uploads/2022/10/blog-image-eight.webp" alt="" />
-                    <p className='mt-3 inline-block font-bold text-slate-500'>Leota Jerez</p
-                    >
-                    <div class="h-3 border-l font-bold border-gray-400 inline-block ms-2"></div>
-                    <p className='inline-block ms-2 text-red-600 font-bold'>19 Oct, 2022</p>
-                    <p className=' font-bold text-wrap text-xl'>10 Must Have Basics For Every <br />Woman’s Closet</p>
-                    <p className='font-semibold  text-slate-500 mt-3'>Never ever think of giving up. Winners never quit <br /> and quitters never win for slogan...</p>
+                <div className=''>
+                    <div className='overflow-hidden inline-block max-h-[220px] max-w-[400px]'>
+                        <img className='max-w-96 hover:scale-110 duration-500 transition-transform  w-full h-full object-cover' src="https://emart.wpthemedemos.com/wp-content/uploads/2022/10/blog-image-eight.webp" alt="" />
+                    </div>
+                    <div>
+                        <p className='mt-3 inline-block font-bold text-slate-500'>William Westbrook</p
+                        >
+                        <div class="h-3 border-l font-bold border-gray-400 inline-block ms-2"></div>
+                        <p className='inline-block ms-2 text-red-600 font-bold'>19 Oct, 2022</p>
+                        <p className=' font-bold text-wrap text-xl'>10 Must Have Basics For Every <br /> Woman’s Closet</p>
+                        <p className='font-semibold  text-slate-500 mt-3'>Never ever think of giving up. Winners never quit <br /> and quitters never win for slogan...</p>
+                    </div>
                 </div>
 
-                <div className='overflow-hidden inline-block'>
-                    <img className='max-w-96 hover:scale-110 duration-500 transition-transform ' src="https://emart.wpthemedemos.com/wp-content/uploads/2022/10/blog-image-ten.webp" alt="" />
-                    <p className='mt-3 inline-block font-bold text-slate-500'>Leota Jerez</p
-                    >
-                    <div class="h-3 border-l font-bold border-gray-400 inline-block ms-2"></div>
-                    <p className='inline-block ms-2 text-red-600 font-bold'>19 Oct, 2022</p>
-                    <p className=' font-bold text-wrap text-xl'>How To Find The Right Fashion For <br /> Your Specific Product</p>
-                    <p className='font-semibold  text-slate-500 mt-3'>What makes a slogan or a tagline for an app  <br /> development company....</p>
+                <div className=''>
+                    <div className='overflow-hidden inline-block max-h-[220px] max-w-[400px]'>
+                        <img className='max-w-96 hover:scale-110 duration-500 transition-transform  w-full h-full object-cover' src="https://emart.wpthemedemos.com/wp-content/uploads/2022/10/blog-image-ten.webp" alt="" />
+                    </div>
+                    <div>
+                        <p className='mt-3 inline-block font-bold text-slate-500'>Jessica Bryant</p
+                        >
+                        <div class="h-3 border-l font-bold border-gray-400 inline-block ms-2"></div>
+                        <p className='inline-block ms-2 text-red-600 font-bold'>19 Oct, 2022</p>
+                        <p className=' font-bold text-wrap text-xl'>How To Put Together The Perfect <br /> Outfit for Any Occasion</p>
+                        <p className='font-semibold  text-slate-500 mt-3'>What makes a slogan or a tagline for an app  <br /> development company....</p>
+                    </div>
                 </div>
             </div>
 

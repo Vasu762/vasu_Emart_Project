@@ -14,10 +14,12 @@ const Product_Style_One = () => {
 
             {/* image1 */}
             <div className='container'>
-                <div className='flex justify-between flex-wrap gap-3'>
+                <div className='flex justify-between flex-wrap gap-3 mt-14'>
                     <div className='relative'>
-                        <div className='box-shadow ms-6'>        
-                            <img className='max-h-[580px] zoom p-7' src="https://emart.wpthemedemos.com/plant-garden/wp-content/uploads/sites/10/2022/12/Monstera.webp" alt="" />
+                        <div className='box-shadow ms-6 mt-3 p-4'>
+                            <div className='overflow-hidden inline-block max-h-[600px] max-w-[400px]'>
+                                <img className='h-full w-full  object-cover hover:scale-105 duration-700 ease-in-out' src="https://emart.wpthemedemos.com/plant-garden/wp-content/uploads/sites/10/2022/12/Monstera.webp" alt="" />
+                            </div>
                             <p className='text-2xl text-center'>Moduler Bathtub</p>
                             <div className='text-center'>
                                 <del>$60</del> <p className='inline-block'>$48</p>
@@ -26,37 +28,50 @@ const Product_Style_One = () => {
                         <div className="icons">
                             {/* three icons */}
                         </div>
-                        <div className='text-white absolute top-9 right-9'>
+                        <div className='text-white absolute top-12 right-9'>
                             <p className='bg-black p-1'>-14%</p>
                         </div>
-
                     </div>
 
 
-                    <div className='box-shadow ms-6'>
-                        <img className='max-h-[580px] zoom p-7' src="https://emart.wpthemedemos.com/plant-garden/wp-content/uploads/sites/10/2022/12/Haworthia.webp" alt="" />
-                        <p className='text-2xl text-center'>Moduler Bathtub</p>
-                        <div className='text-center'>
-                            <del>$60</del> <p className='inline-block'>$48</p>
-                        </div>
-                    </div>
-                    <div className="icons">
-                        {/* add three icones */}
-                    </div>
+
+
 
                     <div className='relative'>
-                        <div className='box-shadow ms-6'>
-                            <img className='max-h-[580px] zoom p-7' src="https://emart.wpthemedemos.com/plant-garden/wp-content/uploads/sites/10/2022/12/Haworthia.webp" alt="" />
+                        <div className='box-shadow ms-6 mt-3 p-4'>
+                            <div className='overflow-hidden inline-block max-h-[600px] max-w-[400px]'>
+                                <img className='h-full w-full  object-cover hover:scale-105 duration-700 ease-in-out' src="https://emart.wpthemedemos.com/plant-garden/wp-content/uploads/sites/10/2022/12/Monstera.webp" alt="" />
+                            </div>
                             <p className='text-2xl text-center'>Moduler Bathtub</p>
                             <div className='text-center'>
                                 <del>$60</del> <p className='inline-block'>$48</p>
                             </div>
                         </div>
                         <div className="icons">
-                            {/* add three icones */}
+                            {/* three icons */}
                         </div>
-                        <div className='text-white absolute top-9 right-9'>
-                            <p className='bg-black p-1'>-25%</p>
+
+                    </div>
+
+
+
+
+
+                    <div className='relative'>
+                        <div className='box-shadow ms-6 mt-3 p-4'>
+                            <div className='overflow-hidden inline-block max-h-[600px] max-w-[400px]'>
+                                <img className='h-full w-full  object-cover hover:scale-105 duration-700 ease-in-out' src="https://emart.wpthemedemos.com/plant-garden/wp-content/uploads/sites/10/2022/12/Monstera.webp" alt="" />
+                            </div>
+                            <p className='text-2xl text-center'>Moduler Bathtub</p>
+                            <div className='text-center'>
+                                <del>$60</del> <p className='inline-block'>$48</p>
+                            </div>
+                        </div>
+                        <div className="icons">
+                            {/* three icons */}
+                        </div>
+                        <div className='text-white absolute top-12 right-9'>
+                            <p className='bg-black p-1'>-14%</p>
                         </div>
                     </div>
                 </div>
@@ -64,44 +79,56 @@ const Product_Style_One = () => {
 
                 {/* image2 */}
                 <div className='flex flex-wrap justify-between '>
-                    <div className='box-shadow ms-6'>
-                        <img className='max-h-[580px] zoom p-7' src="https://emart.wpthemedemos.com/plant-garden/wp-content/uploads/sites/10/2022/12/Haworthia.webp" alt="" />
-                        <p className='text-2xl text-center'>Moduler Bathtub</p>
-                        <div className='text-center'>
-                            <del>$60</del> <p className='inline-block'>$48</p>
-                        </div>
-                    </div>
-                    <div className="icons">
-                        {/* add three icones */}
-                    </div>
-
-
-
-                    <div className='box-shadow ms-6'>
-                        <img className='max-h-[580px] zoom p-7' src="https://emart.wpthemedemos.com/plant-garden/wp-content/uploads/sites/10/2022/12/Haworthia.webp" alt="" />
-                        <p className='text-2xl text-center'>Moduler Bathtub</p>
-                        <div className='text-center'>
-                            <del>$60</del> <p className='inline-block'>$48</p>
-                        </div>
-                    </div>
-                    <div className="icons">
-                        {/* add three icones */}
-                    </div>
-
-
                     <div className='relative'>
-                        <div className='box-shadow ms-6'>
-                            <img className='max-h-[580px] zoom p-7' src="https://emart.wpthemedemos.com/plant-garden/wp-content/uploads/sites/10/2022/12/Haworthia.webp" alt="" />
+                        <div className='box-shadow ms-6 mt-3 p-4'>
+                            <div className='overflow-hidden inline-block max-h-[600px] max-w-[400px]'>
+                                <img className='h-full w-full  object-cover hover:scale-105 duration-700 ease-in-out' src="https://emart.wpthemedemos.com/plant-garden/wp-content/uploads/sites/10/2022/12/Monstera.webp" alt="" />
+                            </div>
                             <p className='text-2xl text-center'>Moduler Bathtub</p>
                             <div className='text-center'>
                                 <del>$60</del> <p className='inline-block'>$48</p>
                             </div>
                         </div>
                         <div className="icons">
-                            {/* add three icones */}
+                            {/* three icons */}
                         </div>
-                        <div className='text-white absolute top-9 right-9'>
-                            <p className='bg-black p-1'>-33%</p>
+                       
+                    </div>
+
+
+                    <div className='relative'>
+                        <div className='box-shadow ms-6 mt-3 p-4'>
+                            <div className='overflow-hidden inline-block max-h-[600px] max-w-[400px]'>
+                                <img className='h-full w-full  object-cover hover:scale-105 duration-700 ease-in-out' src="https://emart.wpthemedemos.com/plant-garden/wp-content/uploads/sites/10/2022/12/Monstera.webp" alt="" />
+                            </div>
+                            <p className='text-2xl text-center'>Moduler Bathtub</p>
+                            <div className='text-center'>
+                                <del>$60</del> <p className='inline-block'>$48</p>
+                            </div>
+                        </div>
+                        <div className="icons">
+                            {/* three icons */}
+                        </div>
+                     
+                    </div>
+
+
+
+                    <div className='relative'>
+                        <div className='box-shadow ms-6 mt-3 p-4'>
+                            <div className='overflow-hidden inline-block max-h-[600px] max-w-[400px]'>
+                                <img className='h-full w-full  object-cover hover:scale-105 duration-700 ease-in-out' src="https://emart.wpthemedemos.com/plant-garden/wp-content/uploads/sites/10/2022/12/Monstera.webp" alt="" />
+                            </div>
+                            <p className='text-2xl text-center'>Moduler Bathtub</p>
+                            <div className='text-center'>
+                                <del>$60</del> <p className='inline-block'>$48</p>
+                            </div>
+                        </div>
+                        <div className="icons">
+                            {/* three icons */}
+                        </div>
+                        <div className='text-white absolute top-12 right-9'>
+                            <p className='bg-black p-1'>-14%</p>
                         </div>
                     </div>
                 </div>

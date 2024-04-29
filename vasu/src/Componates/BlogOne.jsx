@@ -16,8 +16,8 @@ const BlogOne = () => {
                     <p className='xl:text-center font-bold text-4xl lg:text-start'>Our Experts</p>
                 </div>
                 <div className='flex justify-between flex-wrap'>
-                    <div class='object-fill xl:max-w-[800px] m-3 inline-block overflow-hidden'>
-                        <img class='xl:max-w-[900px] rounded-lg md:w-full hover:transform hover:scale-105 hover:scaleY-125 hover:opacity-75 transition-transform duration-300 ease-in-out' src="https://emart.wpthemedemos.com/wp-content/uploads/2022/10/blog-img-22.webp" alt="" />
+                    <div class='object-fill xl:max-w-[800px] m-3 inline-block overflow-hidden max-h-[600px] max-w-[500px]'>
+                        <img class='xl:max-w-[900px]  md:w-full hover:transform hover:scale-105 hover:scaleY-125 hover:opacity-75 object-cover h-full w-full transition-transform duration-300 ease-in-out' src="https://emart.wpthemedemos.com/wp-content/uploads/2022/10/blog-img-22.webp" alt="" />
                         <p class='mt-3 text-2xl font-bold'>How To Dress Appropriately For Any Occasion</p>
                         <p>Discover More</p>
                     </div>
@@ -25,16 +25,21 @@ const BlogOne = () => {
 
 
                     <div className='mt-4 '>
-                        <div className='overflow-hidden inline-block'>
-                            <img className='xl:max-w-[450px]  md:w-full hover:transform hover:scale-105 hover:opacity-75 transition-transform duration-300 ease-in-out ' src="https://emart.wpthemedemos.com/wp-content/uploads/2022/10/blog-img-11.webp" alt="" />
-                            <p className='text-2xl font-bold mt-3'>7 Ways To Stand Out With Your Personal Style</p>
+                        <div class=''>
+                            <div class='overflow-hidden inline-block max-h-[400px] md:max-w-[500px]'>
+                                <img class='hover:scale-105 hover:opacity-75 transition-transform duration-300 object-cover h-full w-full ease-in-out' src="https://emart.wpthemedemos.com/wp-content/uploads/2022/10/blog-img-11.webp" alt="" />
+                            </div>
+                            <p class='text-2xl font-bold mt-3'>7 Ways To Stand Out With Your Personal Style</p>
                             <p>Discover More </p>
                         </div>
 
 
-                        <div className='overflow-hidden'>
-                            <img className='xl:max-w-[450px]  md:w-full hover:transform hover:scale-105 hover:opacity-75 transition-transform duration-300 ease-in-out ' src="https://emart.wpthemedemos.com/wp-content/uploads/2022/10/blog-img-12-1.webp" alt="" />
-                            <p className='text-2xl font-bold mt-3'>5 Essential Wardrobe Staples For Every Fashionista</p>
+
+                        <div class=''>
+                            <div class='overflow-hidden inline-block max-h-[400px] md:max-w-[500px]'>
+                                <img class='hover:scale-105 hover:opacity-75 transition-transform duration-300 object-cover h-full w-full ease-in-out' src="https://emart.wpthemedemos.com/wp-content/uploads/2022/10/blog-img-12-1.webp" alt="" />
+                            </div>
+                            <p class='text-2xl font-bold mt-3'>5 Essential Wardrobe Staples For Every Fashionista</p>
                             <p>Discover More </p>
                         </div>
                     </div>
@@ -49,11 +54,15 @@ const BlogOne = () => {
                 <Container className='mt-4'>
                     <Row>
                         <Col lg={6} md={12} >
-                            <img className='hover:opacity-50  hover:overflow-hidden hover:scale-105 duration-500 transition-transform ease-in-out ' src="https://emart.wpthemedemos.com/wp-content/uploads/2021/05/blog-img-23.webp" alt="" />
+                            <div className='overflow-hidden inline-block max-h-[600px] max-w-[850px]'>
+                                <img className='hover:opacity-50  hover:overflow-hidden hover:scale-105 duration-500 transition-transform ease-in-out object-cover h-full w-full' src="https://emart.wpthemedemos.com/wp-content/uploads/2021/05/blog-img-23.webp" alt="" />
+                            </div>
                             <p className='mt-3 font-bold text-2xl'>How To Accessorize To Perfectly Compliment Your Outfit</p>
                         </Col>
                         <Col lg={6} md={12}>
-                            <img className='hover:opacity-50  hover:overflow-hidden hover:scale-105 duration-500 ease-in-out ' src="https://emart.wpthemedemos.com/wp-content/uploads/2022/10/blog-img-12.webp" alt="" />
+                            <div className='overflow-hidden inline-block max-h-[600px] max-w-[850px]'>
+                                <img className='hover:opacity-50  hover:overflow-hidden hover:scale-105 duration-500 transition-transform ease-in-out object-cover h-full w-full' src="https://emart.wpthemedemos.com/wp-content/uploads/2022/10/blog-img-12.webp" alt="" />
+                            </div>
                             <p className='mt-3 font-bold text-2xl'>The Benefits Of Shopping Small And Local</p>
                         </Col>
                     </Row>

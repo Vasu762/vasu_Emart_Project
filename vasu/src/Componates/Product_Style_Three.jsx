@@ -12,25 +12,25 @@ const Product_Style_Three = () => {
             </div>
 
             {/* image1 */}
-            <div className=''>
+            <div className='mt-10'>
 
                 <div className='flex'>
-                    <div className='relative'>
+                    <div className='relative mt-4'>
                         <div className='ms-6 relative group'>
-                            <img className='max-h-[580px] zoom p-7' src="https://emart.wpthemedemos.com/plant-garden/wp-content/uploads/sites/10/2022/12/Monstera.webp" alt="" />
+                            <div className='inline-block overflow-hidden max-h-[430px]  max-w-[400px]'>
+                                <img className='object-cover  duration-700  h-full w-full  hover:scale-105' src="https://emart.wpthemedemos.com/plant-garden/wp-content/uploads/sites/10/2022/12/Monstera.webp" alt="" />
+                            </div>
                             <p className='text-2xl text-center'>Moduler Bathtub</p>
                             <div className='text-center'>
                                 <del>$60</del> <p className='inline-block'>$48</p>
                             </div>
-                            {/* Icons container */}
-                            <div className="icons absolute top-0 left-0 opacity-0 transition-opacity duration-300 hidden group-hover:opacity-100">
-                                <img className='' src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQPAp-iUgEWK_0M8WlqFiI9YQkBOhsmCjmoEg&s" alt="" />
-                                <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQPAp-iUgEWK_0M8WlqFiI9YQkBOhsmCjmoEg&s" alt="" />
-                                <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSRP9fy5-QNpKRSWAtMw1WqC4twnkQyJbaXjA&s" alt="" />
+
+                            <div className="">
+                                {/* Icons container */}
                             </div>
                         </div>
                         {/* Discount label */}
-                        <div className='text-white absolute top-9 right-9'>
+                        <div className='text-white absolute top-4 right-4'>
                             <p className='bg-black p-1'>-14%</p>
                         </div>
                     </div>

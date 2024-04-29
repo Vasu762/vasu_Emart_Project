@@ -18,7 +18,9 @@ const Page2_Shop_Now = () => {
       <div className=''>
         <div class="flex flex-wrap mt-3 justify-between">
           <div class="image-container max-w-64 sm:w-1/2 md:w-1/3 lg:w-1/4 xl:w-1/5">
-            <img src="https://emart.wpthemedemos.com/plant-garden/wp-content/uploads/sites/10/2022/12/Birds-Nest-Leslie-Fern.webp" alt="Your Image" class="zoom h-80 mt-2 w-full" />
+            <div className='inline-block overflow-hidden max-h-[330px] max-w-[350px]'>
+              <img src="https://emart.wpthemedemos.com/plant-garden/wp-content/uploads/sites/10/2022/12/Birds-Nest-Leslie-Fern.webp" alt="Your Image" className="zoom h-full object-cover w-full" />
+            </div>
             <div class="text-center mt-8">
               <p class="text-xl font-bold">Bird’s Nest Leslie</p>
               <del>$60</del>
@@ -36,11 +38,13 @@ const Page2_Shop_Now = () => {
 
 
           <div class="image-container max-w-64 sm:w-1/2 md:w-1/3 lg:w-1/4 xl:w-1/5">
-            <img src="https://emart.wpthemedemos.com/plant-garden/wp-content/uploads/sites/10/2022/12/Birds-Nest-Leslie-Fern.webp" alt="Your Image" class="zoom h-80 mt-2 w-full" />
+            <div className='inline-block overflow-hidden max-h-[330px] max-w-[350px]'>
+              <img src="https://emart.wpthemedemos.com/plant-garden/wp-content/uploads/sites/10/2022/12/Monstera.webp" alt="Your Image" className="zoom h-full object-cover w-full" />
+            </div>
             <div class="text-center mt-8">
-              <p class="text-xl font-bold">Bird’s Nest Leslie</p>
-              <del>$60</del>
-              <p class="inline-block">$48</p>
+              <p class="text-xl font-bold">Monstera Plant</p>
+              <del>$60.00</del>
+              <p class="inline-block"> $48.00</p>
             </div>
             {/* <div className="icons">
 
@@ -55,11 +59,13 @@ const Page2_Shop_Now = () => {
 
 
           <div class="image-container max-w-64 sm:w-1/2 md:w-1/3 lg:w-1/4 xl:w-1/5">
-            <img src="https://emart.wpthemedemos.com/plant-garden/wp-content/uploads/sites/10/2022/12/Birds-Nest-Leslie-Fern.webp" alt="Your Image" class="zoom h-80 mt-2 w-full" />
+            <div className='inline-block overflow-hidden max-h-[330px] max-w-[350px]'>
+              <img src="https://emart.wpthemedemos.com/plant-garden/wp-content/uploads/sites/10/2022/12/Haworthia.webp" alt="Your Image" className="zoom h-full object-cover w-full" />
+            </div>
             <div class="text-center mt-8">
-              <p class="text-xl font-bold">Bird’s Nest Leslie</p>
-              <del>$60</del>
-              <p class="inline-block">$48</p>
+              <p class="text-xl font-bold">Haworthia</p>
+              <del>$87.00</del>
+              <p class="inline-block"> $70.00</p>
             </div>
             {/* <div className="icons">
 
@@ -74,11 +80,12 @@ const Page2_Shop_Now = () => {
 
 
           <div class="image-container max-w-64 sm:w-1/2 md:w-1/3 lg:w-1/4 xl:w-1/5">
-            <img src="https://emart.wpthemedemos.com/plant-garden/wp-content/uploads/sites/10/2022/12/Birds-Nest-Leslie-Fern.webp" alt="Your Image" class="zoom h-80 mt-2 w-full" />
+            <div className='inline-block overflow-hidden max-h-[330px] max-w-[350px]'>
+              <img src="https://emart.wpthemedemos.com/plant-garden/wp-content/uploads/sites/10/2022/12/Monstera.webp" alt="Your Image" className="zoom h-full object-cover w-full" />
+            </div>
             <div class="text-center mt-8">
-              <p class="text-xl font-bold">Bird’s Nest Leslie</p>
-              <del>$60</del>
-              <p class="inline-block">$48</p>
+              <p class="text-xl font-bold">Monsterae Plant</p>
+              <p class="inline-block">$60.00</p>
             </div>
             {/* <div className="icons">
 
@@ -92,11 +99,13 @@ const Page2_Shop_Now = () => {
 
 
           <div class="image-container max-w-64 sm:w-1/2 md:w-1/3 lg:w-1/4 xl:w-1/5">
-            <img src="https://emart.wpthemedemos.com/plant-garden/wp-content/uploads/sites/10/2022/12/Birds-Nest-Leslie-Fern.webp" alt="Your Image" class="zoom h-80 mt-2 w-full" />
+            <div className='inline-block overflow-hidden max-h-[330px] max-w-[350px]'>
+              <img src="https://emart.wpthemedemos.com/plant-garden/wp-content/uploads/sites/10/2022/12/Birds-nest-fern-01.webp" alt="Your Image" className="zoom h-full object-cover w-full" />
+            </div>
             <div class="text-center mt-8">
-              <p class="text-xl font-bold">Bird’s Nest Leslie</p>
-              <del>$60</del>
-              <p class="inline-block">$48</p>
+              <p class="text-xl font-bold">Bird’s Nest Fern</p>
+              <del>$68.00 </del>
+              <p class="inline-block"> $54.00</p>
             </div>
             {/* <div className="icons">
 
@@ -120,11 +129,12 @@ const Page2_Shop_Now = () => {
       <div className=''>
         <div class="flex flex-wrap mt-3 justify-between">
           <div class="image-container max-w-64 sm:w-1/2 md:w-1/3 lg:w-1/4 xl:w-1/5">
-            <img src="https://emart.wpthemedemos.com/plant-garden/wp-content/uploads/sites/10/2022/12/Birds-Nest-Leslie-Fern.webp" alt="Your Image" class="zoom h-80 mt-2 w-full" />
+            <div className='inline-block overflow-hidden max-h-[330px] max-w-[350px]'>
+              <img src="https://emart.wpthemedemos.com/plant-garden/wp-content/uploads/sites/10/2022/12/Rubber-Plant.webp" alt="Your Image" className="zoom h-full object-cover w-full" />
+            </div>
             <div class="text-center mt-8">
-              <p class="text-xl font-bold">Bird’s Nest Leslie</p>
-              <del>$60</del>
-              <p class="inline-block">$48</p>
+              <p class="text-xl font-bold">Peperomia Plants</p>
+              <p class="inline-block">$57.00</p>
             </div>
             {/* <div className="icons">
 
@@ -138,11 +148,32 @@ const Page2_Shop_Now = () => {
 
 
           <div class="image-container max-w-64 sm:w-1/2 md:w-1/3 lg:w-1/4 xl:w-1/5">
-            <img src="https://emart.wpthemedemos.com/plant-garden/wp-content/uploads/sites/10/2022/12/Birds-Nest-Leslie-Fern.webp" alt="Your Image" class="zoom h-80 mt-2 w-full" />
+            <div className='inline-block overflow-hidden max-h-[330px] max-w-[350px]'>
+              <img src="https://emart.wpthemedemos.com/plant-garden/wp-content/uploads/sites/10/2022/12/peace-lily-02.webp" alt="Your Image" className="zoom h-full object-cover w-full" />
+            </div>
             <div class="text-center mt-8">
-              <p class="text-xl font-bold">Bird’s Nest Leslie</p>
-              <del>$60</del>
-              <p class="inline-block">$48</p>
+              <p class="text-xl font-bold">Peace Lily</p>
+              <del>$72.00 </del>
+              <p class="inline-block">$64.00</p>
+            </div>
+            {/* <div className="icons"> 
+
+                <i className="fas fa-heart"></i>
+                <i className="fas fa-heart"></i>
+                <i className="fas fa-heart"></i>
+
+              </div> */}
+          </div>
+
+
+
+          <div class="image-container max-w-64 sm:w-1/2 md:w-1/3 lg:w-1/4 xl:w-1/5">
+            <div className='inline-block overflow-hidden max-h-[330px] max-w-[350px]'>
+              <img src="https://emart.wpthemedemos.com/plant-garden/wp-content/uploads/sites/10/2022/12/Succulent-Plant.webp" alt="Your Image" className="zoom h-full object-cover w-full" />
+            </div>
+            <div class="text-center mt-8">
+              <p class="text-xl font-bold">Succulent Plant</p>
+              <p class="inline-block">$67.00</p>
             </div>
             {/* <div className="icons">
 
@@ -156,11 +187,12 @@ const Page2_Shop_Now = () => {
 
 
           <div class="image-container max-w-64 sm:w-1/2 md:w-1/3 lg:w-1/4 xl:w-1/5">
-            <img src="https://emart.wpthemedemos.com/plant-garden/wp-content/uploads/sites/10/2022/12/Birds-Nest-Leslie-Fern.webp" alt="Your Image" class="zoom h-80 mt-2 w-full" />
+            <div className='inline-block overflow-hidden max-h-[330px] max-w-[350px]'>
+              <img src="https://emart.wpthemedemos.com/plant-garden/wp-content/uploads/sites/10/2022/12/barrel-cactus-01.webp" alt="Your Image" className="zoom h-full object-cover w-full" />
+            </div>
             <div class="text-center mt-8">
-              <p class="text-xl font-bold">Bird’s Nest Leslie</p>
-              <del>$60</del>
-              <p class="inline-block">$48</p>
+              <p class="text-xl font-bold">Barrel Cactus</p>
+              <p class="inline-block">$67.00</p>
             </div>
             {/* <div className="icons">
 
@@ -174,28 +206,12 @@ const Page2_Shop_Now = () => {
 
 
           <div class="image-container max-w-64 sm:w-1/2 md:w-1/3 lg:w-1/4 xl:w-1/5">
-            <img src="https://emart.wpthemedemos.com/plant-garden/wp-content/uploads/sites/10/2022/12/Birds-Nest-Leslie-Fern.webp" alt="Your Image" class="zoom h-80 mt-2 w-full" />
-            <div class="text-center mt-8">
-              <p class="text-xl font-bold">Bird’s Nest Leslie</p>
-              <del>$60</del>
-              <p class="inline-block">$48</p>
+            <div className='inline-block overflow-hidden max-h-[330px] max-w-[350px]'>
+              <img src="https://emart.wpthemedemos.com/plant-garden/wp-content/uploads/sites/10/2022/12/Philodendron-Birkin-Plant.webp" alt="Your Image" className="zoom h-full object-cover w-full" />
             </div>
-            {/* <div className="icons">
-
-                <i className="fas fa-heart"></i>
-                <i className="fas fa-heart"></i>
-                <i className="fas fa-heart"></i>
-
-              </div> */}
-          </div>
-
-
-
-          <div class="image-container max-w-64 sm:w-1/2 md:w-1/3 lg:w-1/4 xl:w-1/5">
-            <img src="https://emart.wpthemedemos.com/plant-garden/wp-content/uploads/sites/10/2022/12/Birds-Nest-Leslie-Fern.webp" alt="Your Image" class="zoom h-80 mt-2 w-full" />
             <div class="text-center mt-8">
-              <p class="text-xl font-bold">Bird’s Nest Leslie</p>
-              <del>$60</del>
+              <p class="text-xl font-bold">Philodendron Plant</p>
+              <del>$63.00</del>
               <p class="inline-block">$48</p>
             </div>
             {/* <div className="icons">
@@ -238,7 +254,7 @@ const Page2_Shop_Now = () => {
         <div className='mt-6'>
           <hr />
         </div>
- 
+
 
         <div className='mt-8 flex justify-center'>
           <p className='text-gray-400 mb-1'>Designed by:</p>
