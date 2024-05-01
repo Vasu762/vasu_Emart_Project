@@ -135,7 +135,7 @@ const Product_Style_One = () => {
             </div>
 
 
-            <footer className='mt-16'>
+            <footer className='mt-16 '>
                 <div className='bg-slate-500 flex flex-wrap justify-between'>
                     <div className='w-full md:w-auto'>
                         <ul className='mt-6 md:mt-24'>

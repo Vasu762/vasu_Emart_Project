@@ -14,11 +14,11 @@ const Product_Style_Three = () => {
             {/* image1 */}
             <div className='mt-10'>
 
-                <div className='flex'>
+                <div className='flex flex-wrap'>
                     <div className='relative mt-4'>
                         <div className='ms-6 relative group'>
-                            <div className='inline-block overflow-hidden max-h-[430px]  max-w-[400px]'>
-                                <img className='object-cover  duration-700  h-full w-full  hover:scale-105' src="https://emart.wpthemedemos.com/plant-garden/wp-content/uploads/sites/10/2022/12/Monstera.webp" alt="" />
+                            <div className='inline-block overflow-hidden max-h-[430px]  max-w-[350px]'>
+                                <img className='object-cover  duration-700  h-full w-full  hover:scale-105' src="https://emart.wpthemedemos.com/handicraft/wp-content/uploads/sites/11/2023/01/modern-hanging-light-02-02.webp" alt="" />
                             </div>
                             <p className='text-2xl text-center'>Moduler Bathtub</p>
                             <div className='text-center'>
@@ -39,53 +39,67 @@ const Product_Style_Three = () => {
 
 
 
-
-                    <div className='relative'>
-                        <div className=' ms-6'>
-                            <img className='max-h-[580px] zoom p-7' src="https://emart.wpthemedemos.com/plant-garden/wp-content/uploads/sites/10/2022/12/Monstera.webp" alt="" />
+                    <div className='relative mt-4'>
+                        <div className='ms-6 relative group'>
+                            <div className='inline-block overflow-hidden max-h-[430px]  max-w-[350px]'>
+                                <img className='object-cover  duration-700  h-full w-full  hover:scale-105' src="https://emart.wpthemedemos.com/handicraft/wp-content/uploads/sites/11/2023/01/portable-speaker.webp" alt="" />
+                            </div>
                             <p className='text-2xl text-center'>Moduler Bathtub</p>
                             <div className='text-center'>
                                 <del>$60</del> <p className='inline-block'>$48</p>
                             </div>
+
+                            <div className="">
+                                {/* Icons container */}
+                            </div>
                         </div>
-                        <div className="icons">
-                            {/* icons */}
-                        </div>
-                        <div className='text-white absolute top-9 right-9'>
+                        {/* Discount label */}
+                        <div className='text-white absolute top-4 right-4'>
                             <p className='bg-black p-1'>-14%</p>
                         </div>
                     </div>
 
 
 
-                    <div className='relative'>
-                        <div className=' ms-6'>
-                            <img className='max-h-[580px] zoom p-7' src="https://emart.wpthemedemos.com/plant-garden/wp-content/uploads/sites/10/2022/12/Monstera.webp" alt="" />
-                            <p className='text-2xl text-center'>Moduler Bathtub</p>
-                            <div className='text-center'>
-                                <del>$60</del> <p className='inline-block'>$40</p>
+                    <div className='relative mt-4'>
+                        <div className='ms-6 relative group'>
+                            <div className='inline-block overflow-hidden max-h-[430px]  max-w-[350px]'>
+                                <img className='object-cover  duration-700  h-full w-full  hover:scale-105' src="https://emart.wpthemedemos.com/handicraft/wp-content/uploads/sites/11/2023/01/Stylish-Earring.webp" alt="" />
                             </div>
-                        </div>
-                        <div className="icons">
-                            {/* add three icones */}
-                        </div>
-                        <div className='text-white absolute top-9 right-9'>
-                            <p className='bg-black p-1'>-40%</p>
-                        </div>
-                    </div>
-
-                    <div className='relative'>
-                        <div className=' ms-6'>
-                            <img className='max-h-[580px] zoom p-7' src="https://emart.wpthemedemos.com/plant-garden/wp-content/uploads/sites/10/2022/12/Monstera.webp" alt="" />
                             <p className='text-2xl text-center'>Moduler Bathtub</p>
                             <div className='text-center'>
                                 <del>$60</del> <p className='inline-block'>$48</p>
                             </div>
-                        </div>
-                        <div className="icons">
-                            {/* add three icones */}
-                        </div>
 
+                            <div className="">
+                                {/* Icons container */}
+                            </div>
+                        </div>
+                        {/* Discount label */}
+                        <div className='text-white absolute top-4 right-4'>
+                            <p className='bg-black p-1'>-14%</p>
+                        </div>
+                    </div>
+
+
+
+
+                    <div className='relative mt-4'>
+                        <div className='ms-6 relative group'>
+                            <div className='inline-block overflow-hidden max-h-[430px]  max-w-[350px]'>
+                                <img className='object-cover  duration-700  h-full w-full  hover:scale-105' src="https://emart.wpthemedemos.com/handicraft/wp-content/uploads/sites/11/2022/12/modern-plant-pot-02.webp" alt="" />
+                            </div>
+                            <p className='text-2xl text-center'>Moduler Bathtub</p>
+                            <div className='text-center'>
+                                <del>$60</del> <p className='inline-block'>$48</p>
+                            </div>
+
+                            <div className="">
+                                {/* Icons container */}
+                            </div>
+                        </div>
+                        {/* Discount label */}
+                        
                     </div>
                 </div>
 
@@ -94,19 +108,23 @@ const Product_Style_Three = () => {
 
 
                 {/* image2 */}
-                <div className='flex'>
-                    <div className='relative'>
-                        <div className=' ms-6'>
-                            <img className='max-h-[580px] zoom p-7' src="https://emart.wpthemedemos.com/plant-garden/wp-content/uploads/sites/10/2022/12/Monstera.webp" alt="" />
+                <div className='flex flex-wrap'>
+                    <div className='relative mt-4'>
+                        <div className='ms-6 relative group'>
+                            <div className='inline-block overflow-hidden max-h-[430px]  max-w-[350px]'>
+                                <img className='object-cover  duration-700  h-full w-full  hover:scale-105' src="https://emart.wpthemedemos.com/handicraft/wp-content/uploads/sites/11/2022/12/modern-plant-pot.webp" alt="" />
+                            </div>
                             <p className='text-2xl text-center'>Moduler Bathtub</p>
                             <div className='text-center'>
                                 <del>$60</del> <p className='inline-block'>$48</p>
                             </div>
+
+                            <div className="">
+                                {/* Icons container */}
+                            </div>
                         </div>
-                        <div className="icons">
-                            {/* add three icones */}
-                        </div>
-                        <div className='text-white absolute top-9 right-9'>
+                        {/* Discount label */}
+                        <div className='text-white absolute top-4 right-4'>
                             <p className='bg-black p-1'>-50%</p>
                         </div>
                     </div>
@@ -114,48 +132,61 @@ const Product_Style_Three = () => {
 
 
 
-                    <div className='relative'>
-                        <div className=' ms-6'>
-                            <img className='max-h-[580px] zoom p-7' src="https://emart.wpthemedemos.com/plant-garden/wp-content/uploads/sites/10/2022/12/Monstera.webp" alt="" />
+                    <div className='relative mt-4'>
+                        <div className='ms-6 relative group'>
+                            <div className='inline-block overflow-hidden max-h-[430px]  max-w-[350px]'>
+                                <img className='object-cover  duration-700  h-full w-full  hover:scale-105' src="https://emart.wpthemedemos.com/handicraft/wp-content/uploads/sites/11/2022/12/beautiful-home-decoration.webp" alt="" />
+                            </div>
                             <p className='text-2xl text-center'>Moduler Bathtub</p>
                             <div className='text-center'>
                                 <del>$60</del> <p className='inline-block'>$48</p>
                             </div>
-                        </div>
-                        <div className="icons">
-                            {/* add three icones */}
-                        </div>
 
+                            <div className="">
+                                {/* Icons container */}
+                            </div>
+                        </div>
+                        {/* Discount label */}
+                      
+                    </div>
+
+
+                    <div className='relative mt-4'>
+                        <div className='ms-6 relative group'>
+                            <div className='inline-block overflow-hidden max-h-[430px]  max-w-[350px]'>
+                                <img className='object-cover  duration-700  h-full w-full  hover:scale-105' src="https://emart.wpthemedemos.com/handicraft/wp-content/uploads/sites/11/2022/12/eco-flower-stand-02-02.webp" alt="" />
+                            </div>
+                            <p className='text-2xl text-center'>Moduler Bathtub</p>
+                            <div className='text-center'>
+                                <del>$60</del> <p className='inline-block'>$48</p>
+                            </div>
+
+                            <div className="">
+                                {/* Icons container */}
+                            </div>
+                        </div>
+                        {/* Discount label */}
+                      
                     </div>
 
 
 
-                    <div className='relative'>
-                        <div className=' ms-6'>
-                            <img className='max-h-[580px] zoom p-7' src="https://emart.wpthemedemos.com/plant-garden/wp-content/uploads/sites/10/2022/12/Monstera.webp" alt="" />
+                    <div className='relative mt-4'>
+                        <div className='ms-6 relative group'>
+                            <div className='inline-block overflow-hidden max-h-[430px]  max-w-[350px]'>
+                                <img className='object-cover  duration-700  h-full w-full  hover:scale-105' src="https://emart.wpthemedemos.com/handicraft/wp-content/uploads/sites/11/2022/12/creative-flower-vase.webp" alt="" />
+                            </div>
                             <p className='text-2xl text-center'>Moduler Bathtub</p>
                             <div className='text-center'>
                                 <del>$60</del> <p className='inline-block'>$48</p>
                             </div>
-                        </div>
-                        <div className="icons">
-                            {/* add three icones */}
-                        </div>
 
-                    </div>
-
-                    <div className='relative'>
-                        <div className=' ms-6'>
-                            <img className='max-h-[580px] zoom p-7' src="https://emart.wpthemedemos.com/plant-garden/wp-content/uploads/sites/10/2022/12/Monstera.webp" alt="" />
-                            <p className='text-2xl text-center'>Moduler Bathtub</p>
-                            <div className='text-center'>
-                                <del>$60</del> <p className='inline-block'>$48</p>
+                            <div className="">
+                                {/* Icons container */}
                             </div>
                         </div>
-                        <div className="icons">
-                            {/* add three icones */}
-                        </div>
-                        <div className='text-white absolute top-9 right-9'>
+                        {/* Discount label */}
+                        <div className='text-white absolute top-4 right-4'>
                             <p className='bg-black p-1'>-50%</p>
                         </div>
                     </div>

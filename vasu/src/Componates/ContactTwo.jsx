@@ -1,123 +1,114 @@
 import React from 'react'
-import assets56 from '../assets/asset 56.svg'
-import assets57 from '../assets/asset 57.svg'
-import assets58 from '../assets/asset 58.svg'
-import assets60 from '../assets/asset 60.svg'
-import assets61 from '../assets/asset 61.svg'
-
-
-
+import asset56 from '../assets/asset 56.svg'
+import asset57 from '../assets/asset 57.svg'
+import asset58 from '../assets/asset 58.svg'
+import asset59 from '../assets/asset 59.svg'
+import asset60 from '../assets/asset 60.svg'
 
 
 const ContactTwo = () => {
     return (
-        <div>
-
-            <div className='flex  justify-between md:flex-wrap'>
-                <div className='mt-5 object-fill 	xl:max-w-[800px]   md:w-full '>
-                    {/* image */}
-                    <img className='' src="https://emart.wpthemedemos.com/wp-content/uploads/2023/03/contact-img-1.jpg" alt="" />
+        <div className='container '>
+            <div className='xl:flex p-2'>
+                <div className=''>
+                    <img className='xl:max-w-[950px] xl:h-[600px]  lg:w-full md:w-full sm:w-full' src="https://emart.wpthemedemos.com/wp-content/uploads/2023/03/contact-img-1.jpg" alt="" />
                 </div>
-                <div className='mt-5 '>
-                    <p className='text-red-600  font-semibold'>We Are Happy To Answer You</p>
-                    <p className='text-4xl font-semibold mt-7'>Contact</p>
 
-                    <div className='mt-8 flex justify-around'>
+                <div className='xl:ms-14 lg:flex-wrap'>
+                    <p className='text-red-400 font-semibold text-lg'>We Are Happy To Answer You</p>
+                    <p className='mt-3 text-4xl font-semibold '>Contact</p>
+
+
+                    <div className='mt-3 xl:flex lg:flex md:flex'>
                         <div>
-                            <p className='font-bold'>Address:</p>
-                            <p className='text-slate-500'>121 King St, Melbourne VIC</p>
-                            <p className='text-slate-500'>3000, Australia</p>
+                            <p className='text-lg font-medium'>Address:</p>
+                            <p className='mt-2 font-normal text-slate-500 '>121 King St, Melbourne VIC 3000, Australia</p>
                         </div>
-                        <div>
-                            <p className='font-bold inline-block'>Telephone :</p>
+
+                        <div className=''>
+                            <p className='inline-block font-bold'>Telephone : </p>
                             <p className='inline-block text-slate-500'>888 321 9874</p><br />
-                            <p className='font-bold inline-block'>Email :</p>
-                            <p className='inline-block text-slate-500'>info@example.com</p>
+                            <p className='font-bold inline-block mt-3'>Email :</p>
+                            <p className='inline-block'>info@example.com</p>
                         </div>
                     </div>
 
-                    <div className='mt-9'>
-                        <p className='text-red-600  font-semibold'>Need Help</p>
-                        <p className='font-semibold  text-5xl'>Send Your Request</p>
-                        <div>
-                            <div>
-                                <input type="text" placeholder='Name' className='border-2  border-solid border-inherit  min-w-[600px] h-12 mt-8' />
-                            </div>
-                            <div>
-                                <input type="text" placeholder='Email Address' className='border-2  border-solid border-inherit  min-w-[600px] h-12 mt-8' />
-                            </div>
-                            <div>
-                                <input type="text" placeholder='Phone' className='border-2  border-solid border-inherit  min-w-[600px] h-12 mt-8' />
-                            </div>
-                            <div>
-                                <textarea name="" id="" className='border-2  border-solid border-inherit  min-w-[600px]  mt-8' cols="20" rows="10" placeholder='Massage'></textarea>
-                            </div>
-                            <div>
-                                <button className='border-2 border-solid  border-black min-w-[600px] h-12 mt-8 text-white bg-black'>Send Message</button>
-                            </div>
 
-
-                        </div>
-                    </div>
+                    <p className='text-red-400 font-semibold text-lg  mt-5'>Need Help</p>
+                    <p className='text-4xl font-semibold'>Send Your Request</p>
+                    <input className='border-2 border-solid border-gray-600 mt-3 h-12 p-2 xl:w-[600px] lg:w-full  md:w-full max-sm:w-full lg:py-2 ' placeholder='Name' type="text" name="" id="" /><br />
+                    <input className='border-2 border-solid border-gray-600 mt-3 h-12 p-2 xl:w-[600px] lg:w-full md:w-full max-sm:w-full lg:py-2 ' placeholder='Email Address' type="text" name="" id="" /><br />
+                    <input className='border-2 border-solid border-gray-600 mt-3 h-12 p-2 xl:w-[600px] lg:w-full  md:w-full max-sm:w-full lg:py-2 ' placeholder='Phone' type="text" name="" id="" /><br />
+                    <textarea className='border-2 border-solid border-gray-600 mt-3  p-2  h-28 lg:py-2   xl:w-[600px]  lg:w-full  md:w-full max-sm:w-full ' placeholder='Message' name="" id="" cols="" rows=""></textarea>
+                    <button className='mt-3 h-12 p-2 xl:w-[600px] lg:w-full lg:py-2 bg-black text-white  md:w-full max-sm:w-full'>Send Message</button>
                 </div>
             </div>
 
-            <footer>
-                <div class='bg-slate-300 mt-10'>
-
-                    <div class='grid grid-cols-1 sm:grid-cols-2 md:grid-cols-2 lg:grid-cols-4 pt-20'>
-
-                        <div class=' sm:text-left'>
-                            <img src="https://emart.wpthemedemos.com/wp-content/uploads/2023/02/e-mart-logo-03.svg" alt="" class=' sm:mx-0' />
-                            <p class='mt-4 text-slate-500'>Molestie vitae massa felis, aliquam lectus at. <br /> Ultricies et, quis sit fermentum.</p>
+            <footer className='bg-slate-200 mt-4 '>
+                <div className='container pt-20 xl:flex xl:justify-evenly'>
+                    <div className='xl:flex lg:flex md:flex sm:flex-wrap md:gap-20  xl:gap-16'>
+                        <div className='sm:flex-wrap'>
+                            <img src="https://emart.wpthemedemos.com/wp-content/uploads/2023/02/e-mart-logo-03.svg" alt="" />
+                            <p className='text-wrap text-slate-500 font-semibold'>Molestie vitae massa felis, aliquam lectus at. <br /> Ultricies et, quis sit fermentum.</p>
                         </div>
-
-                        <div class=' sm:text-left mt-10 sm:mt-0'>
-                            <p class='font-bold'>Quick Link</p>
-                            <p className='text-slate-500'>About</p>
-                            <p className='text-slate-500'>Product</p>
-                            <p className='text-slate-500'>Responsibility</p>
-                            <p className='text-slate-500'>Career</p>
-                        </div>
-
-                        <div class=' sm:text-left mt-10 sm:mt-0'>
-                            <p class='font-bold '>Services</p>
-                            <p className='text-slate-500'>My Account</p>
-                            <p className='text-slate-500'>Checkout Page</p>
-                            <p className='text-slate-500'>Help Center</p>
-                            <p className='text-slate-500'>Terms & Condition</p>
-                        </div>
-
-                        <div class=' sm:text-left mt-10 sm:mt-0'>
-                            <p class='font-bold'>More</p>
-                            <p className='text-slate-500'>Gift Card</p>
-                            <p className='text-slate-500'>Lookbook</p>
-                            <p className='text-slate-500'>Rewards Program</p>
-                            <p className='text-slate-500'>Wedding Dress</p>
-                        </div>
-
-                    </div>
-
-
-                    <div className='mt-20 border-t'>
-
-                        <div className='flex justify-between p-3'>
-                            <div className='flex space-x-3'>
-                                <img src={assets56} alt="" />
-                                <img src={assets57} alt="" />
-                                <img src={assets58} alt="" />
-                                <img src={assets60} alt="" />
-                                <img src={assets61} alt="" />
-                            </div>
-                            <div className='mt-6'>
-                                <p className='text-slate-500 inline-block'>Designed by :</p>
-                                <p className='inline-block text-slate-500  font-bold'>Wpignite</p>
-                            </div>
+                        <div className='sm:flex-wrap'>
+                            <p className='font-bold text-lg'>Quick Link</p>
+                            <p className='mt-2 text text-slate-500 '>About</p>
+                            <p className='mt-1 text text-slate-500 '>Product</p>
+                            <p className='mt-1 text text-slate-500 '>Responsibility</p>
+                            <p className='mt-1 text text-slate-500 '>Career</p>
                         </div>
                     </div>
 
+
+
+
+                    <div className='xl:flex xl:gap-28 md:gap-64  lg:flex-wrap md:flex lg:flex lg:gap-64'>
+                        <div className=''>
+                            <p className='font-bold text-lg'>Services</p>
+                            <p className='mt-2 text text-slate-500 '>My Account</p>
+                            <p className='mt-1 text text-slate-500 '>Checkout Page</p>
+                            <p className='mt-1 text text-slate-500 '>Help Center</p>
+                            <p className='mt-1 text text-slate-500 '>Terms & Condition</p>
+                        </div>
+
+                        <div className='sm:flex-wrap'>
+                            <p className='font-bold text-lg'>Services</p>
+                            <p className='mt-2 text text-slate-500 '>My Account</p>
+                            <p className='mt-1 text text-slate-500 '>Checkout Page</p>
+                            <p className='mt-1 text text-slate-500 '>Help Center</p>
+                            <p className='mt-1 text text-slate-500 '>Terms & Condition</p>
+                        </div>
+                    </div>
                 </div>
+
+
+                <div className='xl:w-full lg:w-full md:w-full sm:w-full mt-6'>
+                    <hr />
+                </div>
+
+
+
+                {/* icons */}
+
+
+                <div className='xl:flex lg:flex md:flex lg:justify-around md:justify-around xl:justify-around'>
+                    <div className='xl:flex  lg:flex md:flex  max-sm:flex xl:gap-2 xl:p-3 lg:p-3 md:p-3 sm:p-3 '>
+                        <img src={asset56} alt="" />
+                        <img src={asset57} alt="" />
+                        <img src={asset58} alt="" />
+                        <img src={asset59} alt="" />
+                        <img src={asset60} alt="" />
+                    </div>
+
+                    <div className='xl:mt-3'>
+                        <p className='inline-block text-slate-500'>Designed by :</p>
+                        <p className='inline-block font-extrabold text-slate-500'>Wpignite</p>
+                    </div>
+                </div>
+
             </footer>
+
 
         </div>
     )
