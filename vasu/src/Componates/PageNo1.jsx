@@ -126,9 +126,6 @@ const PageNo1 = () => {
                   <div className='bg-white rounded-full p-1 m-1'>
                     <img className='' src={image8} alt="" />
                   </div>
-
-
-
                 </div>
               </div>
 

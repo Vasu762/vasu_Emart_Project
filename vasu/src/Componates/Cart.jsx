@@ -11,7 +11,7 @@ import asset60 from '../assets/asset 60.svg'
 const Cart = () => {
     return (
         <div className='container xl:p-5'>
-            <div className='bg-orange-700'>
+            <div className='bg-amber-900'>
                 <p className='text-center text-white max-sm:hidden'>Free delivery on orders over $1499. Don’t miss discount.</p>
             </div>
 
@@ -24,42 +24,61 @@ const Cart = () => {
 
 
 
-            <footer className='bg-slate-200 mt-36 '>
-                <div className='p-16 xl:flex   xl:gap-x-16'>
-                    <div className=''>
-                        <p className='font-bold text-2xl'>Newsletter</p>
-                        <p className='c text-lg mt-2'>Get free 20% discount for all products on your first order</p>
-                        <input type="text" className='p-2 mt-3 xl:w-[250px] lg:w-[700px] md:w-[450px]' placeholder='Your Email' name="" id="" />
-                        {/* <span className='text-white xl:h-6  xl:w-7 bg-'>--</span> */}
-                        <button className='bg-red-900 xl:w-9 xl:h-9 text-white  lg:w-12 lg:h-10 md:h-9 md:w-10 sm:w-10  sm:h-10 '><p className='duration-500 hover:translate-x-1 '>--</p></button>
-                    </div>
-
-                    <div className='xl:flex lg:flex lg:gap-28 lg:mt-6 xl:justify-around xl:gap-48'>
-                        <div>
-                            <p className='mt-2 font-bold text-2xl'>Quick contact</p>
-                            <p className='mt-2 text-slate-500'>121 King St, Melbourne VIC 3000,Australia</p>
-                            <span className='block border-2 border-solid border-current p-2 xl:w-44 rounded-full mt-2 lg:w-40 md:w-[200px]'> <p className='ms-10'>(888) 123 45</p> </span>
+            <footer className='bg-slate-200 mt-24 '>
+                <div className='container pt-20 xl:flex xl:justify-around'>
+                    <div className='xl:flex lg:flex md:flex sm:flex-wrap md:gap-20  xl:gap-40'>
+                        <div className='sm:flex-wrap'>
+                            {/* <img src="https://emart.wpthemedemos.com/wp-content/uploads/2023/02/e-mart-logo-03.svg" alt="" /> */}
+                            <p className='text-wrap text-slate-500 font-semibold mt-3'>Molestie vitae massa felis, aliquam lectus at. <br /> Ultricies et, quis sit fermentum.</p>
                         </div>
-
-                        <div className='lg:flex-nowrap md:flex-wrap'>
-                            <p className=' font-bold text-2xl '>Fllow us</p>
-                            <div className='xl:flex lg:flex md:flex sm:flex gap-3 mt-3'>
-                                <img src={asset52} alt="" />
-                                <img src={asset53} alt="" />
-                                <img src={asset54} alt="" />
-                            </div>
+                        <div className='sm:flex-wrap'>
+                            <p className='font-bold text-lg'>Quick Link</p>
+                            <p className='mt-2 text text-slate-500 '>About</p>
+                            <p className='mt-1 text text-slate-500 '>Product</p>
+                            <p className='mt-1 text text-slate-500 '>Responsibility</p>
+                            <p className='mt-1 text text-slate-500 '>Career</p>
                         </div>
                     </div>
 
+
+
+
+                    <div className='xl:flex xl:gap-60 md:gap-64   lg:flex-wrap md:flex lg:flex lg:gap-64'>
+                        <div className=''>
+                            <p className='font-bold text-lg'>Services</p>
+                            <p className='mt-2 text text-slate-500 '>My Account</p>
+                            <p className='mt-1 text text-slate-500 '>Checkout Page</p>
+                            <p className='mt-1 text text-slate-500 '>Help Center</p>
+                            <p className='mt-1 text text-slate-500 '>Terms & Condition</p>
+                        </div>
+
+                        <div className='sm:flex-wrap'>
+                            <p className='font-bold text-lg'>More</p>
+                            <p className='mt-2 text text-slate-500 '>Gift Card</p>
+                            <p className='mt-1 text text-slate-500 '>Lookbook</p>
+                            <p className='mt-1 text text-slate-500 '>Rewards Program</p>
+                            <p className='mt-1 text text-slate-500 '>Wedding Dress</p>
+                        </div>
+                    </div>
                 </div>
 
+
+                <div className='xl:w-full lg:w-full md:w-full sm:w-full mt-6'>
+                    <hr />
+                </div>
+
+
+
+                {/* icons */}
+
+
                 <div className='xl:flex lg:flex md:flex lg:justify-around md:justify-around xl:justify-around'>
-                    <div className='xl:flex  lg:flex md:flex sm:flex xl:gap-2 xl:p-3 lg:p-3 md:p-3 sm:p-3'>
+                    <div className='xl:flex  lg:flex md:flex  max-sm:flex xl:gap-2 xl:p-3 lg:p-3 md:p-3 sm:p-3 '>
                         <img src={asset56} alt="" />
                         <img src={asset57} alt="" />
                         <img src={asset58} alt="" />
                         <img src={asset59} alt="" />
-                        <img src={asset60} alt="" />
+                        <img className='' src={asset60} alt="" />
                     </div>
 
                     <div className='xl:mt-3'>
@@ -67,7 +86,9 @@ const Cart = () => {
                         <p className='inline-block font-extrabold text-slate-500'>Wpignite</p>
                     </div>
                 </div>
+
             </footer>
+
 
 
 

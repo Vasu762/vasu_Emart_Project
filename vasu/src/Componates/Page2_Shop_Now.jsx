@@ -1,278 +1,215 @@
 import React from 'react'
-
-
+import asset56 from '../assets/asset 56.svg'
+import asset57 from '../assets/asset 57.svg'
+import asset58 from '../assets/asset 58.svg'
+import asset59 from '../assets/asset 59.svg'
+import asset60 from '../assets/asset 60.svg'
+import assset52 from '../assets/asset 52.svg'
+import assset53 from '../assets/asset 53.svg'
+import assset54 from '../assets/asset 54.svg'
+import assset55 from '../assets/asset 55.svg'
+import asset51 from '../assets/asset 51.svg'
 
 const Page2_Shop_Now = () => {
   return (
-    <div className='container mx-auto px-4'>
+    <>
 
-      <div className='mt-28'>
+      <div className='container p-5'>
         <p>Home / Shop</p>
-        <p className='text-gray-400 mt-5 text-lg'>Showing all 11 results</p>
-      </div>
-
-
-      {/* Showing all 11 results */}
-      {/* first line */}
-
-      <div className=''>
-        <div class="flex flex-wrap mt-3 justify-between">
-          <div class="image-container max-w-64 sm:w-1/2 md:w-1/3 lg:w-1/4 xl:w-1/5">
-            <div className='inline-block overflow-hidden max-h-[330px] max-w-[350px]'>
-              <img src="https://emart.wpthemedemos.com/plant-garden/wp-content/uploads/sites/10/2022/12/Birds-Nest-Leslie-Fern.webp" alt="Your Image" className="zoom h-full object-cover w-full" />
+        <p className='text-gray-500 mt-4 text-lg'>Showing all 11 results</p>
+        <div className='grid xl:grid-cols-5  lg:grid-cols-5  md:grid-cols-3 max-sm:grid-cols-2 grid-cols-1 mt-3 gap-3'>
+          <div className='xl:relative lg:relative md:relative 2xl:relative  '>
+            <div className='overflow-hidden inline-block'>
+              <img className='hover:scale-110 duration-500 ease-in-out' src="https://emart.wpthemedemos.com/plant-garden/wp-content/uploads/sites/10/2022/12/Birds-Nest-Leslie-Fern.webp" alt="" />
             </div>
-            <div class="text-center mt-8">
-              <p class="text-xl font-bold">Bird’s Nest Leslie</p>
-              <del>$60</del>
-              <p class="inline-block">$48</p>
+            <p className='text-center mt-2 font-bold text-xl'>Bird’s Nest Leslie</p>
+            <div className='flex justify-center mt-2'>
+              <del className='text-gray-500'>$45.00 </del>
+              <p className='text-gray-500'>$30.00</p>
             </div>
-            {/* <div className="icons">
+            <div>
+              <p className='xl:absolute lg:absolute 2xl:absolute md:absolute max-sm:hidden xl:top-2 xl:left-40 2xl:top-2 2xl:left-52 lg:top-2 lg:left-32 md:top-2 md:left-44  bg-black text-white  xl:p-1 '>-33%</p>
+            </div>
+          </div>
 
-                <i className="fas fa-heart"></i>
-                <i className="fas fa-heart"></i>
-                <i className="fas fa-heart"></i>
 
-              </div> */}
+          <div className='xl:relative lg:relative md:relative 2xl:relative  '>
+            <div className='overflow-hidden inline-block'>
+              <img className='hover:scale-110 duration-500 ease-in-out' src="https://emart.wpthemedemos.com/plant-garden/wp-content/uploads/sites/10/2022/12/Monstera.webp" alt="" />
+            </div>
+            <p className='text-center mt-2 font-bold text-xl'>Monstera Plant</p>
+            <div className='flex justify-center mt-2'>
+              <del className='text-gray-500'>$60.00  </del>
+              <p className='text-gray-500'> $48.00</p>
+            </div>
+            <div>
+              <p className='xl:absolute lg:absolute 2xl:absolute md:absolute max-sm:hidden xl:top-2 xl:left-40 2xl:top-2 2xl:left-52 lg:top-2 lg:left-32 md:top-2 md:left-44  bg-black text-white  xl:p-1 '>-20%</p>
+            </div>
+          </div>
+
+
+          <div className='xl:relative lg:relative md:relative 2xl:relative  '>
+            <div className='overflow-hidden inline-block'>
+              <img className='hover:scale-110 duration-500 ease-in-out' src="https://emart.wpthemedemos.com/plant-garden/wp-content/uploads/sites/10/2022/12/Haworthia.webp" alt="" />
+            </div>
+            <p className='text-center mt-2 font-bold text-xl'>Haworthia</p>
+            <div className='flex justify-center mt-2'>
+              <del className='text-gray-500'>$87.00 </del>
+              <p className='text-gray-500'>$70.00</p>
+            </div>
+            <div>
+              <p className='xl:absolute lg:absolute 2xl:absolute md:absolute max-sm:hidden xl:top-2 xl:left-40 2xl:top-2 2xl:left-52 lg:top-2 lg:left-32 md:top-2 md:left-44  bg-black text-white  xl:p-1 '>-20%</p>
+            </div>
+          </div>
+
+
+          <div className='  '>
+            <div className='overflow-hidden inline-block'>
+              <img className='hover:scale-110 duration-500 ease-in-out' src="https://emart.wpthemedemos.com/plant-garden/wp-content/uploads/sites/10/2022/12/Monstera.webp" alt="" />
+            </div>
+            <p className='text-center mt-2 font-bold text-xl'>Monsterae Plant</p>
+            <div className='flex justify-center mt-2'>
+              <p className='text-gray-500'>$60.00</p>
+            </div>
+            {/* <div>
+            <p className='xl:absolute lg:absolute 2xl:absolute md:absolute max-sm:hidden xl:top-2 xl:left-40 2xl:top-2 2xl:left-52 lg:top-2 lg:left-32 md:top-2 md:left-44  bg-black text-white  xl:p-1 '>-33%</p>
+          </div> */}
+          </div>
+
+
+          <div className='xl:relative lg:relative md:relative 2xl:relative  '>
+            <div className='overflow-hidden inline-block'>
+              <img className='hover:scale-110 duration-500 ease-in-out' src="https://emart.wpthemedemos.com/plant-garden/wp-content/uploads/sites/10/2022/12/Birds-nest-fern-01.webp" alt="" />
+            </div>
+            <p className='text-center mt-2 font-bold text-xl'>Bird’s Nest Fern</p>
+            <div className='flex justify-center mt-2'>
+              <del className='text-gray-500'>$68.00 </del>
+              <p className='text-gray-500'>$54.00</p>
+            </div>
+            <div>
+              <p className='xl:absolute lg:absolute 2xl:absolute md:absolute max-sm:hidden xl:top-2 xl:left-40 2xl:top-2 2xl:left-52 lg:top-2 lg:left-32 md:top-2 md:left-44  bg-black text-white  xl:p-1 '>-21%</p>
+            </div>
+          </div>
+
+
+          <div className=' '>
+            <div className='overflow-hidden inline-block'>
+              <img className='hover:scale-110 duration-500 ease-in-out' src="https://emart.wpthemedemos.com/plant-garden/wp-content/uploads/sites/10/2022/12/Rubber-Plant.webp" alt="" />
+            </div>
+            <p className='text-center mt-2 font-bold text-xl'>Peperomia Plants</p>
+            <div className='flex justify-center mt-2'>
+              <p className='text-gray-500'>$57.00</p>
+            </div>
+
+          </div>
+
+
+          <div className='xl:relative lg:relative md:relative 2xl:relative  '>
+            <div className='overflow-hidden inline-block'>
+              <img className='hover:scale-110 duration-500 ease-in-out' src="https://emart.wpthemedemos.com/plant-garden/wp-content/uploads/sites/10/2022/12/peace-lily-02.webp" alt="" />
+            </div>
+            <p className='text-center mt-2 font-bold text-xl'>Bird’s Nest Fern</p>
+            <div className='flex justify-center mt-2'>
+              <del className='text-gray-500'>$68.00 </del>
+              <p className='text-gray-500'>$54.00</p>
+            </div>
+            <div>
+              <p className='xl:absolute lg:absolute 2xl:absolute md:absolute max-sm:hidden xl:top-2 xl:left-40 2xl:top-2 2xl:left-52 lg:top-2 lg:left-32 md:top-2 md:left-44  bg-black text-white  xl:p-1 '>-11%</p>
+            </div>
           </div>
 
 
 
-          <div class="image-container max-w-64 sm:w-1/2 md:w-1/3 lg:w-1/4 xl:w-1/5">
-            <div className='inline-block overflow-hidden max-h-[330px] max-w-[350px]'>
-              <img src="https://emart.wpthemedemos.com/plant-garden/wp-content/uploads/sites/10/2022/12/Monstera.webp" alt="Your Image" className="zoom h-full object-cover w-full" />
+          <div className=''>
+            <div className='overflow-hidden inline-block'>
+              <img className='hover:scale-110 duration-500 ease-in-out' src="https://emart.wpthemedemos.com/plant-garden/wp-content/uploads/sites/10/2022/12/Succulent-Plant.webp" alt="" />
             </div>
-            <div class="text-center mt-8">
-              <p class="text-xl font-bold">Monstera Plant</p>
-              <del>$60.00</del>
-              <p class="inline-block"> $48.00</p>
+            <p className='text-center mt-2 font-bold text-xl'>Succulent Plant</p>
+            <div className='flex justify-center mt-2'>
+              <p className='text-gray-500'>$67.00</p>
             </div>
-            {/* <div className="icons">
 
-                <i className="fas fa-heart"></i>
-                <i className="fas fa-heart"></i>
-                <i className="fas fa-heart"></i>
-
-              </div> */}
           </div>
 
 
-
-
-          <div class="image-container max-w-64 sm:w-1/2 md:w-1/3 lg:w-1/4 xl:w-1/5">
-            <div className='inline-block overflow-hidden max-h-[330px] max-w-[350px]'>
-              <img src="https://emart.wpthemedemos.com/plant-garden/wp-content/uploads/sites/10/2022/12/Haworthia.webp" alt="Your Image" className="zoom h-full object-cover w-full" />
+          <div className=''>
+            <div className='overflow-hidden inline-block'>
+              <img className='hover:scale-110 duration-500 ease-in-out' src="https://emart.wpthemedemos.com/plant-garden/wp-content/uploads/sites/10/2022/12/barrel-cactus-01.webp" alt="" />
             </div>
-            <div class="text-center mt-8">
-              <p class="text-xl font-bold">Haworthia</p>
-              <del>$87.00</del>
-              <p class="inline-block"> $70.00</p>
+            <p className='text-center mt-2 font-bold text-xl'>Barrel Cactus</p>
+            <div className='flex justify-center mt-2'>
+              <p className='text-gray-500'>$67.00</p>
             </div>
-            {/* <div className="icons">
 
-                <i className="fas fa-heart"></i>
-                <i className="fas fa-heart"></i>
-                <i className="fas fa-heart"></i>
-
-              </div> */}
           </div>
 
 
-
-
-          <div class="image-container max-w-64 sm:w-1/2 md:w-1/3 lg:w-1/4 xl:w-1/5">
-            <div className='inline-block overflow-hidden max-h-[330px] max-w-[350px]'>
-              <img src="https://emart.wpthemedemos.com/plant-garden/wp-content/uploads/sites/10/2022/12/Monstera.webp" alt="Your Image" className="zoom h-full object-cover w-full" />
+          <div className=' '>
+            <div className='overflow-hidden inline-block'>
+              <img className='hover:scale-110 duration-500 ease-in-out' src="https://emart.wpthemedemos.com/plant-garden/wp-content/uploads/sites/10/2022/12/Philodendron-Birkin-Plant.webp" alt="" />
             </div>
-            <div class="text-center mt-8">
-              <p class="text-xl font-bold">Monsterae Plant</p>
-              <p class="inline-block">$60.00</p>
+            <p className='text-center mt-2 font-bold text-xl'>Barrel Cactus</p>
+            <div className='flex justify-center mt-2'>
+              <p className='text-gray-500'>$63.00</p>
             </div>
-            {/* <div className="icons">
 
-                <i className="fas fa-heart"></i>
-                <i className="fas fa-heart"></i>
-                <i className="fas fa-heart"></i>
-
-              </div> */}
           </div>
 
 
-
-          <div class="image-container max-w-64 sm:w-1/2 md:w-1/3 lg:w-1/4 xl:w-1/5">
-            <div className='inline-block overflow-hidden max-h-[330px] max-w-[350px]'>
-              <img src="https://emart.wpthemedemos.com/plant-garden/wp-content/uploads/sites/10/2022/12/Birds-nest-fern-01.webp" alt="Your Image" className="zoom h-full object-cover w-full" />
+          <div className=' '>
+            <div className='overflow-hidden inline-block'>
+              <img className='hover:scale-110 duration-500 ease-in-out' src="https://emart.wpthemedemos.com/plant-garden/wp-content/uploads/sites/10/2022/12/Snake-Plant.webp" alt="" />
             </div>
-            <div class="text-center mt-8">
-              <p class="text-xl font-bold">Bird’s Nest Fern</p>
-              <del>$68.00 </del>
-              <p class="inline-block"> $54.00</p>
+            <p className='text-center mt-2 font-bold text-xl'>Snake Plant</p>
+            <div className='flex justify-center mt-2'>
+              <del className='text-gray-500'>$54.00 </del>
+              <p className='text-gray-500'>$40.00</p>
             </div>
-            {/* <div className="icons">
-
-                <i className="fas fa-heart"></i>
-                <i className="fas fa-heart"></i>
-                <i className="fas fa-heart"></i>
-
-              </div> */}
-          </div>
-        </div>
-      </div>
-
-
-
-
-
-
-
-      {/* second line */}
-
-      <div className=''>
-        <div class="flex flex-wrap mt-3 justify-between">
-          <div class="image-container max-w-64 sm:w-1/2 md:w-1/3 lg:w-1/4 xl:w-1/5">
-            <div className='inline-block overflow-hidden max-h-[330px] max-w-[350px]'>
-              <img src="https://emart.wpthemedemos.com/plant-garden/wp-content/uploads/sites/10/2022/12/Rubber-Plant.webp" alt="Your Image" className="zoom h-full object-cover w-full" />
-            </div>
-            <div class="text-center mt-8">
-              <p class="text-xl font-bold">Peperomia Plants</p>
-              <p class="inline-block">$57.00</p>
-            </div>
-            {/* <div className="icons">
-
-                <i className="fas fa-heart"></i>
-                <i className="fas fa-heart"></i>
-                <i className="fas fa-heart"></i>
-
-              </div> */}
-          </div>
-
-
-
-          <div class="image-container max-w-64 sm:w-1/2 md:w-1/3 lg:w-1/4 xl:w-1/5">
-            <div className='inline-block overflow-hidden max-h-[330px] max-w-[350px]'>
-              <img src="https://emart.wpthemedemos.com/plant-garden/wp-content/uploads/sites/10/2022/12/peace-lily-02.webp" alt="Your Image" className="zoom h-full object-cover w-full" />
-            </div>
-            <div class="text-center mt-8">
-              <p class="text-xl font-bold">Peace Lily</p>
-              <del>$72.00 </del>
-              <p class="inline-block">$64.00</p>
-            </div>
-            {/* <div className="icons"> 
-
-                <i className="fas fa-heart"></i>
-                <i className="fas fa-heart"></i>
-                <i className="fas fa-heart"></i>
-
-              </div> */}
-          </div>
-
-
-
-          <div class="image-container max-w-64 sm:w-1/2 md:w-1/3 lg:w-1/4 xl:w-1/5">
-            <div className='inline-block overflow-hidden max-h-[330px] max-w-[350px]'>
-              <img src="https://emart.wpthemedemos.com/plant-garden/wp-content/uploads/sites/10/2022/12/Succulent-Plant.webp" alt="Your Image" className="zoom h-full object-cover w-full" />
-            </div>
-            <div class="text-center mt-8">
-              <p class="text-xl font-bold">Succulent Plant</p>
-              <p class="inline-block">$67.00</p>
-            </div>
-            {/* <div className="icons">
-
-                <i className="fas fa-heart"></i>
-                <i className="fas fa-heart"></i>
-                <i className="fas fa-heart"></i>
-
-              </div> */}
-          </div>
-
-
-
-          <div class="image-container max-w-64 sm:w-1/2 md:w-1/3 lg:w-1/4 xl:w-1/5">
-            <div className='inline-block overflow-hidden max-h-[330px] max-w-[350px]'>
-              <img src="https://emart.wpthemedemos.com/plant-garden/wp-content/uploads/sites/10/2022/12/barrel-cactus-01.webp" alt="Your Image" className="zoom h-full object-cover w-full" />
-            </div>
-            <div class="text-center mt-8">
-              <p class="text-xl font-bold">Barrel Cactus</p>
-              <p class="inline-block">$67.00</p>
-            </div>
-            {/* <div className="icons">
-
-                <i className="fas fa-heart"></i>
-                <i className="fas fa-heart"></i>
-                <i className="fas fa-heart"></i>
-
-              </div> */}
-          </div>
-
-
-
-          <div class="image-container max-w-64 sm:w-1/2 md:w-1/3 lg:w-1/4 xl:w-1/5">
-            <div className='inline-block overflow-hidden max-h-[330px] max-w-[350px]'>
-              <img src="https://emart.wpthemedemos.com/plant-garden/wp-content/uploads/sites/10/2022/12/Philodendron-Birkin-Plant.webp" alt="Your Image" className="zoom h-full object-cover w-full" />
-            </div>
-            <div class="text-center mt-8">
-              <p class="text-xl font-bold">Philodendron Plant</p>
-              <del>$63.00</del>
-              <p class="inline-block">$48</p>
-            </div>
-            {/* <div className="icons">
-
-                <i className="fas fa-heart"></i>
-                <i className="fas fa-heart"></i>
-                <i className="fas fa-heart"></i>
-
-              </div> */}
           </div>
         </div>
-      </div>
-
-
-
-
-
-
-
-
-
-      <div className='mt-20'>
-        <hr />
       </div>
 
       <footer>
+        <div>
+          <div className='mt-24 xl:flex xl:justify-center lg:flex lg:justify-center md:flex md:justify-center max-sm:flex max-md:justify-center'>
+            <img src={asset51} alt="" />
+          </div>
 
-        <div className='mt-10 sm:mt-20'>
-          {/* <img src="" alt="" /> */}
-          <p className='text-3xl sm:text-5xl text-center'>Subscribe to our newsletter</p>
-          <p className='text-center text-lg sm:text-xl mt-2 sm:mt-4 text-gray-600'>Subscribe now and get exclusive offers!</p>
+          <p className='xl:text-center lg:text-center md:text-center max-sm:text-center mt-3 text-3xl font-semibold text-wrap'>Subscribe newsletter</p>
+          <p className='xl:text-center lg:text-center md:text-center max-sm:text-center mt-3 text-md text-slate-500'>Subscribe Now and get more offers</p>
 
-          <div className='flex flex-col sm:flex-row items-center justify-center mt-3 sm:mt-5'>
-            <input type="email" placeholder='Your Email Address' className='bg-gray-200 sm:bg-slate-300 h-10 max-w-xs sm:max-w-md  sm:mt-0 border-none px-4 py-2  focus:outline-none  mt-36' />
-            <button className='bg-black sm:ms-4 text-white px-4 py-2 mt-2 sm:mt-0  hover:bg-gray-800 focus:outline-none'>Subscribe Now</button>
+          <div className='xl:flex xl:justify-center lg:flex lg:justify-center md:flex-wrap md:text-center max-sm:flex max-sm:flex-wrap max-sm:justify-center mt-5'>
+            <input className='border-2 border-solid border-inherit p-2 bg-slate-200 xl:w-[400px]  lg:w-[400px] md:w-[400px]   max-sm:w-[350px] ' placeholder='Your Email Address...' type="text" name="" id="" />
+            <button className='bg-black text-white xl:p-3 md:p-2 lg:p-3 max-sm:p-2 xl:w-[220px] lg:w-[220px] lg:ms-3 md:ms-3 xl:ms-3  max-sm:ms-1 max-sm:mt-3 max-sm:w-[350px] '> Subscribe Now</button>
+          </div>
+
+          <div className='mt-28'>
+            <hr />
+          </div>
+
+
+          <div className='xl:flex lg:flex lg:justify-betwee md:flex md:justify-between xl:justify-between max max-sm:justify-center'>
+            <div className='xl:flex md:flex md:gap-1 lg:flex lg:gap-3 xl:gap-3 max-sm:flex max-sm:justify-center max-sm:gap-2 max-sm:mt-3'>
+              <img src={assset52} alt="" />
+              <img src={assset53} alt="" />
+              <img src={assset54} alt="" />
+              <img src={assset55} alt="" />
+            </div>
+            <div className='mt-4 max-sm:flex max-sm:justify-center'>
+              <p className='inline-block text-slate-500'>Designed by : </p>
+              <p className='inline-block font-bold text-slate-500'>Wpignite</p>
+            </div>
+            <div className='xl:flex lg:flex md:flex md:gap-2 xl:gap-3 lg:gap-2  max-sm:flex  max-sm:justify-center  max-sm:gap-1 max-sm:mt-3'>
+              <img src={asset56} alt="" />
+              <img src={asset57} alt="" />
+              <img src={asset58} alt="" />
+              <img src={asset59} alt="" />
+              <img src={asset60} alt="" />
+            </div>
           </div>
         </div>
-
-
-        <div className='mt-6'>
-          <hr />
-        </div>
-
-
-        <div className='mt-8 flex justify-center'>
-          <p className='text-gray-400 mb-1'>Designed by:</p>
-          <p className='font-bold'>Wpignite</p>
-        </div>
       </footer>
-
-
-
-
-
-
-
-
-
-
-
-    </div>
+    </>
   )
 }
 

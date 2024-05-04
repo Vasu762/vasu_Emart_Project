@@ -11,189 +11,90 @@ const Product_Style_One = () => {
                 </div>
             </div>
 
-
-            {/* image1 */}
-            <div className='container'>
-                <div className='flex justify-between flex-wrap gap-3 mt-14'>
-                    <div className='relative'>
-                        <div className='box-shadow ms-6 mt-3 p-4'>
-                            <div className='overflow-hidden inline-block max-h-[600px] max-w-[400px]'>
-                                <img className='h-full w-full  object-cover hover:scale-105 duration-700 ease-in-out' src="https://emart.wpthemedemos.com/plant-garden/wp-content/uploads/sites/10/2022/12/Monstera.webp" alt="" />
-                            </div>
-                            <p className='text-2xl text-center'>Moduler Bathtub</p>
-                            <div className='text-center'>
-                                <del>$60</del> <p className='inline-block'>$48</p>
-                            </div>
-                        </div>
-                        <div className="icons">
-                            {/* three icons */}
-                        </div>
-                        <div className='text-white absolute top-12 right-9'>
-                            <p className='bg-black p-1'>-14%</p>
-                        </div>
+            <div className='container 2xl:p-7 lg:p-5 md:p-3  grid   2xl:grid-cols-3 xl:grid-cols-3  lg:grid-col-3 md:grid-cols-3 max-sm:grid-cols-2 gap-5'>
+                <div className='mt-4 hover:shadow-2xl shadow-cyan-950 '>
+                    <div className='inline-block overflow-hidden 2xl:h-[550px] 2xl:w-[398px] xl:w-[330px] xl:h-[500px] lg:h-[450px] lg:w-[250px] md:h-[300px] md:w-[170px] max-sm:h-[220px] max-sm:w-[135px]    
+                    '>
+                        <img className=' hover:scale-105 duration-500 ease-in lg:w-full lg:h-full 2xl:h-full 2xl:ms-10 2xl:mt-7 2xl:w-full xl:h-full xl:w-full object-fill' src="https://emart.wpthemedemos.com/bathroom/wp-content/uploads/sites/12/2022/12/moduler-bathtub.webp" alt="" />
                     </div>
-
-
-
-
-
-                    <div className='relative'>
-                        <div className='box-shadow ms-6 mt-3 p-4'>
-                            <div className='overflow-hidden inline-block max-h-[600px] max-w-[400px]'>
-                                <img className='h-full w-full  object-cover hover:scale-105 duration-700 ease-in-out' src="https://emart.wpthemedemos.com/plant-garden/wp-content/uploads/sites/10/2022/12/Monstera.webp" alt="" />
-                            </div>
-                            <p className='text-2xl text-center'>Moduler Bathtub</p>
-                            <div className='text-center'>
-                                <del>$60</del> <p className='inline-block'>$48</p>
-                            </div>
-                        </div>
-                        <div className="icons">
-                            {/* three icons */}
-                        </div>
-
-                    </div>
-
-
-
-
-
-                    <div className='relative'>
-                        <div className='box-shadow ms-6 mt-3 p-4'>
-                            <div className='overflow-hidden inline-block max-h-[600px] max-w-[400px]'>
-                                <img className='h-full w-full  object-cover hover:scale-105 duration-700 ease-in-out' src="https://emart.wpthemedemos.com/plant-garden/wp-content/uploads/sites/10/2022/12/Monstera.webp" alt="" />
-                            </div>
-                            <p className='text-2xl text-center'>Moduler Bathtub</p>
-                            <div className='text-center'>
-                                <del>$60</del> <p className='inline-block'>$48</p>
-                            </div>
-                        </div>
-                        <div className="icons">
-                            {/* three icons */}
-                        </div>
-                        <div className='text-white absolute top-12 right-9'>
-                            <p className='bg-black p-1'>-14%</p>
+                    <div className='p-2'>
+                        <p className='text-center'>Moduler Bathtub</p>
+                        <div className='text-center'>
+                            <del className='inline-block '>$100</del>
+                            <p className='inline-block'> $86</p>
                         </div>
                     </div>
                 </div>
 
 
-                {/* image2 */}
-                <div className='flex flex-wrap justify-between '>
-                    <div className='relative'>
-                        <div className='box-shadow ms-6 mt-3 p-4'>
-                            <div className='overflow-hidden inline-block max-h-[600px] max-w-[400px]'>
-                                <img className='h-full w-full  object-cover hover:scale-105 duration-700 ease-in-out' src="https://emart.wpthemedemos.com/plant-garden/wp-content/uploads/sites/10/2022/12/Monstera.webp" alt="" />
-                            </div>
-                            <p className='text-2xl text-center'>Moduler Bathtub</p>
-                            <div className='text-center'>
-                                <del>$60</del> <p className='inline-block'>$48</p>
-                            </div>
-                        </div>
-                        <div className="icons">
-                            {/* three icons */}
-                        </div>
-                       
+                {/* <div className='mt-4 hover:shadow-2xl shadow-cyan-950 '>
+                    <div className='inline-block overflow-hidden xl:h-[550px] xl:w-[398px] ms-4 mt-4'>
+                        <img className=' hover:scale-105 duration-500 ease-in xl:h-full xl:w-full object-fill' src="https://emart.wpthemedemos.com/bathroom/wp-content/uploads/sites/12/2022/12/moduler-bathtub.webp" alt="" />
                     </div>
-
-
-                    <div className='relative'>
-                        <div className='box-shadow ms-6 mt-3 p-4'>
-                            <div className='overflow-hidden inline-block max-h-[600px] max-w-[400px]'>
-                                <img className='h-full w-full  object-cover hover:scale-105 duration-700 ease-in-out' src="https://emart.wpthemedemos.com/plant-garden/wp-content/uploads/sites/10/2022/12/Monstera.webp" alt="" />
-                            </div>
-                            <p className='text-2xl text-center'>Moduler Bathtub</p>
-                            <div className='text-center'>
-                                <del>$60</del> <p className='inline-block'>$48</p>
-                            </div>
+                    <div className='p-2'>
+                        <p className='text-center'>Moduler Bathtub</p>
+                        <div className='text-center'>
+                            <del className='inline-block '>$100</del>
+                            <p className='inline-block'> $86</p>
                         </div>
-                        <div className="icons">
-                            {/* three icons */}
-                        </div>
-                     
                     </div>
+                </div> */}
 
 
-
-                    <div className='relative'>
-                        <div className='box-shadow ms-6 mt-3 p-4'>
-                            <div className='overflow-hidden inline-block max-h-[600px] max-w-[400px]'>
-                                <img className='h-full w-full  object-cover hover:scale-105 duration-700 ease-in-out' src="https://emart.wpthemedemos.com/plant-garden/wp-content/uploads/sites/10/2022/12/Monstera.webp" alt="" />
-                            </div>
-                            <p className='text-2xl text-center'>Moduler Bathtub</p>
-                            <div className='text-center'>
-                                <del>$60</del> <p className='inline-block'>$48</p>
-                            </div>
-                        </div>
-                        <div className="icons">
-                            {/* three icons */}
-                        </div>
-                        <div className='text-white absolute top-12 right-9'>
-                            <p className='bg-black p-1'>-14%</p>
+                {/* <div className='mt-4 hover:shadow-2xl shadow-cyan-950 '>
+                    <div className='inline-block overflow-hidden xl:h-[550px] xl:w-[398px] ms-4 mt-4'>
+                        <img className=' hover:scale-105 duration-500 ease-in xl:h-full xl:w-full object-fill' src="https://emart.wpthemedemos.com/bathroom/wp-content/uploads/sites/12/2022/12/moduler-bathtub.webp" alt="" />
+                    </div>
+                    <div className='p-2'>
+                        <p className='text-center'>Moduler Bathtub</p>
+                        <div className='text-center'>
+                            <del className='inline-block '>$100</del>
+                            <p className='inline-block'> $86</p>
                         </div>
                     </div>
                 </div>
+ */}
+
+                {/* <div className='mt-4 hover:shadow-2xl shadow-cyan-950 '>
+                    <div className='inline-block overflow-hidden xl:h-[550px] xl:w-[398px] ms-4 mt-4'>
+                        <img className=' hover:scale-105 duration-500 ease-in xl:h-full xl:w-full object-fill' src="https://emart.wpthemedemos.com/bathroom/wp-content/uploads/sites/12/2022/12/moduler-bathtub.webp" alt="" />
+                    </div>
+                    <div className='p-2'>
+                        <p className='text-center'>Moduler Bathtub</p>
+                        <div className='text-center'>
+                            <del className='inline-block '>$100</del>
+                            <p className='inline-block'> $86</p>
+                        </div>
+                    </div>
+                </div>
+
+                <div className='mt-4 hover:shadow-2xl shadow-cyan-950 '>
+                    <div className='inline-block overflow-hidden xl:h-[550px] xl:w-[398px] ms-4 mt-4'>
+                        <img className=' hover:scale-105 duration-500 ease-in xl:h-full xl:w-full object-fill' src="https://emart.wpthemedemos.com/bathroom/wp-content/uploads/sites/12/2022/12/moduler-bathtub.webp" alt="" />
+                    </div>
+                    <div className='p-2'>
+                        <p className='text-center'>Moduler Bathtub</p>
+                        <div className='text-center'>
+                            <del className='inline-block '>$100</del>
+                            <p className='inline-block'> $86</p>
+                        </div>
+                    </div>
+                </div>
+
+                 <div className='mt-4 hover:shadow-2xl shadow-cyan-950 '>
+                    <div className='inline-block overflow-hidden xl:h-[550px] xl:w-[398px] ms-4 mt-4'>
+                        <img className=' hover:scale-105 duration-500 ease-in xl:h-full xl:w-full object-fill' src="https://emart.wpthemedemos.com/bathroom/wp-content/uploads/sites/12/2022/12/moduler-bathtub.webp" alt="" />
+                    </div>
+                    <div className='p-2'>
+                        <p className='text-center'>Moduler Bathtub</p>
+                        <div className='text-center'>
+                            <del className='inline-block '>$100</del>
+                            <p className='inline-block'> $86</p>
+                        </div>
+                    </div>
+                </div> */}
+
             </div>
-
-
-            <footer className='mt-16 '>
-                <div className='bg-slate-500 flex flex-wrap justify-between'>
-                    <div className='w-full md:w-auto'>
-                        <ul className='mt-6 md:mt-24'>
-                            <li className='text-2xl font-semibold m-1'>Quick Link</li>
-                            <li className='mt-2 md:mt-4 m-1'>About</li>
-                            <li className='mt-2 md:mt-1 m-1'>Product</li>
-                            <li className='mt-2 md:mt-1 m-1'>Responsibility</li>
-                            <li className='mt-2 md:mt-1 m-1'>Career</li>
-                            <li className='mt-2 md:mt-1 m-1'>Press</li>
-                            <li className='mt-2 md:mt-1 m-1'>Image Bank</li>
-                        </ul>
-                    </div>
-
-                    <div className='w-full md:w-auto'>
-                        <ul className='mt-6 md:mt-24'>
-                            <li className='text-2xl font-semibold m-1'>Customer Service</li>
-                            <li className='mt-2 md:mt-4 m-1'>My Account</li>
-                            <li className='mt-2 md:mt-1 m-1'>Checkout Page</li>
-                            <li className='mt-2 md:mt-1 m-1'>Help Center</li>
-                            <li className='mt-2 md:mt-1 m-1'>Terms & Condition</li>
-                            <li className='mt-2 md:mt-1 m-1'>Deliveries & Refunds</li>
-                            <li className='mt-2 md:mt-1 m-1'>Cart Page</li>
-                        </ul>
-                    </div>
-
-                    <div className='w-full md:w-auto'>
-                        <ul className='mt-6 md:mt-24'>
-                            <li className='text-2xl font-semibold m-1'>More</li>
-                            <li className='mt-2 md:mt-4 m-1'>Gift Card</li>
-                            <li className='mt-2 md:mt-1 m-1'>Lookbook</li>
-                            <li className='mt-2 md:mt-1 m-1'>Rewards Program</li>
-                            <li className='mt-2 md:mt-1 m-1'>Wedding Dress</li>
-                            <li className='mt-2 md:mt-1 m-1'>Host A Party</li>
-                            <li className='mt-2 md:mt-1 m-1'>Extended Sizing</li>
-                        </ul>
-                    </div>
-
-                    <div className='w-full md:w-auto'>
-                        <ul className='mt-6 md:mt-24'>
-                            <li className='text-2xl font-semibold m-1'>Don't Miss Any Update</li>
-                        </ul>
-                        <p className='text-wrap mt-4'>Molestie vitae massa felis, aliquam lectus at.<br />Ultricies et, quis sit fermentum aliquam et.</p>
-
-                        <div className='mt-3 flex items-center'>
-                            <input className='h-9 max-w-[250px] ' placeholder='Your Email' type="text" />
-                            <div className='bg-black h-9 w-9 flex items-center justify-center'>
-                                <span className='text-white iconhover'>--&gt;</span>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </footer>
-
-
-
-
-
-
 
 
 

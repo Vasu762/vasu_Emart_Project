@@ -87,7 +87,7 @@ const BlogThree = () => {
 
             </div>
 
-  <footer className='bg-slate-200 mt-4 '>
+            <footer className='bg-slate-200 mt-4 '>
                 <div className='container pt-20 xl:flex xl:justify-evenly'>
                     <div className='xl:flex lg:flex md:flex sm:flex-wrap md:gap-20  xl:gap-40'>
                         <div className='sm:flex-wrap'>
