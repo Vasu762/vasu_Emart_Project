@@ -9,6 +9,8 @@ import asset60 from '../assets/asset 60.svg'
 const DefualtBlog = () => {
     return (
 
+        <>
+        
         <div className='  container xl:p-16 lg:p-10 md:p-6 max-sm:p-4'>
 
             <div className=''>
@@ -235,12 +237,15 @@ const DefualtBlog = () => {
                     <div className='  h-10 w-20 rounded-full mt-2 bg-slate-100 p-2 hover:bg-black hover:text-white '>Tread</div>
                 </div>
             </div> */}
-            <footer className='bg-slate-200 mt-24 '>
-                <div className='container pt-20 xl:flex xl:justify-around'>
-                    <div className='xl:flex lg:flex md:flex sm:flex-wrap md:gap-20  xl:gap-40'>
+        </div>
+           
+
+        <footer className='bg-slate-200 mt-4 '>
+                <div className='container pt-20 xl:flex xl:justify-evenly'>
+                    <div className='xl:flex lg:flex md:flex sm:flex-wrap md:gap-20  xl:gap-40 '>
                         <div className='sm:flex-wrap'>
-                            {/* <img src="https://emart.wpthemedemos.com/wp-content/uploads/2023/02/e-mart-logo-03.svg" alt="" /> */}
-                            <p className='text-wrap text-slate-500 font-semibold mt-3'>Molestie vitae massa felis, aliquam lectus at. <br /> Ultricies et, quis sit fermentum.</p>
+                            <img src="https://emart.wpthemedemos.com/wp-content/uploads/2023/02/e-mart-logo-03.svg" alt="" />
+                            <p className='text-wrap text-slate-500 font-semibold'>Molestie vitae massa felis, aliquam lectus at. <br /> Ultricies et, quis sit fermentum.</p>
                         </div>
                         <div className='sm:flex-wrap'>
                             <p className='font-bold text-lg'>Quick Link</p>
@@ -254,8 +259,8 @@ const DefualtBlog = () => {
 
 
 
-                    <div className='xl:flex xl:gap-60 md:gap-64   lg:flex-wrap md:flex lg:flex lg:gap-64'>
-                        <div className=''>
+                    <div className='xl:flex xl:gap-56 md:gap-64   lg:flex-wrap md:flex lg:flex lg:gap-64 md:mt-4 xl:mt-0'>
+                        <div className='xl:ms-32'>
                             <p className='font-bold text-lg'>Services</p>
                             <p className='mt-2 text text-slate-500 '>My Account</p>
                             <p className='mt-1 text text-slate-500 '>Checkout Page</p>
@@ -263,7 +268,7 @@ const DefualtBlog = () => {
                             <p className='mt-1 text text-slate-500 '>Terms & Condition</p>
                         </div>
 
-                        <div className='sm:flex-wrap'>
+                        <div className='sm:flex-wrap md:ms-3'>
                             <p className='font-bold text-lg'>More</p>
                             <p className='mt-2 text text-slate-500 '>Gift Card</p>
                             <p className='mt-1 text text-slate-500 '>Lookbook</p>
@@ -283,23 +288,25 @@ const DefualtBlog = () => {
                 {/* icons */}
 
 
-                <div className='xl:flex lg:flex md:flex lg:justify-around md:justify-around xl:justify-around'>
+                <div className='xl:flex lg:flex md:flex lg:justify-between md:justify-between xl:justify-between xl:ps-20 xl:pe-20'>
                     <div className='xl:flex  lg:flex md:flex  max-sm:flex xl:gap-2 xl:p-3 lg:p-3 md:p-3 sm:p-3 '>
                         <img src={asset56} alt="" />
                         <img src={asset57} alt="" />
                         <img src={asset58} alt="" />
                         <img src={asset59} alt="" />
-                        <img className='' src={asset60} alt="" />
+                        <img src={asset60} alt="" />
                     </div>
 
-                    <div className='xl:mt-3'>
+                    <div className='xl:mt-8 md:mt-8'>
                         <p className='inline-block text-slate-500'>Designed by :</p>
                         <p className='inline-block font-extrabold text-slate-500'>Wpignite</p>
                     </div>
                 </div>
 
             </footer>
-        </div>
+
+
+        </>
     )
 }
 

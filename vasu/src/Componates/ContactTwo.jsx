@@ -9,9 +9,9 @@ import asset60 from '../assets/asset 60.svg'
 const ContactTwo = () => {
     return (
         <div className='container '>
-            <div className='xl:flex p-2'>
+            <div className='xl:flex '>
                 <div className=''>
-                    <img className='xl:max-w-[950px] xl:h-[600px]  lg:w-full md:w-full sm:w-full' src="https://emart.wpthemedemos.com/wp-content/uploads/2023/03/contact-img-1.jpg" alt="" />
+                    <img className='xl:max-w-[1100px] xl:h-[600px]  lg:w-full md:w-full sm:w-full' src="https://emart.wpthemedemos.com/wp-content/uploads/2023/03/contact-img-1.jpg" alt="" />
                 </div>
 
                 <div className='xl:ms-14 lg:flex-wrap'>
@@ -45,7 +45,7 @@ const ContactTwo = () => {
             </div>
 
             <footer className='bg-slate-200 mt-4 '>
-                <div className='container pt-20 xl:flex xl:justify-evenly'>
+                <div className='container pt-20 xl:flex xl:justify-around'>
                     <div className='xl:flex lg:flex md:flex sm:flex-wrap md:gap-20  xl:gap-16'>
                         <div className='sm:flex-wrap'>
                             <img src="https://emart.wpthemedemos.com/wp-content/uploads/2023/02/e-mart-logo-03.svg" alt="" />

@@ -140,18 +140,49 @@ const Carusal = () => {
 
 
                     <p className='mt-3 text-xl font-bold'>Related Products</p>
-                    <div className='grid xl:grid-cols-4  lg:grid-cols-4  md:grid-cols-3 max-sm:grid-cols-2 grid-cols-1'>
+                    <div className='grid xl:grid-cols-4  lg:grid-cols-4  md:grid-cols-3 max-sm:grid-cols-2 grid-cols-1 gap-3'>
                         <div className='mt-3 '>
-                            <div className='relative'>
-                                <img className='' src="https://emart.wpthemedemos.com/shoes/wp-content/uploads/sites/18/2023/01/red-white-high-top-sneaker-hover.webp" alt="" />
-                                <img className='absolute top-0 left-0 opacity-0 hover:opacity-60' src="https://emart.wpthemedemos.com/shoes/wp-content/uploads/sites/18/2023/01/swift-run-shoe-hover.webp" alt="" />
+                            <div className='relative overflow-hidden inline-block'>
+                                <img className='hover:opacity-100 duration-1000 ease-out hover:scale-95' src="https://emart.wpthemedemos.com/shoes/wp-content/uploads/sites/18/2023/01/red-white-high-top-sneaker-hover.webp" alt="" />
+                                <img className='absolute top-0 hover:opacity-0 duration-700 ease-out hover:scale-110' src="https://emart.wpthemedemos.com/shoes/wp-content/uploads/sites/18/2023/01/deerupt-shoes-hover.webp" alt="" />
                             </div>
-                            <p className='font-bold text-lg'>Red & White Top Sneaker</p>
-                            <p className='text-gray-500'>$450.00</p>
+                            <p className='font-bold text-lg '>Swift Run Shoe</p>
+                            <p className='text-gray-500  '>$530.00</p>
                         </div>
-                        <div>1</div>
-                        <div>1</div>
-                        <div>1</div>
+
+
+
+                        <div className='mt-3 '>
+                            <div className='relative overflow-hidden inline-block'>
+                                <img className='hover:opacity-100 duration-1000 ease-out hover:scale-95' src="https://emart.wpthemedemos.com/shoes/wp-content/uploads/sites/18/2023/01/deerupt-shoes-hover.webp" alt="" />
+                                <img className='absolute top-0 hover:opacity-0 duration-700 ease-out hover:scale-110' src="https://emart.wpthemedemos.com/shoes/wp-content/uploads/sites/18/2023/01/wlaking-tennis-shoes-hover.webp" alt="" />
+                            </div>
+                            <p className='font-bold text-lg '>Deerupt Shoes</p>
+                            <p className='text-gray-500 '>$510.00</p>
+                        </div>
+
+
+                        <div className='mt-3 '>
+                            <div className='relative overflow-hidden inline-block'>
+                                <img className='hover:opacity-100 duration-1000 ease-out hover:scale-95' src="https://emart.wpthemedemos.com/shoes/wp-content/uploads/sites/18/2023/01/wlaking-tennis-shoes-hover.webp" alt="" />
+                                <img className='absolute top-0 hover:opacity-0 duration-700 ease-out hover:scale-110' src="https://emart.wpthemedemos.com/shoes/wp-content/uploads/sites/18/2023/01/white-sports-shoes-hover.webp" alt="" />
+                            </div>
+                            <p className='font-bold text-lg '>Walking-Tennis Shoes</p>
+                            <p className='text-gray-500 '>$330.00 - $510.00</p>
+                        </div>
+
+
+
+                        <div className='mt-3 '>
+                            <div className='relative overflow-hidden inline-block'>
+                                <img className='hover:opacity-100 duration-1000 ease-out hover:scale-95' src="https://emart.wpthemedemos.com/shoes/wp-content/uploads/sites/18/2023/01/red-white-high-top-sneaker-hover.webp" alt="" />
+                                <img className='absolute top-0 hover:opacity-0 duration-700 ease-out hover:scale-110' src="https://emart.wpthemedemos.com/shoes/wp-content/uploads/sites/18/2023/01/deerupt-shoes-hover.webp" alt="" />
+                            </div>
+                            <p className='font-bold text-lg '>White Sports Shoes</p>
+                            <p className='text-gray-500 '>$420.00</p>
+                        </div>
+
+
                     </div>
                 </div>
 

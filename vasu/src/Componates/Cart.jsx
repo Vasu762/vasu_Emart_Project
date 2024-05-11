@@ -11,7 +11,7 @@ import asset60 from '../assets/asset 60.svg'
 const Cart = () => {
     return (
         <div className='container xl:p-5'>
-            <div className='bg-amber-900'>
+            <div className='bg-amber-900 max:smhidden'>
                 <p className='text-center text-white max-sm:hidden'>Free delivery on orders over $1499. Don’t miss discount.</p>
             </div>
 

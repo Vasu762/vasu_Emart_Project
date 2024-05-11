@@ -188,18 +188,19 @@ const Page2_Shop_Now = () => {
           </div>
 
 
-          <div className='xl:flex lg:flex lg:justify-betwee md:flex md:justify-between xl:justify-between max max-sm:justify-center'>
-            <div className='xl:flex md:flex md:gap-1 lg:flex lg:gap-3 xl:gap-3 max-sm:flex max-sm:justify-center max-sm:gap-2 max-sm:mt-3'>
+          <div className='xl:flex lg:flex lg:justify-betwee md:flex md:justify-between xl:justify-between max max-sm:justify-center '>
+            <div className='xl:flex md:flex md:gap-1 lg:flex lg:gap-3 xl:gap-3 max-sm:flex max-sm:justify-center max-sm:gap-2 max-sm:mt-3 xl:mt-7 lg:mt-7
+            md:mt-7 xl:ms-3'>
               <img src={assset52} alt="" />
               <img src={assset53} alt="" />
               <img src={assset54} alt="" />
               <img src={assset55} alt="" />
             </div>
-            <div className='mt-4 max-sm:flex max-sm:justify-center'>
+            <div className='pt-11 max-sm:flex max-sm:justify-center'>
               <p className='inline-block text-slate-500'>Designed by : </p>
               <p className='inline-block font-bold text-slate-500'>Wpignite</p>
             </div>
-            <div className='xl:flex lg:flex md:flex md:gap-2 xl:gap-3 lg:gap-2  max-sm:flex  max-sm:justify-center  max-sm:gap-1 max-sm:mt-3'>
+            <div className='xl:flex lg:flex md:flex md:gap-2 xl:gap-3 lg:gap-2  max-sm:flex  max-sm:justify-center   max-sm:mt-3 xl:mt-7 lg:mt-7 md:mt-7 max-sm:gap-3'>
               <img src={asset56} alt="" />
               <img src={asset57} alt="" />
               <img src={asset58} alt="" />

@@ -1,7 +1,7 @@
-// import Nabar from './Componates/Nabar'
 // import PageNo1 from './Componates/PageNo1'
-import Page2_Shop_Now from "./Componates/Page2_Shop_Now"
-// import Product_Style_One from "./Componates/Product_Style_One"
+import Main_Navbar from "./Componates/Main_Navbar"
+// import Page2_Shop_Now from "./Componates/Page2_Shop_Now"
+import Product_Style_One from "./Componates/Product_Style_One"
 // import Grid_Style from "./Componates/Grid_Style"
 // import Product_Style_Four from "./Componates/Product_Style_Four"
 // import ContactOne from "./Componates/ContactOne"
@@ -13,6 +13,8 @@ import Page2_Shop_Now from "./Componates/Page2_Shop_Now"
 // import Cart from "./Componates/Cart"
 // import ChekOut from "./Componates/ChekOut"
 // import Carusal from "./Componates/Carusal"
+// import AA from './Componates/AA'
+// import Four_sildbar from './Componates/Four_sildbar'
 
 
 
@@ -23,10 +25,10 @@ function App() {
 
   return (
     <>
-      {/* <Nabar/> */}``
+      {/* <Main_Navbar /> */}
       {/* <PageNo1 /> */}
-      <Page2_Shop_Now /> 
-      {/* <Product_Style_One /> */}
+      {/* <Page2_Shop_Now />  */}
+      <Product_Style_One />
       {/* <Grid_Style /> */}
       {/* <Product_Style_Four /> */}
       {/* <ContactOne /> */}
@@ -34,10 +36,12 @@ function App() {
       {/* <BlogOne /> */}
       {/* <BlogThree /> */}
       {/* <DefualtBlog/> */}
-      {/* <WishList /> */}
+      {/* <WishList />   */}
       {/* <Cart/> */}
       {/* <ChekOut/> */}
       {/* <Carusal/> */}
+      {/* <AA/> */}
+      {/* <Four_sildbar/> */}
     </>
   )
 }

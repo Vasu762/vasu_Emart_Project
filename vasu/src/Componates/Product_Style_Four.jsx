@@ -21,7 +21,7 @@ const Product_Style_Four = () => {
           <p className='xl:text-3xl lg:text-2xl  md:text-2xl font-semibold'>Product Style Four</p>
         </div>
       </div>
-      <div className='grid xl:grid-cols-4 lg:grid-cols-4 md:grid-cols-4 max-sm:grid-cols-2 xl:mt-14 lg:mt-12 md:mt-8 max-sm:mt-7 gap-4 container xl:p-16 lg:p-7 md:p-4 max-sm:p-10'>
+      <div className='grid xl:grid-cols-4 lg:grid-cols-4 md:grid-cols-4 max-sm:grid-cols-2 xl:mt-14 lg:mt-12 md:mt-8 max-sm:mt-7 gap-4 container xl:p-16 lg:p-7 md:p-4 max-sm:p-10  '>
 
 
         <div className='relative'>

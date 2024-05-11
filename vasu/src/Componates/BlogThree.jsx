@@ -89,7 +89,7 @@ const BlogThree = () => {
 
             <footer className='bg-slate-200 mt-4 '>
                 <div className='container pt-20 xl:flex xl:justify-evenly'>
-                    <div className='xl:flex lg:flex md:flex sm:flex-wrap md:gap-20  xl:gap-40'>
+                    <div className='xl:flex lg:flex md:flex sm:flex-wrap md:gap-20  xl:gap-40 '>
                         <div className='sm:flex-wrap'>
                             <img src="https://emart.wpthemedemos.com/wp-content/uploads/2023/02/e-mart-logo-03.svg" alt="" />
                             <p className='text-wrap text-slate-500 font-semibold'>Molestie vitae massa felis, aliquam lectus at. <br /> Ultricies et, quis sit fermentum.</p>
@@ -106,8 +106,8 @@ const BlogThree = () => {
 
 
 
-                    <div className='xl:flex xl:gap-56 md:gap-64   lg:flex-wrap md:flex lg:flex lg:gap-64'>
-                        <div className=''>
+                    <div className='xl:flex xl:gap-56 md:gap-64   lg:flex-wrap md:flex lg:flex lg:gap-64 md:mt-4 xl:mt-0'>
+                        <div className='xl:ms-32'>
                             <p className='font-bold text-lg'>Services</p>
                             <p className='mt-2 text text-slate-500 '>My Account</p>
                             <p className='mt-1 text text-slate-500 '>Checkout Page</p>
@@ -115,12 +115,12 @@ const BlogThree = () => {
                             <p className='mt-1 text text-slate-500 '>Terms & Condition</p>
                         </div>
 
-                        <div className='sm:flex-wrap'>
-                            <p className='font-bold text-lg'>Services</p>
-                            <p className='mt-2 text text-slate-500 '>My Account</p>
-                            <p className='mt-1 text text-slate-500 '>Checkout Page</p>
-                            <p className='mt-1 text text-slate-500 '>Help Center</p>
-                            <p className='mt-1 text text-slate-500 '>Terms & Condition</p>
+                        <div className='sm:flex-wrap md:ms-3'>
+                            <p className='font-bold text-lg'>More</p>
+                            <p className='mt-2 text text-slate-500 '>Gift Card</p>
+                            <p className='mt-1 text text-slate-500 '>Lookbook</p>
+                            <p className='mt-1 text text-slate-500 '>Rewards Program</p>
+                            <p className='mt-1 text text-slate-500 '>Wedding Dress</p>
                         </div>
                     </div>
                 </div>
@@ -135,7 +135,7 @@ const BlogThree = () => {
                 {/* icons */}
 
 
-                <div className='xl:flex lg:flex md:flex lg:justify-around md:justify-around xl:justify-around'>
+                <div className='xl:flex lg:flex md:flex lg:justify-between md:justify-between xl:justify-between xl:ps-20 xl:pe-20'>
                     <div className='xl:flex  lg:flex md:flex  max-sm:flex xl:gap-2 xl:p-3 lg:p-3 md:p-3 sm:p-3 '>
                         <img src={assets56} alt="" />
                         <img src={assets57} alt="" />
@@ -144,7 +144,7 @@ const BlogThree = () => {
                         <img src={assets60} alt="" />
                     </div>
 
-                    <div className='xl:mt-3'>
+                    <div className='xl:mt-8 md:mt-8'>
                         <p className='inline-block text-slate-500'>Designed by :</p>
                         <p className='inline-block font-extrabold text-slate-500'>Wpignite</p>
                     </div>
