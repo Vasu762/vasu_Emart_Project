@@ -34,14 +34,14 @@ import assset29 from '../assets/asset 29.svg'
 import asset40 from '../assets/asset 40.svg'
 import asset41 from '../assets/asset 41.svg'
 import asset42 from '../assets/asset 42.svg'
-import Main_Navbar from './Main_Navbar';
+// import Main_Navbar from './Main_Navbar';
 
 
 
 
 
 
-const PageNo1 = () => {
+const Home = () => {
   return (
     <div className='vasu'>
 
@@ -81,7 +81,7 @@ const PageNo1 = () => {
         </div>
       </div>
 
-      <Main_Navbar />
+      {/* <Main_Navbar /> */}
 
       <div className='flex xl:gap-8 lg:gap-4 md:gap-3 max-sm:flex-wrap text-center mt-5'>
         <div className='xl:ms-4 xl:mt-48 xl:w-[500px] lg:w-[500px] sm:w-full flex justify-center flex-col items-center vasu'>
@@ -236,7 +236,7 @@ const PageNo1 = () => {
       <div className=' xl:p-5 lg:p-10 md:p-7  bg-gray-300 grid xl:grid-cols-4 lg:grid-cols-2  md:grid-cols-2 max-sm:grid-cols-1 mt-24'>
         <div className='md:flex xl:mt-4 max-sm:mt-8 xl:ms-5 vasu'>
           <div className='mt-3 max-sm:flex max-sm:justify-center'>
-            <img className=' w-8 hover:-translate-x-3 duration-200' src={asset17} alt="" />
+            <img className=' w-8 hover:-translate-x-3 duration-200 ' src={asset17} alt="" />
           </div>
           <div className='ms-4 max-sm:text-center'>
             <p className='font-bold text-xl'>Free shipping</p>
@@ -305,9 +305,9 @@ const PageNo1 = () => {
             {/* icon */}
             <div className='absolute left-0 top-0 z-10 shop-icon'>
               <div className='p-3'>
-                <div className=' flex justify-center icon-1 '>
-                  <a href="" className='p-[12px]  rounded-full m-2  bg-white hover:bg-[#000a12] icon '>
-                    <img  className='' src={assset27} alt="" height={16} width={16}  />
+                <div className=' flex justify-center'>
+                  <a href="" className='p-[12px]  rounded-full m-2  bg-white icon '>
+                    <img className='icon-1' src={assset27} alt="" height={16} width={16} />
                   </a>
                 </div>
                 <div className='p-[12px] bg-white rounded-full m-2 flex justify-center icon-1'>
@@ -327,7 +327,7 @@ const PageNo1 = () => {
           <div className='mt-2'>
             <p className='text-center text-2xl text-gray-800'>Bird’s nest leslie</p>
             <div className='flex justify-center'>
-              <del className='text-gray-500'>$45</del> 
+              <del className='text-gray-500'>$45</del>
               <p className='ms-2 text-gray-500'>$30</p>
             </div>
           </div>
@@ -343,9 +343,30 @@ const PageNo1 = () => {
 
 
 
-        <div className='relative'>
+
+
+        <div className='relative primary-img'>
           <div className='overflow-hidden inline-block'>
             <img className='hover:scale-110  duration-1000' src="https://emart.wpthemedemos.com/plant-garden/wp-content/uploads/sites/10/2022/12/Monstera.webp" alt="" />
+          </div>
+          <div className='absolute left-0 top-0 z-10 shop-icon'>
+            <div className='p-3'>
+              <div className=' flex justify-center'>
+                <a href="" className='p-[12px]  rounded-full m-2  bg-white icon '>
+                  <img className='icon-1' src={assset27} alt="" height={16} width={16} />
+                </a>
+              </div>
+              <div className='p-[12px] bg-white rounded-full m-2 flex justify-center icon-1'>
+                <a href="">
+                  <img src={assset28} alt="" height={16} width={16} />
+                </a>
+              </div>
+              <div className='p-[12px] flex justify-center bg-white m-2  rounded-full icon-1'>
+                <a href="">
+                  <img src={assset29} alt="" height={8} width={12} />
+                </a>
+              </div>
+            </div>
           </div>
           <div className='mt-2'>
             <p className='text-center text-2xl text-gray-800'>Monstera plant</p>
@@ -363,9 +384,28 @@ const PageNo1 = () => {
 
 
 
-        <div className='relative'>
+        <div className='relative primary-img'>
           <div className='overflow-hidden inline-block'>
             <img className='hover:scale-110  duration-1000' src="https://emart.wpthemedemos.com/plant-garden/wp-content/uploads/sites/10/2022/12/Haworthia.webp" alt="" />
+          </div>
+          <div className='absolute left-0 top-0 z-10 shop-icon'>
+            <div className='p-3'>
+              <div className=' flex justify-center'>
+                <a href="" className='p-[12px]  rounded-full m-2  bg-white icon '>
+                  <img className='icon-1' src={assset27} alt="" height={16} width={16} />
+                </a>
+              </div>
+              <div className='p-[12px] bg-white rounded-full m-2 flex justify-center icon-1'>
+                <a href="">
+                  <img src={assset28} alt="" height={16} width={16} />
+                </a>
+              </div>
+              <div className='p-[12px] flex justify-center bg-white m-2  rounded-full icon-1'>
+                <a href="">
+                  <img src={assset29} alt="" height={8} width={12} />
+                </a>
+              </div>
+            </div>
           </div>
           <div className='mt-2'>
             <p className='text-center text-2xl text-gray-800'>Haworthia</p>
@@ -383,9 +423,28 @@ const PageNo1 = () => {
 
 
 
-        <div className='relative'>
+        <div className='relative primary-img'>
           <div className='overflow-hidden inline-block'>
             <img className='hover:scale-110  duration-1000' src="https://emart.wpthemedemos.com/plant-garden/wp-content/uploads/sites/10/2022/12/Monstera.webp" alt="" />
+          </div>
+          <div className='absolute left-0 top-0 z-10 shop-icon'>
+            <div className='p-3'>
+              <div className=' flex justify-center'>
+                <a href="" className='p-[12px]  rounded-full m-2  bg-white icon '>
+                  <img className='icon-1' src={assset27} alt="" height={16} width={16} />
+                </a>
+              </div>
+              <div className='p-[12px] bg-white rounded-full m-2 flex justify-center icon-1'>
+                <a href="">
+                  <img src={assset28} alt="" height={16} width={16} />
+                </a>
+              </div>
+              <div className='p-[12px] flex justify-center bg-white m-2  rounded-full icon-1'>
+                <a href="">
+                  <img src={assset29} alt="" height={8} width={12} />
+                </a>
+              </div>
+            </div>
           </div>
           <div className='mt-2'>
             <p className='text-center text-2xl text-gray-800'>Monsterae plant</p>
@@ -402,9 +461,28 @@ const PageNo1 = () => {
 
 
 
-        <div className='relative'>
+        <div className='relative primary-img'>
           <div className='overflow-hidden inline-block'>
             <img className='hover:scale-110  duration-1000' src="https://emart.wpthemedemos.com/plant-garden/wp-content/uploads/sites/10/2022/12/Birds-nest-fern-01.webp" alt="" />
+          </div>
+          <div className='absolute left-0 top-0 z-10 shop-icon'>
+            <div className='p-3'>
+              <div className=' flex justify-center'>
+                <a href="" className='p-[12px]  rounded-full m-2  bg-white icon '>
+                  <img className='icon-1' src={assset27} alt="" height={16} width={16} />
+                </a>
+              </div>
+              <div className='p-[12px] bg-white rounded-full m-2 flex justify-center icon-1'>
+                <a href="">
+                  <img src={assset28} alt="" height={16} width={16} />
+                </a>
+              </div>
+              <div className='p-[12px] flex justify-center bg-white m-2  rounded-full icon-1'>
+                <a href="">
+                  <img src={assset29} alt="" height={8} width={12} />
+                </a>
+              </div>
+            </div>
           </div>
           <div className='mt-2'>
             <p className='text-center text-2xl text-gray-800'>Bird’s nest leslie</p>
@@ -469,4 +547,4 @@ const PageNo1 = () => {
   )
 }
 
-export default PageNo1
+export default Home

@@ -1,12 +1,20 @@
 import React from 'react'
-import assets56 from '../assets/asset 56.svg'
-import assets57 from '../assets/asset 57.svg'
-import assets58 from '../assets/asset 58.svg'
-import assets59 from '../assets/asset 59.svg'
-import assets60 from '../assets/asset 60.svg'
+import asset51 from '../assets/asset 51.svg'
+import assset52 from '../assets/asset 52.svg'
+import assset53 from '../assets/asset 53.svg'
+import assset54 from '../assets/asset 54.svg'
+import assset55 from '../assets/asset 55.svg'
+import asset56 from '../assets/asset 56.svg'
+import asset57 from '../assets/asset 57.svg'
+import asset58 from '../assets/asset 58.svg'
+import asset59 from '../assets/asset 59.svg'
+import asset60 from '../assets/asset 60.svg'
+
 
 const BlogThree = () => {
     return (
+        <>
+        
         <div className='bg-pink-100'>
             <div className='container lg:p-3 md:p-2 max-sm:p-1  xl:p-20'>
                 {/* 1 */}
@@ -61,7 +69,6 @@ const BlogThree = () => {
 
                 {/* 3 */}
 
-
                 <div className='xl:flex xl:mt-6 xl:justify-between xl:gap-5 lg:flex lg:mt-4 lg:justify-between lg:gap-3 md:mt-4 max-sm:mt-4'>
                     <div className=''>
                         <img className='md:w-full max-sm:w-full xl:w-[400px] hover:opacity-60 duration-400' src="https://emart.wpthemedemos.com/wp-content/uploads/2022/10/blog-image-ten-768x458.webp" alt="" />
@@ -84,85 +91,47 @@ const BlogThree = () => {
                         <p className='text-slate-700 mt-2'>October 19, 2022</p>
                     </div>
                 </div>
-
             </div>
-
-            <footer className='bg-slate-200 mt-4 '>
-                <div className='container pt-20 xl:flex xl:justify-evenly'>
-                    <div className='xl:flex lg:flex md:flex sm:flex-wrap md:gap-20  xl:gap-40 '>
-                        <div className='sm:flex-wrap'>
-                            <img src="https://emart.wpthemedemos.com/wp-content/uploads/2023/02/e-mart-logo-03.svg" alt="" />
-                            <p className='text-wrap text-slate-500 font-semibold'>Molestie vitae massa felis, aliquam lectus at. <br /> Ultricies et, quis sit fermentum.</p>
-                        </div>
-                        <div className='sm:flex-wrap'>
-                            <p className='font-bold text-lg'>Quick Link</p>
-                            <p className='mt-2 text text-slate-500 '>About</p>
-                            <p className='mt-1 text text-slate-500 '>Product</p>
-                            <p className='mt-1 text text-slate-500 '>Responsibility</p>
-                            <p className='mt-1 text text-slate-500 '>Career</p>
-                        </div>
-                    </div>
-
-
-
-
-                    <div className='xl:flex xl:gap-56 md:gap-64   lg:flex-wrap md:flex lg:flex lg:gap-64 md:mt-4 xl:mt-0'>
-                        <div className='xl:ms-32'>
-                            <p className='font-bold text-lg'>Services</p>
-                            <p className='mt-2 text text-slate-500 '>My Account</p>
-                            <p className='mt-1 text text-slate-500 '>Checkout Page</p>
-                            <p className='mt-1 text text-slate-500 '>Help Center</p>
-                            <p className='mt-1 text text-slate-500 '>Terms & Condition</p>
-                        </div>
-
-                        <div className='sm:flex-wrap md:ms-3'>
-                            <p className='font-bold text-lg'>More</p>
-                            <p className='mt-2 text text-slate-500 '>Gift Card</p>
-                            <p className='mt-1 text text-slate-500 '>Lookbook</p>
-                            <p className='mt-1 text text-slate-500 '>Rewards Program</p>
-                            <p className='mt-1 text text-slate-500 '>Wedding Dress</p>
-                        </div>
-                    </div>
-                </div>
-
-
-                <div className='xl:w-full lg:w-full md:w-full sm:w-full mt-6'>
-                    <hr />
-                </div>
-
-
-
-                {/* icons */}
-
-
-                <div className='xl:flex lg:flex md:flex lg:justify-between md:justify-between xl:justify-between xl:ps-20 xl:pe-20'>
-                    <div className='xl:flex  lg:flex md:flex  max-sm:flex xl:gap-2 xl:p-3 lg:p-3 md:p-3 sm:p-3 '>
-                        <img src={assets56} alt="" />
-                        <img src={assets57} alt="" />
-                        <img src={assets58} alt="" />
-                        <img src={assets59} alt="" />
-                        <img src={assets60} alt="" />
-                    </div>
-
-                    <div className='xl:mt-8 md:mt-8'>
-                        <p className='inline-block text-slate-500'>Designed by :</p>
-                        <p className='inline-block font-extrabold text-slate-500'>Wpignite</p>
-                    </div>
-                </div>
-
-            </footer>
-
-
-
-
-
-
-
-
-
         </div>
+            <footer>
+                <div>
+                    <div className='mt-24 xl:flex xl:justify-center lg:flex lg:justify-center md:flex md:justify-center max-sm:flex max-md:justify-center'>
+                        <img src={asset51} alt="" />
+                    </div>
 
+                    <p className='xl:text-center lg:text-center md:text-center max-sm:text-center mt-3 text-3xl font-semibold text-wrap'>Subscribe newsletter</p>
+                    <p className='xl:text-center lg:text-center md:text-center max-sm:text-center mt-3 text-md text-slate-500'>Subscribe Now and get more offers</p>
 
+                    <div className='xl:flex xl:justify-center lg:flex lg:justify-center md:flex-wrap md:text-center max-sm:flex max-sm:flex-wrap max-sm:justify-center mt-5'>
+                        <input className='border-2 border-solid border-inherit p-2 bg-slate-200 xl:w-[400px]  lg:w-[400px] md:w-[400px]   max-sm:w-[350px] ' placeholder='Your Email Address...' type="text" name="" id="" />
+                        <button className='bg-black text-white xl:p-3 md:p-2 lg:p-3 max-sm:p-2 xl:w-[220px] lg:w-[220px] lg:ms-3 md:ms-3 xl:ms-3  max-sm:ms-1 max-sm:mt-3 max-sm:w-[350px] '> Subscribe Now</button>
+                    </div>
+
+                    <div className='mt-28'>
+                        <hr />
+                    </div>
+                    <div className='xl:flex lg:flex lg:justify-betwee md:flex md:justify-between xl:justify-between max max-sm:justify-center'>
+                        <div className='xl:flex md:flex md:gap-1 lg:flex lg:gap-3 xl:gap-3 max-sm:flex max-sm:justify-center max-sm:gap-2 max-sm:mt-3'>
+                            <img src={assset52} alt="" />
+                            <img src={assset53} alt="" />
+                            <img src={assset54} alt="" />
+                            <img src={assset55} alt="" />
+                        </div>
+                        <div className='mt-4 max-sm:flex max-sm:justify-center'>
+                            <p className='inline-block text-slate-500'>Designed by : </p>
+                            <p className='inline-block font-bold text-slate-500'>Wpignite</p>
+                        </div>
+                        <div className='xl:flex lg:flex md:flex md:gap-2 xl:gap-3 lg:gap-2  max-sm:flex  max-sm:justify-center  max-sm:gap-1 max-sm:mt-3'>
+                            <img src={asset56} alt="" />
+                            <img src={asset57} alt="" />
+                            <img src={asset58} alt="" />
+                            <img src={asset59} alt="" />
+                            <img src={asset60} alt="" />
+                        </div>
+                    </div>
+                </div>
+            </footer>
+        </>
 
 
 

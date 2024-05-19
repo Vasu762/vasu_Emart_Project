@@ -1,4 +1,5 @@
 import React from 'react'
+import asset51 from '../assets/asset 51.svg'
 import asset56 from '../assets/asset 56.svg'
 import asset57 from '../assets/asset 57.svg'
 import asset27 from '../assets/asset 27.svg'
@@ -10,6 +11,11 @@ import asset54 from '../assets/asset 54.svg'
 import asset58 from '../assets/asset 58.svg'
 import asset59 from '../assets/asset 59.svg'
 import asset60 from '../assets/asset 60.svg'
+import assset52 from '../assets/asset 52.svg'
+import assset53 from '../assets/asset 53.svg'
+import assset54 from '../assets/asset 54.svg'
+import assset55 from '../assets/asset 55.svg'
+import { FaArrowRightLong } from "react-icons/fa6";
 
 const Carusal = () => {
     return (
@@ -188,49 +194,46 @@ const Carusal = () => {
 
             </div>
 
-            <footer className='bg-sky-50'>
-                <div className='grid xl:grid-cols-3 lg:grid-cols-2 md:grid-cols-2 max-sm:grid-cols-1 container  xl:p-5 '>
-                    <div className='lg:mt-5 lg:ms-3 md:mt-12 md:ms-3 max-sm:mt-10 max-sm:ms-3 '>
-                        <p className='text-2xl font-bold'>Newsletter</p>
-                        <p className='mt-4 text-gray-500 text-lg'>Get free 20% discount for all products on your first order</p>
-                        <input className='xl:h-10 xl:w-[350px] lg:h-10 lg:w-[400px] md:h-10 md:w-[250px] max-sm:h-10 max-sm:w-[250px] w-20 p-4' placeholder='Your Email' type="text" />
-                        <button className='xl:h-11 xl:w-10 lg:h-11 lg:w-10 md:h-11 md:w-10  max-sm:h-11 max-sm:w-10 bg-red-500  mt-3'><p className='duration-500 hover:translate-x-1 '>--</p></button>
-                    </div>
+            <footer>
+        <div>
+          <div className='mt-24 xl:flex xl:justify-center lg:flex lg:justify-center md:flex md:justify-center max-sm:flex max-md:justify-center'>
+            <img src={asset51} alt="" />
+          </div>
 
-                    <div className='lg:mt-9 lg:ms-12  md:mt-12 md:ms-3 max-sm:mt-10 max-sm:ms-3 xl:ms-52'>
-                        <p className='mt-2 font-bold text-2xl '>Quick contact</p>
-                        <p className='mt-6 text-slate-500 '>121 King St, Melbourne VIC 3000,Australia</p>
-                        <span className='block border-2 border-solid border-current p-2 xl:w-44 rounded-full mt-2 lg:w-40 max-sm:w-[200px] md:w-[200px]'> <p className='ms-10'>(888) 123 45</p> </span>
-                    </div>
+          <p className='xl:text-center lg:text-center md:text-center max-sm:text-center mt-3 text-3xl font-semibold text-wrap'>Subscribe newsletter</p>
+          <p className='xl:text-center lg:text-center md:text-center max-sm:text-center mt-3 text-md text-slate-500'>Subscribe Now and get more offers</p>
 
+          <div className='xl:flex xl:justify-center lg:flex lg:justify-center md:flex-wrap md:text-center max-sm:flex max-sm:flex-wrap max-sm:justify-center mt-5'>
+            <input className='border-2 border-solid border-inherit p-2 bg-slate-200 xl:w-[400px]  lg:w-[400px] md:w-[400px]   max-sm:w-[350px] ' placeholder='Your Email Address...' type="text" name="" id="" />
+            <button className='bg-black text-white xl:p-3 md:p-2 lg:p-3 max-sm:p-2 xl:w-[220px] lg:w-[220px] lg:ms-3 md:ms-3 xl:ms-3  max-sm:ms-1 max-sm:mt-3 max-sm:w-[350px] '> Subscribe Now</button>
+          </div>
 
-
-                    <div className='lg:flex-nowrap md:flex-wrap lg:mt-5 lg:ms-3 md:mt-12 md:ms-3 max-sm:mt-10 max-sm:ms-3 xl:ms-64'>
-                        <p className=' font-bold text-2xl '>Fllow us</p>
-                        <div className='xl:flex lg:flex md:flex max-sm:flex gap-3 mt-3'>
-                            <img src={asset52} alt="" />
-                            <img src={asset53} alt="" />
-                            <img src={asset54} alt="" />
-                        </div>
-
-                        <div className='xl:flex xl:mt-7 xl:gap-6 lg:gap-4 md:flex md:gap-4 md:mt-5 max-sm:flex max-sm:gap-4 max-sm:mt-3 lg:flex'>
-                            <img src={asset58} alt="" />
-                            <img src={asset59} alt="" />
-                            <img src={asset60} alt="" />
-                        </div>
-                    </div>
-                </div>
+          <div className='mt-28'>
+            <hr />
+          </div>
 
 
-                <div className='mt-4'>
-                    <hr />
-                </div>
-
-                <div className='p-6 text-center max-sm:text-start'>
-                    <p className='inline-block'>Designed by : </p>
-                    <p className='font-bold inline-block'>Wpignite</p>
-                </div>
-            </footer>
+          <div className='xl:flex lg:flex lg:justify-betwee md:flex md:justify-between xl:justify-between max max-sm:justify-center'>
+            <div className='xl:flex md:flex md:gap-1 lg:flex lg:gap-3 xl:gap-3 max-sm:flex max-sm:justify-center max-sm:gap-2 max-sm:mt-3'>
+              <img src={assset52} alt="" />
+              <img src={assset53} alt="" />
+              <img src={assset54} alt="" />
+              <img src={assset55} alt="" />
+            </div>
+            <div className='mt-4 max-sm:flex max-sm:justify-center'>
+              <p className='inline-block text-slate-500'>Designed by : </p>
+              <p className='inline-block font-bold text-slate-500'>Wpignite</p>
+            </div>
+            <div className='xl:flex lg:flex md:flex md:gap-2 xl:gap-3 lg:gap-2  max-sm:flex  max-sm:justify-center  max-sm:gap-1 max-sm:mt-3'>
+              <img src={asset56} alt="" />
+              <img src={asset57} alt="" />
+              <img src={asset58} alt="" />
+              <img src={asset59} alt="" />
+              <img src={asset60} alt="" />
+            </div>
+          </div>
+        </div>
+      </footer>
         </>
     )
 }

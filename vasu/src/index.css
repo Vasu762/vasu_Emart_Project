@@ -26,14 +26,20 @@
   opacity: 1;
 }
 
-.shop-icon{
+.shop-icon {
   opacity: 0;
   transition-duration: 1s;
 
 }
-.icon:hover{
+
+.icon:hover {
   background-color: #000A12 !important;
 }
+
+.icon-1:hover {
+  filter: invert(100%) sepia(1) saturate(0) hue-rotate(174deg);
+}
+
 .vasu {
   animation: big-image 1s ease-in-out;
 }
@@ -70,3 +76,11 @@
     transform: translateY(0px);
   }
 }
+
+/* Navbar */
+
+a#offcanvasNavbarDropdown-expand-xl.dropdown-toggle.nav-link::after{
+  opacity: 0;
+  
+}
+

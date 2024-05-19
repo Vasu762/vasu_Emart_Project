@@ -10,6 +10,11 @@ import asset60 from '../assets/asset 60.svg'
 import asset40 from '../assets/asset 40.svg'
 import asset41 from '../assets/asset 41.svg'
 import asset42 from '../assets/asset 42.svg'
+import asset51 from '../assets/asset 51.svg'
+import assset52 from '../assets/asset 52.svg'
+import assset53 from '../assets/asset 53.svg'
+import assset54 from '../assets/asset 54.svg'
+import assset55 from '../assets/asset 55.svg'
 
 
 
@@ -71,52 +76,46 @@ const WishList = () => {
 
 
             </div>
-                <footer className='bg-slate-200 mt-36 '>
-                    <div className='xl:p-16 lg:p-2 lg:pt-11 xl:flex   xl:gap-x-16'>
-                        <div className=''>
-                            <p className='font-bold text-2xl'>Newsletter</p>
-                            <p className='c text-lg mt-2'>Get free 20% discount for all products on your first order</p>
-                            <input type="text" className='p-2 mt-3 xl:w-[250px] lg:w-[700px] md:w-[450px]' placeholder='Your Email' name="" id="" />
-                            {/* <span className='text-white xl:h-6  xl:w-7 bg-'>--</span> */}
-                            <button className='bg-red-900 xl:w-9 xl:h-9 text-white  lg:w-12 lg:h-10 md:h-9 md:w-10 sm:w-10  sm:h-10 '><p className='duration-500 hover:translate-x-1 '>--</p></button>
-                        </div>
+            <footer>
+        <div>
+          <div className='mt-24 xl:flex xl:justify-center lg:flex lg:justify-center md:flex md:justify-center max-sm:flex max-md:justify-center'>
+            <img src={asset51} alt="" />
+          </div>
 
-                        <div className='xl:flex lg:flex lg:gap-28 lg:mt-6 xl:justify-around xl:gap-48'>
-                            <div>
-                                <p className='mt-2 font-bold text-2xl'>Quick contact</p>
-                                <p className='mt-2 text-slate-500'>121 King St, Melbourne VIC 3000,Australia</p>
-                                <span className='block border-2 border-solid border-current p-2 xl:w-44 rounded-full mt-2 lg:w-40 md:w-[200px]'> <p className='ms-10'>(888) 123 45</p> </span>
-                            </div>
+          <p className='xl:text-center lg:text-center md:text-center max-sm:text-center mt-3 text-3xl font-semibold text-wrap'>Subscribe newsletter</p>
+          <p className='xl:text-center lg:text-center md:text-center max-sm:text-center mt-3 text-md text-slate-500'>Subscribe Now and get more offers</p>
 
-                            <div className='lg:flex-nowrap md:flex-wrap'>
-                                <p className=' font-bold text-2xl '>Fllow us</p>
-                                <div className='xl:flex lg:flex md:flex sm:flex gap-3 mt-3'>
-                                    <img src={asset52} alt="" />
-                                    <img src={asset53} alt="" />
-                                    <img src={asset54} alt="" />
-                                </div>
-                            </div>
-                        </div>
+          <div className='xl:flex xl:justify-center lg:flex lg:justify-center md:flex-wrap md:text-center max-sm:flex max-sm:flex-wrap max-sm:justify-center mt-5'>
+            <input className='border-2 border-solid border-inherit p-2 bg-slate-200 xl:w-[400px]  lg:w-[400px] md:w-[400px]   max-sm:w-[350px] ' placeholder='Your Email Address...' type="text" name="" id="" />
+            <button className='bg-black text-white xl:p-3 md:p-2 lg:p-3 max-sm:p-2 xl:w-[220px] lg:w-[220px] lg:ms-3 md:ms-3 xl:ms-3  max-sm:ms-1 max-sm:mt-3 max-sm:w-[350px] '> Subscribe Now</button>
+          </div>
 
-                    </div>
+          <div className='mt-28'>
+            <hr />
+          </div>
 
-                    <hr />
 
-                    <div className='xl:flex lg:flex md:flex lg:justify-between md:justify-around xl:justify-between  p-4' >
-                        <div className='xl:flex  lg:flex md:flex sm:flex xl:gap-2 xl:p-3 lg:p-3 md:p-3 sm:p-3'>
-                            <img src={asset56} alt="" />
-                            <img src={asset57} alt="" />
-                            <img src={asset58} alt="" />
-                            <img src={asset59} alt="" />
-                            <img src={asset60} alt="" />
-                        </div>
-
-                        <div className='xl:mt-3 lg:mt-3'>
-                            <p className='inline-block text-slate-500'>Designed by :</p>
-                            <p className='inline-block font-extrabold text-slate-500'>Wpignite</p>
-                        </div>
-                    </div>
-                </footer>
+          <div className='xl:flex lg:flex lg:justify-betwee md:flex md:justify-between xl:justify-between max max-sm:justify-center'>
+            <div className='xl:flex md:flex md:gap-1 lg:flex lg:gap-3 xl:gap-3 max-sm:flex max-sm:justify-center max-sm:gap-2 max-sm:mt-3'>
+              <img src={assset52} alt="" />
+              <img src={assset53} alt="" />
+              <img src={assset54} alt="" />
+              <img src={assset55} alt="" />
+            </div>
+            <div className='mt-4 max-sm:flex max-sm:justify-center'>
+              <p className='inline-block text-slate-500'>Designed by : </p>
+              <p className='inline-block font-bold text-slate-500'>Wpignite</p>
+            </div>
+            <div className='xl:flex lg:flex md:flex md:gap-2 xl:gap-3 lg:gap-2  max-sm:flex  max-sm:justify-center  max-sm:gap-1 max-sm:mt-3'>
+              <img src={asset56} alt="" />
+              <img src={asset57} alt="" />
+              <img src={asset58} alt="" />
+              <img src={asset59} alt="" />
+              <img src={asset60} alt="" />
+            </div>
+          </div>
+        </div>
+      </footer>
         </>
 
 

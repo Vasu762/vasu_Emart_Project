@@ -4,6 +4,15 @@ import asset57 from '../assets/asset 57.svg'
 import asset58 from '../assets/asset 58.svg'
 import asset59 from '../assets/asset 59.svg'
 import asset60 from '../assets/asset 60.svg'
+import asset51 from '../assets/asset 51.svg'
+import assset52 from '../assets/asset 52.svg'
+import assset53 from '../assets/asset 53.svg'
+import assset54 from '../assets/asset 54.svg'
+import assset55 from '../assets/asset 55.svg'
+import assset27 from '../assets/asset 27.svg'
+import assset28 from '../assets/asset 28.svg'
+import assset29 from '../assets/asset 29.svg'
+
 
 
 
@@ -19,10 +28,29 @@ const Product_Style_One = () => {
                 </div>
 
 
-                <div className='grid md:grid-cols-3 max-sm:grid-cols-2 mt-24 gap-5  xl:p-20 lg:p-6 md:p-7'>
-                    <div className='hover:shadow-xl hover:shadow-black p-4 relative'>
+                <div className='grid md:grid-cols-3 max-sm:grid-cols-2 mt-24 gap-5  xl:p-20 lg:p-6 md:p-7 '>
+                    <div className='hover:shadow-xl hover:shadow-black p-4 relative primary-img'>
                         <div className='inline-block overflow-hidden'>
                             <img className='hover:scale-110 duration-700' src="https://emart.wpthemedemos.com/bathroom/wp-content/uploads/sites/12/2022/12/moduler-bathtub.webp" alt="" />
+                        </div>
+                        <div className='absolute left-0 top-0 z-10 p-2 shop-icon'>
+                            <div className='p-3'>
+                                <div className=' flex justify-center'>
+                                    <a href="" className='p-[12px]  rounded-full m-2  bg-white icon '>
+                                        <img className='icon-1' src={assset27} alt="" height={16} width={16} />
+                                    </a>
+                                </div>
+                                <div className='p-[12px] bg-white rounded-full m-2 flex justify-center icon-1'>
+                                    <a href="">
+                                        <img src={assset28} alt="" height={16} width={16} />
+                                    </a>
+                                </div>
+                                <div className='p-[12px] flex justify-center bg-white m-2  rounded-full icon-1'>
+                                    <a href="">
+                                        <img src={assset29} alt="" height={8} width={12} />
+                                    </a>
+                                </div>
+                            </div>
                         </div>
                         <div>
                             <p className='text-center text-2xl md:text-xl max-sm:text-sm mt-2 font-semibold'>Moduler Bathtub</p>
@@ -39,9 +67,28 @@ const Product_Style_One = () => {
 
 
 
-                    <div className='hover:shadow-xl hover:shadow-black p-4 '>
-                        <div className='inline-block overflow-hidden'>
+                    <div className='hover:shadow-xl hover:shadow-black p-4 relative primary-img'>
+                        <div className='inline-block overflow-hidden '>
                             <img className='hover:scale-110 duration-700' src="https://emart.wpthemedemos.com/bathroom/wp-content/uploads/sites/12/2022/12/moduler-toilate.webp" alt="" />
+                        </div>
+                        <div className='absolute left-0 top-0 z-10 p-2 shop-icon'>
+                            <div className='p-3'>
+                                <div className=' flex justify-center'>
+                                    <a href="" className='p-[12px]  rounded-full m-2  bg-white icon '>
+                                        <img className='icon-1' src={assset27} alt="" height={16} width={16} />
+                                    </a>
+                                </div>
+                                <div className='p-[12px] bg-white rounded-full m-2 flex justify-center icon-1'>
+                                    <a href="">
+                                        <img src={assset28} alt="" height={16} width={16} />
+                                    </a>
+                                </div>
+                                <div className='p-[12px] flex justify-center bg-white m-2  rounded-full icon-1'>
+                                    <a href="">
+                                        <img src={assset29} alt="" height={8} width={12} />
+                                    </a>
+                                </div>
+                            </div>
                         </div>
                         <div>
                             <p className='text-center text-2xl mt-2 md:text-xl max-sm:text-sm font-semibold'>Moduler Toilate</p>
@@ -54,9 +101,28 @@ const Product_Style_One = () => {
                     </div>
 
 
-                    <div className='hover:shadow-xl hover:shadow-black p-4 relative'>
+                    <div className='hover:shadow-xl hover:shadow-black p-4 relative primary-img'>
                         <div className='inline-block overflow-hidden'>
                             <img className='hover:scale-110 duration-700' src="https://emart.wpthemedemos.com/bathroom/wp-content/uploads/sites/12/2022/12/modern-kitchen-basin.webp" alt="" />
+                        </div>
+                        <div className='absolute left-0 top-0 z-10 p-2 shop-icon'>
+                            <div className='p-3'>
+                                <div className=' flex justify-center'>
+                                    <a href="" className='p-[12px]  rounded-full m-2  bg-white icon '>
+                                        <img className='icon-1' src={assset27} alt="" height={16} width={16} />
+                                    </a>
+                                </div>
+                                <div className='p-[12px] bg-white rounded-full m-2 flex justify-center icon-1'>
+                                    <a href="">
+                                        <img src={assset28} alt="" height={16} width={16} />
+                                    </a>
+                                </div>
+                                <div className='p-[12px] flex justify-center bg-white m-2  rounded-full icon-1'>
+                                    <a href="">
+                                        <img src={assset29} alt="" height={8} width={12} />
+                                    </a>
+                                </div>
+                            </div>
                         </div>
                         <div>
                             <p className='text-center text-2xl mt-2 md:text-xl max-sm:text-sm font-semibold'>Modern Kitchen Basin</p>
@@ -72,23 +138,59 @@ const Product_Style_One = () => {
                     </div>
 
 
-                    <div className='hover:shadow-xl hover:shadow-black p-4 '>
+                    <div className='hover:shadow-xl hover:shadow-black p-4 relative primary-img'>
                         <div className='inline-block overflow-hidden'>
                             <img className='hover:scale-110 duration-700' src="https://emart.wpthemedemos.com/bathroom/wp-content/uploads/sites/12/2022/12/moduler-hand-shower.webp" alt="" />
+                        </div>
+                        <div className='absolute left-0 top-0 z-10 p-2 shop-icon'>
+                            <div className='p-3'>
+                                <div className=' flex justify-center'>
+                                    <a href="" className='p-[12px]  rounded-full m-2  bg-white icon '>
+                                        <img className='icon-1' src={assset27} alt="" height={16} width={16} />
+                                    </a>
+                                </div>
+                                <div className='p-[12px] bg-white rounded-full m-2 flex justify-center icon-1'>
+                                    <a href="">
+                                        <img src={assset28} alt="" height={16} width={16} />
+                                    </a>
+                                </div>
+                                <div className='p-[12px] flex justify-center bg-white m-2  rounded-full icon-1'>
+                                    <a href="">
+                                        <img src={assset29} alt="" height={8} width={12} />
+                                    </a>
+                                </div>
+                            </div>
                         </div>
                         <div>
                             <p className='text-center text-2xl md:text-xl max-sm:text-sm mt-2 font-semibold'>Moduler Hand Shower</p>
                             <div className='flex justify-center mt-2'>
                                 <p className='text-gray-500 ms-2'> $50.00</p>
                             </div>
-
-
                         </div>
                     </div>
 
-                    <div className='hover:shadow-xl hover:shadow-black p-4 '>
+                    <div className='hover:shadow-xl hover:shadow-black p-4 relative primary-img'>
                         <div className='inline-block overflow-hidden'>
                             <img className='hover:scale-110 duration-700' src="https://emart.wpthemedemos.com/bathroom/wp-content/uploads/sites/12/2022/12/modern-bathtub.webp" alt="" />
+                        </div>
+                        <div className='absolute left-0 top-0 z-10 p-2 shop-icon'>
+                            <div className='p-3'>
+                                <div className=' flex justify-center'>
+                                    <a href="" className='p-[12px]  rounded-full m-2  bg-white icon '>
+                                        <img className='icon-1' src={assset27} alt="" height={16} width={16} />
+                                    </a>
+                                </div>
+                                <div className='p-[12px] bg-white rounded-full m-2 flex justify-center icon-1'>
+                                    <a href="">
+                                        <img src={assset28} alt="" height={16} width={16} />
+                                    </a>
+                                </div>
+                                <div className='p-[12px] flex justify-center bg-white m-2  rounded-full icon-1'>
+                                    <a href="">
+                                        <img src={assset29} alt="" height={8} width={12} />
+                                    </a>
+                                </div>
+                            </div>
                         </div>
                         <div>
                             <p className='text-center text-2xl md:text-xl max-sm:text-sm mt-2 font-semibold'>Modern Bathtub</p>
@@ -100,9 +202,28 @@ const Product_Style_One = () => {
                         </div>
                     </div>
 
-                    <div className='hover:shadow-xl hover:shadow-black p-4 relative'>
+                    <div className='hover:shadow-xl hover:shadow-black p-4 relative  primary-img'>
                         <div className='inline-block overflow-hidden'>
                             <img className='hover:scale-110 duration-700' src="https://emart.wpthemedemos.com/bathroom/wp-content/uploads/sites/12/2022/12/moduler-basin.webp" alt="" />
+                        </div>
+                        <div className='absolute left-0 top-0 z-10 p-2 shop-icon'>
+                            <div className='p-3'>
+                                <div className=' flex justify-center'>
+                                    <a href="" className='p-[12px]  rounded-full m-2  bg-white icon '>
+                                        <img className='icon-1' src={assset27} alt="" height={16} width={16} />
+                                    </a>
+                                </div>
+                                <div className='p-[12px] bg-white rounded-full m-2 flex justify-center icon-1'>
+                                    <a href="">
+                                        <img src={assset28} alt="" height={16} width={16} />
+                                    </a>
+                                </div>
+                                <div className='p-[12px] flex justify-center bg-white m-2  rounded-full icon-1'>
+                                    <a href="">
+                                        <img src={assset29} alt="" height={8} width={12} />
+                                    </a>
+                                </div>
+                            </div>
                         </div>
                         <div>
                             <p className='text-center text-2xl md:text-xl max-sm:text-sm mt-2 font-semibold'>Moduler Basin</p>
@@ -120,67 +241,41 @@ const Product_Style_One = () => {
             </div>
 
             <footer>
-                <div className='bg-slate-100'>
-                    <div className='grid xl:grid-cols-4 lg:grid-cols-2 md:grid-cols-2 max-sm:grid-cols-1'>
-                        <div className='lg:mt-14 md:mt-12 max-sm:mt-12'>
-                            <p className='font-bold text-xl xl:mt-20 ms-4'>Quick Link</p>
-                            <p className='mt-3 text-gray-500 ms-4'>About</p>
-                            <p className='mt-1 text-gray-500 ms-4'>Product</p>
-                            <p className='mt-1 text-gray-500 ms-4'>Responsibility</p>
-                            <p className='mt-1 text-gray-500 ms-4'>Career</p>
-                            <p className='mt-1 text-gray-500 ms-4'>Press</p>
-                            <p className='mt-1 text-gray-500 ms-4'>Image Bank</p>
-                        </div>
-
-
-                        <div className='lg:mt-14 md:mt-12 max-sm:mt-12'>
-                            <p className='font-bold text-xl xl:mt-20 ms-4'>Customer Service</p>
-                            <p className='mt-3 text-gray-500 ms-4'>My Account</p>
-                            <p className='mt-1 text-gray-500 ms-4'>Checkout Page</p>
-                            <p className='mt-1 text-gray-500 ms-4'>Help Center</p>
-                            <p className='mt-1 text-gray-500 ms-4'>Terms & Condition</p>
-                            <p className='mt-1 text-gray-500 ms-4'>Deliveries & Refunds</p>
-                            <p className='mt-1 text-gray-500 ms-4'>Cart Page</p>
-                        </div>
-
-                        <div className='lg:mt-10 md:mt-8 max-sm:mt-12'>
-                            <p className='font-bold text-xl xl:mt-24 ms-4'>More</p>
-                            <p className='mt-3 text-gray-500 ms-4'>Gift Card</p>
-                            <p className='mt-1 text-gray-500 ms-4'>Lookbook</p>
-                            <p className='mt-1 text-gray-500 ms-4'>Rewards Program</p>
-                            <p className='mt-1 text-gray-500 ms-4'>Wedding Dress</p>
-                            <p className='mt-1 text-gray-500 ms-4'>Host A Party</p>
-                            <p className='mt-1 text-gray-500 ms-4'>Extended Sizing</p>
-                        </div>
-
-                        <div className='lg:mt-10 md:mt-8 max-sm:mt-12'>
-                           <p className='font-bold text-xl xl:mt-24 ms-4'>Do't Miss Any Update</p>
-                           <p className='text-wrap mt-3 text-gray-500 ms-4'>Molestie vitae massa felis, aliquam lectus at. <br /> Ultricies et, quis sit fermentum aliquam et.</p>
-                           <input className='p-2  xl:ms-4 xl:mt-5 xl:w-[250px] lg:w-[350px] lg:mt-4 lg:ms-4 md:ms-4 md:mt-4 md:w-[270px] max-sm:ms-4 max-sm:mt-4' placeholder='Your Email' type="text" />
-                           <button className='bg-black xl:p-2 xl:w-14 lg:p-2 lg:w-14 md:p-2 md:w-14 max-sm:p-2 max-sm:w-14 '><p className='text-white hover:translate-x-3 duration-500'>--</p></button>
-                        </div>
+                <div>
+                    <div className='mt-24 xl:flex xl:justify-center lg:flex lg:justify-center md:flex md:justify-center max-sm:flex max-md:justify-center'>
+                        <img src={asset51} alt="" />
                     </div>
 
-                    <div className='mt-8'>
+                    <p className='xl:text-center lg:text-center md:text-center max-sm:text-center mt-3 text-3xl font-semibold text-wrap'>Subscribe newsletter</p>
+                    <p className='xl:text-center lg:text-center md:text-center max-sm:text-center mt-3 text-md text-slate-500'>Subscribe Now and get more offers</p>
+
+                    <div className='xl:flex xl:justify-center lg:flex lg:justify-center md:flex-wrap md:text-center max-sm:flex max-sm:flex-wrap max-sm:justify-center mt-5'>
+                        <input className='border-2 border-solid border-inherit p-2 bg-slate-200 xl:w-[400px]  lg:w-[400px] md:w-[400px]   max-sm:w-[350px] ' placeholder='Your Email Address...' type="text" name="" id="" />
+                        <button className='bg-black text-white xl:p-3 md:p-2 lg:p-3 max-sm:p-2 xl:w-[220px] lg:w-[220px] lg:ms-3 md:ms-3 xl:ms-3  max-sm:ms-1 max-sm:mt-3 max-sm:w-[350px] '> Subscribe Now</button>
+                    </div>
+
+                    <div className='mt-28'>
                         <hr />
                     </div>
 
 
-                    {/* icons */}
-
-
-                    <div className='xl:flex lg:flex md:flex lg:justify-between md:justify-between xl:justify-between'>
-                        <div className='xl:flex  lg:flex md:flex  max-sm:flex xl:gap-2 xl:p-3 lg:p-3 md:p-3 sm:p-3 '>
+                    <div className='xl:flex lg:flex lg:justify-betwee md:flex md:justify-between xl:justify-between max max-sm:justify-center'>
+                        <div className='xl:flex md:flex md:gap-1 lg:flex lg:gap-3 xl:gap-3 max-sm:flex max-sm:justify-center max-sm:gap-2 max-sm:mt-3'>
+                            <img src={assset52} alt="" />
+                            <img src={assset53} alt="" />
+                            <img src={assset54} alt="" />
+                            <img src={assset55} alt="" />
+                        </div>
+                        <div className='mt-4 max-sm:flex max-sm:justify-center'>
+                            <p className='inline-block text-slate-500'>Designed by : </p>
+                            <p className='inline-block font-bold text-slate-500'>Wpignite</p>
+                        </div>
+                        <div className='xl:flex lg:flex md:flex md:gap-2 xl:gap-3 lg:gap-2  max-sm:flex  max-sm:justify-center  max-sm:gap-1 max-sm:mt-3'>
                             <img src={asset56} alt="" />
                             <img src={asset57} alt="" />
                             <img src={asset58} alt="" />
                             <img src={asset59} alt="" />
-                            <img className='' src={asset60} alt="" />
-                        </div>
-
-                        <div className='mt-7'>
-                            <p className='inline-block text-slate-500'>Designed by :</p>
-                            <p className='inline-block font-extrabold text-slate-500'>Wpignite</p>
+                            <img src={asset60} alt="" />
                         </div>
                     </div>
                 </div>

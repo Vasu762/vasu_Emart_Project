@@ -11,6 +11,12 @@ import asset60 from '../assets/asset 60.svg'
 import asset52 from '../assets/asset 52.svg'
 import asset53 from '../assets/asset 53.svg'
 import asset54 from '../assets/asset 54.svg'
+import asset51 from '../assets/asset 51.svg'
+import assset52 from '../assets/asset 52.svg'
+import assset53 from '../assets/asset 53.svg'
+import assset54 from '../assets/asset 54.svg'
+import assset55 from '../assets/asset 55.svg'
+
 
 
 
@@ -187,61 +193,46 @@ const Grid_Style = () => {
 
                 </div>
             </div>
-            <footer className='bg-blue-950 w-full mt-8'>
-                <div className='container p-5  pt-5 pb-5 grid xl:grid-cols-4  lg:grid-cols-2 md:grid-cols-2 max-sm:grid-cols-1'>
-                    <div className='xl:ms-5'>
-                        <p className='text-red-800 text-2xl font-bold'>Newsletter</p>
-                        <p className='text-white break-all xl:mt-6 md:mt-5 max-sm:mt-4 max-sm:text-xl text-lg'>Get free 20% discount for all  products on your first order</p>
-                        <input className='p-2 xl:mt-4 max-sm:mt-4 xl:w-52 lg:w-[350px] lg:mt-4 md:w-[250px] md:mt-4 max-sm:w-[290px]' placeholder='Your Email' type="text" />
-                        <button className='bg-red-800 max-sm:p-2 md:p-2  xl:w-12 md:w-16 max-sm:w-14 '><p className='text-white hover:translate-x-3 duration-500'>--</p></button>
-                    </div>
+            <footer>
+        <div>
+          <div className='mt-24 xl:flex xl:justify-center lg:flex lg:justify-center md:flex md:justify-center max-sm:flex max-md:justify-center'>
+            <img src={asset51} alt="" />
+          </div>
+
+          <p className='xl:text-center lg:text-center md:text-center max-sm:text-center mt-3 text-3xl font-semibold text-wrap'>Subscribe newsletter</p>
+          <p className='xl:text-center lg:text-center md:text-center max-sm:text-center mt-3 text-md text-slate-500'>Subscribe Now and get more offers</p>
+
+          <div className='xl:flex xl:justify-center lg:flex lg:justify-center md:flex-wrap md:text-center max-sm:flex max-sm:flex-wrap max-sm:justify-center mt-5'>
+            <input className='border-2 border-solid border-inherit p-2 bg-slate-200 xl:w-[400px]  lg:w-[400px] md:w-[400px]   max-sm:w-[350px] ' placeholder='Your Email Address...' type="text" name="" id="" />
+            <button className='bg-black text-white xl:p-3 md:p-2 lg:p-3 max-sm:p-2 xl:w-[220px] lg:w-[220px] lg:ms-3 md:ms-3 xl:ms-3  max-sm:ms-1 max-sm:mt-3 max-sm:w-[350px] '> Subscribe Now</button>
+          </div>
+
+          <div className='mt-28'>
+            <hr />
+          </div>
 
 
-                    <div className='xl:ms-20 md:ms-8 md:pe-16 max-sm:mt-8'>
-                        <p className='text-red-800 text-2xl font-bold'>Quick Contact</p>
-                        <p className='text-white mt-3 text-lg'>121 King St, Melbourne VIC 3000,Australia</p>
-                        <div className='border-2 border-solid rounded-full  border-slate-500 p-2 lg:mt-4 lg:w-48 md:mt-5 max-sm:w-48 max-sm:mt-4'>
-                            <p className='text-white ms-5'>(888) 123 45 67</p>
-                        </div>
-                    </div>
-
-                    <div className='xl:ms-24 lg:mt-8 md:mt-8 xl:mt-0 max-sm:mt-6'>
-                        <p className='text-red-800 text-2xl font-bold'>Services</p>
-                        <p className='text-white mt-4 text-lg'>My Account</p>
-                        <p className='text-white mt-1 text-lg'>Checkout Page</p>
-                        <p className='text-white mt-1 text-lg'>Help Center</p>
-                        <p className='text-white mt-1 text-lg'>Terms & Condition</p>
-                    </div>
-
-
-                    <div className='lg:ms-10 lg:mt-7 md:ms-10 md:mt-7 max-sm:mt-5 xl:mt-0'>
-                        <p className='text-red-800 text-2xl font-bold'>Follow Us</p>
-                        <div className='flex gap-3 mt-3'>
-                            <div className='w-10 h-10 border-2 border-solid border-black bg-black rounded-full'>
-                                <img className='p-2' src={asset52} alt="" />
-                            </div>
-
-                            <div className='w-10 h-10 border-2 border-solid border-black bg-black rounded-full'>
-                                <img className='p-2' src={asset53} alt="" />
-                            </div>
-
-                            <div className='w-10 h-10 border-2 border-solid border-black bg-black rounded-full'>
-                                <img className='p-2' src={asset54} alt="" />
-                            </div>
-                        </div>
-                    </div>
-                </div>
-
-
-                <div className='mt-2 text-white'>
-                    < hr />
-                </div>
-
-                <div className='p-5 text-end'>
-                    <p className='inline-block text-white'>Designed by : </p>
-                    <p className='inline-block font-extrabold text-white'>Wpignite</p>
-                </div>
-            </footer>
+          <div className='xl:flex lg:flex lg:justify-betwee md:flex md:justify-between xl:justify-between max max-sm:justify-center'>
+            <div className='xl:flex md:flex md:gap-1 lg:flex lg:gap-3 xl:gap-3 max-sm:flex max-sm:justify-center max-sm:gap-2 max-sm:mt-3'>
+              <img src={assset52} alt="" />
+              <img src={assset53} alt="" />
+              <img src={assset54} alt="" />
+              <img src={assset55} alt="" />
+            </div>
+            <div className='mt-4 max-sm:flex max-sm:justify-center'>
+              <p className='inline-block text-slate-500'>Designed by : </p>
+              <p className='inline-block font-bold text-slate-500'>Wpignite</p>
+            </div>
+            <div className='xl:flex lg:flex md:flex md:gap-2 xl:gap-3 lg:gap-2  max-sm:flex  max-sm:justify-center  max-sm:gap-1 max-sm:mt-3'>
+              <img src={asset56} alt="" />
+              <img src={asset57} alt="" />
+              <img src={asset58} alt="" />
+              <img src={asset59} alt="" />
+              <img src={asset60} alt="" />
+            </div>
+          </div>
+        </div>
+      </footer>
         </>
     )
 }
