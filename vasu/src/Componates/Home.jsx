@@ -35,6 +35,8 @@ import asset40 from '../assets/asset 40.svg'
 import asset41 from '../assets/asset 41.svg'
 import asset42 from '../assets/asset 42.svg'
 // import Main_Navbar from './Main_Navbar';
+import Shop_Now from './Shop_Now';
+import { NavLink } from 'react-router-dom';
 
 
 
@@ -87,7 +89,7 @@ const Home = () => {
         <div className='xl:ms-4 xl:mt-48 xl:w-[500px] lg:w-[500px] sm:w-full flex justify-center flex-col items-center vasu'>
           <p className='text-6xl font-semibold text-wrap md:mt-9 lg:mt-10 max-sm:text-center max-sm:text-5xl'>Plant a tree for better world</p>
           <p className='lg:mt-6 md:mt-4 max-sm:text-center max-sm:mt-3'>Rectangle follower distribute device layer. Library hand ellipse device strikethrough.</p>
-          <button className='block mt-6 border-2 border-solid border-black p-2 duration-500 hover:-translate-y-2 hover:bg-black max-sm:mt-6 hover:text-white xl:w-44'>Shop Now</button>
+          <button className='block mt-6 border-2 border-solid border-black p-2 duration-500 hover:-translate-y-2 hover:bg-black max-sm:mt-6 hover:text-white xl:w-44'><NavLink to='/shop_Now'>ShopNow</NavLink></button>
         </div>
 
 
@@ -125,7 +127,7 @@ const Home = () => {
 
       <div className='xl:mt-10 p-4 md:flex md:justify-between '>
         <div className=''>
-          <img className='xl:w-[570px] lg:w-[400px]  md:w-[300px] max-sm:w-full hover:-translate-x-3 duration-150' src="https://emart.wpthemedemos.com/plant-garden/wp-content/uploads/sites/10/2022/12/plant-gallery-left-img.webp" alt="" />
+          <img className='vasu xl:w-[570px] lg:w-[400px]  md:w-[300px] max-sm:w-full hover:-translate-x-3 duration-150' src="https://emart.wpthemedemos.com/plant-garden/wp-content/uploads/sites/10/2022/12/plant-gallery-left-img.webp" alt="" />
         </div>
 
         <div className='max-sm:grid max-sm:grid-cols-2 max-sm:gap-3 max-sm:mt-3 '>
@@ -288,7 +290,7 @@ const Home = () => {
           {/* Content goes here */}
         </div>
         <p className='absolute xl:top-24 xl:pe-44 text-wrap  text-white text-5xl xl:left-[900px] lg:top-24 lg:left-[500px] md:top-24 md:left-[350px]  max-sm:top-16 max-sm:text-center max-sm:text-4xl'>Find your perfect gardening tools on best price</p>
-        <button className='border-2 border-solid ps-5 pe-5 p-3  hover:-translate-y-3 duration-300 hover:text-white hover:bg-black absolute xl:top-72 xl:left-[900px] lg:top-72 lg:left-[500px] md:top-72 md:left-[350px] max-sm:top-60 max-sm:left-32'>Shop Now</button>
+        <button className='border-2 border-solid ps-5 pe-5 p-3  hover:-translate-y-3 duration-300 hover:text-white hover:bg-black absolute xl:top-72 xl:left-[900px] lg:top-72 lg:left-[500px] md:top-72 md:left-[350px] max-sm:top-60 max-sm:left-32'><NavLink to='/shop_Now'>ShopNow</NavLink></button>
       </div>
 
 

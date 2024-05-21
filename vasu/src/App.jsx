@@ -6,12 +6,12 @@ import Product_Style_Four from "./Componates/Product_Style_Four"
 import Carusal from "./Componates/Carusal"
 import Grid_Style from "./Componates/Grid_Style"
 import ContactTwo from "./Componates/ContactTwo"
-// import BlogThree from "./Componates/BlogThree"
-// import DefualtBlog from "./Componates/DefualtBlog"
-// import WishList from "./Componates/WishList"
-// import Cart from "./Componates/Cart"
-// import ChekOut from "./Componates/ChekOut"
-// import Four_sildbar from './Componates/Four_sildbar'
+import BlogThree from "./Componates/BlogThree"
+import DefualtBlog from "./Componates/DefualtBlog"
+import WishList from "./Componates/WishList"
+import Cart from "./Componates/Cart"
+import ChekOut from "./Componates/ChekOut"
+import Four_sildbar from './Componates/Four_sildbar'
 // import BlogOne from "./Componates/BlogOne"
 // import ContactOne from "./Componates/ContactOne"
 import 'bootstrap/dist/css/bootstrap.min.css';
@@ -42,7 +42,7 @@ function App() {
             {/* <BlogThree /> */}
             {/* <DefualtBlog/> */}
             {/* <WishList />   */}
-            {/* <Cart/> */}
+            {/* <Cart/> */} 
             {/* <ChekOut/> */}
             {/* <Four_sildbar/>  */}
             {/* <ContactOne /> */}
@@ -59,15 +59,13 @@ function App() {
                     <Route path='/Carusal' element={<Carusal />} />
                     <Route path='/Grid_Style' element={<Grid_Style />} />
                     <Route path='/ContactTwo' element={<ContactTwo />} />
-                    <Route path='/Product_Style_One' element={<Product_Style_One />} />
-                    <Route path='/Product_Style_One' element={<Product_Style_One />} />
-
-                    {/* <Route path='styleFour' element={<Style_Four />} />
-                    <Route path='wishlist' element={<Wishlist />} />
-                    <Route path='cart' element={<Cart />} />
-                    <Route path='blog_three' element={<Blog_Three />} />
-                    <Route path='contact_Two' element={<Contact_Two />} /> */}
-                </Routes>
+                    <Route path='/BlogThree' element={<BlogThree />} />
+                    <Route path='/DefualtBlog' element={<DefualtBlog />} />
+                    <Route path='/WishList' element={<WishList />} />
+                    <Route path='/Cart' element={<Cart />} />
+                    <Route path='/ChekOut' element={<ChekOut />} />
+                    <Route path='/Four_sildbar' element={<Four_sildbar />} />
+                </Routes>5
             </BrowserRouter>
         </>
     )

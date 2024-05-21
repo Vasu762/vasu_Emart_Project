@@ -41,7 +41,7 @@
 }
 
 .vasu {
-  animation: big-image 1s ease-in-out;
+  animation: big-image 2s ease-in-out;
 }
 
 
@@ -60,7 +60,7 @@
 
 
 .vasu1 {
-  animation: big-image 1s ease-in-out;
+  animation: big-image 2s ease-in-out;
 }
 
 
@@ -80,7 +80,10 @@
 /* Navbar */
 
 a#offcanvasNavbarDropdown-expand-xl.dropdown-toggle.nav-link::after{
-  opacity: 0;
-  
+  opacity: 0; 
+}
+
+.ttt{
+
 }
 

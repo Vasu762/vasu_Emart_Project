@@ -17,7 +17,9 @@ import React, { useState } from 'react';
 import asset22 from '../assets/asset 22.svg'
 import { Link } from 'react-router-dom'
 import { NavLink } from 'react-router-dom'
-
+import asset43 from '../assets/asset 43.svg'
+import asset8 from '../assets/asset 8.svg'
+import asset47 from '../assets/asset 47.svg'
 
 
 
@@ -70,7 +72,7 @@ function OffcanvasExample() {
 
 
                                 <Nav className="justify-center flex-grow-1 pe-3 xl:relative">
-                                    <div className='xl:mt-3 xl:left-[472px] xl:absolute '>
+                                    <div className='xl:mt-3 xl:left-[460px] xl:absolute '>
                                         <img className='hover:rotate-180' src={asset22} alt="" />
                                     </div>
                                     {/* Demo */}
@@ -84,12 +86,11 @@ function OffcanvasExample() {
 
 
 
-                                        <NavDropdown.Item Item href="#action1" className='xl:w-[1500px] xl:mt-[20px] xl:pt-[20px]  xl:container xl:p-32 xl:-translate-x-[500px]'>
-                                            <NavDropdown.Item href="#action2" className='grid xl:grid-cols-4 lg:grid-cols-1'>
+                                        <NavDropdown.Item Item href="#action1" className=' xl:w-[1500px] xl:mt-[20px] xl:pt-[20px]  xl:container xl:p-32'>
+                                            <NavDropdown.Item href="#action2" className='grid xl:grid-cols-4 lg:grid-cols-1 '>
                                                 <NavDropdown.Item href="#action3" className='d-xl-block d-md-none d-sm-none  d-lg-none'>
                                                     <img className='w-[300px] h-[200px] ' src={asset1} alt="" />
                                                     <p className='hover:translate-x-2 duration-300'>newproduct on the market</p>
-                                                    {/* <p className='hover:translate-x-2 duration-300'>Shop now</p> */}
                                                     <NavLink className to="/shop_Now">shop Now</NavLink>
 
                                                 </NavDropdown.Item>
@@ -179,9 +180,9 @@ function OffcanvasExample() {
                                                     <div className='xl:ms-0 max-xl:p-0 pr-[60px]'>
                                                         <NavDropdown.Item href="#action20" className='font-bold py-[8px] text-[19px] '> Prodect gallery </NavDropdown.Item>
                                                         <NavDropdown.Item href="#action21" className='text-muted py-[8px] text-[18px] animated-text hover:translate-x-3 duration-500'>Vertical Carousel </NavDropdown.Item>
-                                                        <NavDropdown.Item href="#action22" className='text-muted py-[8px] text-[18px] animated-text hover:translate-x-3 duration-500'> <NavLink to="Carusal">Carusal</NavLink></NavDropdown.Item>
+                                                        <NavDropdown.Item href="#action22" className='text-muted py-[8px] text-[18px] animated-text hover:translate-x-3 duration-500'> <NavLink to="/Carusal">Carusal</NavLink></NavDropdown.Item>
                                                         <NavDropdown.Item href="#action23" className='text-muted py-[8px] text-[18px] animated-text hover:translate-x-3 duration-500'>Horizontal Style</NavDropdown.Item>
-                                                        <NavDropdown.Item href="#action24" className='text-muted py-[8px] text-[18px] animated-text hover:translate-x-3 duration-500'>Grid Stlye</NavDropdown.Item>
+                                                        <NavDropdown.Item href="#action24" className='text-muted py-[8px] text-[18px] animated-text hover:translate-x-3 duration-500'><NavLink to='/Grid_Style'>Grid_Style</NavLink></NavDropdown.Item>
                                                     </div>
                                                 </div>
 
@@ -218,16 +219,16 @@ function OffcanvasExample() {
                                                 <div>
                                                     <NavDropdown.Item href="#action33" className='font-bold py-[8px] text-[19px] '> Listing Layouts </NavDropdown.Item>
                                                     <NavDropdown.Item href="#action34" className='text-muted py-[8px] text-[18px] animated-text'>  4 Column</NavDropdown.Item>
-                                                    <NavDropdown.Item href="#action35" className='text-muted py-[8px] text-[18px] animated-text'>   4 Column + Side bar </NavDropdown.Item>
+                                                    <NavDropdown.Item href="#action35" className='text-muted py-[8px] text-[18px] animated-text'><NavLink to='/Four_sildbar'>Four_sildbar</NavLink> </NavDropdown.Item>
                                                     <NavDropdown.Item href="#action36" className='text-muted py-[8px] text-[18px] animated-text'>   5 Column </NavDropdown.Item>
                                                     <NavDropdown.Item href="#action37" className='text-muted py-[8px] text-[18px] animated-text'>   5 Column + Side bar</NavDropdown.Item>
 
                                                     <div className='mt-[20px]'>
 
                                                         <NavDropdown.Item href="#action38" className='font-bold py-[8px] text-[19px] '> Shop Pages </NavDropdown.Item>
-                                                        <NavDropdown.Item href="#action39" className='text-muted py-[8px] text-[18px] animated-text'>  Wishlist</NavDropdown.Item>
-                                                        <NavDropdown.Item href="#action40" className='text-muted py-[8px] text-[18px] animated-text'> Cart</NavDropdown.Item>
-                                                        <NavDropdown.Item href="#action41" className='text-muted py-[8px] text-[18px] animated-text'> Checkout</NavDropdown.Item>
+                                                        <NavDropdown.Item href="#action39" className='text-muted py-[8px] text-[18px] animated-text'><NavLink to='/WishList'>WishList</NavLink></NavDropdown.Item>
+                                                        <NavDropdown.Item href="#action40" className='text-muted py-[8px] text-[18px] animated-text'> <NavLink to='/Cart'>Cart</NavLink></NavDropdown.Item>
+                                                        <NavDropdown.Item href="#action41" className='text-muted py-[8px] text-[18px] animated-text'> <NavLink to='/ChekOut'>ChekOut</NavLink></NavDropdown.Item>
                                                     </div>
                                                 </div>
 
@@ -267,10 +268,14 @@ function OffcanvasExample() {
                                     >
                                         <div>
                                             <div className='pl-[20px] pr-[130px] py-3 border-1 border-gray-300 max-md:p-0 max-md:border-0'>
-                                                <NavDropdown.Item href="#action52" className='text-muted py-[8px] text-[18px] animated-text'> Default Bolg </NavDropdown.Item>
+                                                <NavDropdown.Item href="#action52" className='text-muted py-[8px] text-[18px] animated-text'><NavLink to='/DefualtBlog'>DefualtBlog</NavLink> </NavDropdown.Item>
                                                 <NavDropdown.Item href="#action53" className='text-muted py-[8px] text-[18px] animated-text'> Bolg One </NavDropdown.Item>
                                                 <NavDropdown.Item href="#action54" className='text-muted py-[8px] text-[18px] animated-text'>Bolg Two</NavDropdown.Item>
-                                                <NavDropdown.Item href="#action55" className='text-muted py-[8px] text-[18px] animated-text'>Bolg Three</NavDropdown.Item>
+                                                <NavDropdown.Item href="#action55" className='text-muted py-[8px] text-[18px] animated-text'>
+                                                    <NavLink to='/BlogThree'>
+                                                        Blog Three
+                                                    </NavLink>
+                                                </NavDropdown.Item>
                                             </div>
                                         </div>
                                     </NavDropdown>
@@ -286,7 +291,7 @@ function OffcanvasExample() {
                                     >
                                         <div>
                                             <NavDropdown.Item href="#action56" className='text-muted py-[8px] text-[18px] animated-text'> Contact One </NavDropdown.Item>
-                                            <NavDropdown.Item href="#action57" className='text-muted py-[8px] text-[18px] animated-text'> Contact One</NavDropdown.Item>
+                                            <NavDropdown.Item href="#action57" className='text-muted py-[8px] text-[18px] animated-text'>  <NavLink className to="/ContactTwo">Contact Two</NavLink></NavDropdown.Item>
 
                                         </div>
                                     </NavDropdown>
@@ -296,8 +301,8 @@ function OffcanvasExample() {
                                 <section className='d-flex '>
                                     <img className='p-2' src={asset44} lt="" />
                                     <img className='p-2' src={asset45} lt="" />
-                                    <img className='p-2' src={asset45} lt="" />
-                                    <img className='p-2' src={asset44} lt="" />
+                                    <img className='p-2' src={asset8} lt="" />
+                                    <img className='p-2' src={asset47} lt="" />
                                 </section>
 
                             </Offcanvas.Body>
