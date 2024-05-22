@@ -20,10 +20,15 @@ import { NavLink } from 'react-router-dom'
 import asset43 from '../assets/asset 43.svg'
 import asset8 from '../assets/asset 8.svg'
 import asset47 from '../assets/asset 47.svg'
+import { useSelector } from 'react-redux';
 
 
 
 function OffcanvasExample() {
+
+
+    const result = useSelector((state) => state.Reducer);
+    console.warn("HeaderData called", result);
 
     const [show1, setShow1] = useState(false);
     const [show2, setShow2] = useState(false);
@@ -302,7 +307,13 @@ function OffcanvasExample() {
                                     <img className='p-2' src={asset44} lt="" />
                                     <img className='p-2' src={asset45} lt="" />
                                     <img className='p-2' src={asset8} lt="" />
-                                    <img className='p-2' src={asset47} lt="" />
+                                    <div>
+
+                                        <NavLink className to='/Cart'>
+                                            <img className='p-2 mt-1' src={asset47} lt="" />
+                                            <span className="absolute right-[-5px] top-[-10px] text-white">{result}</span>
+                                        </NavLink>
+                                    </div>
                                 </section>
 
                             </Offcanvas.Body>

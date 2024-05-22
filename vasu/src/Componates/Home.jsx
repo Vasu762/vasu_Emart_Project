@@ -34,16 +34,27 @@ import assset29 from '../assets/asset 29.svg'
 import asset40 from '../assets/asset 40.svg'
 import asset41 from '../assets/asset 41.svg'
 import asset42 from '../assets/asset 42.svg'
-// import Main_Navbar from './Main_Navbar';
-import Shop_Now from './Shop_Now';
+import asset24 from '../assets/asset 24.webp'
+import asset25 from '../assets/asset 25.webp'
+import asset26 from '../assets/asset 26.webp'
 import { NavLink } from 'react-router-dom';
-
-
-
-
+import { useSelector, useDispatch } from 'react-redux';
+import { useEffect } from 'react';
+import { productData } from "../Product_data/ProductRedux/ProductAction";
 
 
 const Home = () => {
+
+  const dispatch = useDispatch();
+  const data = useSelector((state) => state.ProductReducer);
+
+  console.log("maindata", data);
+
+  useEffect(() => {
+    dispatch(productData());
+  }, []);
+
+
   return (
     <div className='vasu'>
 
@@ -83,7 +94,7 @@ const Home = () => {
         </div>
       </div>
 
-      {/* <Main_Navbar /> */}
+
 
       <div className='flex xl:gap-8 lg:gap-4 md:gap-3 max-sm:flex-wrap text-center mt-5'>
         <div className='xl:ms-4 xl:mt-48 xl:w-[500px] lg:w-[500px] sm:w-full flex justify-center flex-col items-center vasu'>
@@ -103,15 +114,60 @@ const Home = () => {
       </div>
 
 
+      {/* Shop by categories */}
+
       <p className='xl:text-end lg:text-start sm:text-center font-semibold text-4xl  2xl:mt-28'>Shop by categories</p>
       <div className='grid xl:grid-cols-4 lg:grid-cols-2 md:grid-cols-2  sm:grid-cols-1 xl:mt-4 gap-4'>
 
-        <div className='relative'>
+        <div className='relative image'>
           <div className=''>
-            <img className='' src="https://emart.wpthemedemos.com/plant-garden/wp-content/uploads/sites/10/2022/12/Monstera.webp" alt="" />
+            <img className='' src={asset24} alt="" />
           </div>
-          <div className='opacity-0 h-16 w-full bg-slate-500 text-black absolute bottom-0   hover:opacity-100'>
-            vasu
+          <div className='ovelay w-full  p-3  absolute bottom-0'>
+            <div className='flex justify-between'>
+              <p className=''>Aloe Vera</p>
+              <svg className='hover:translate-x-2 duration-500' xmlns="http://www.w3.org/2000/svg" width="38" height="37" viewBox="0 0 38 37" fill="none"><path d="M19.0715 36.7273C9.0302 36.7273 0.890099 28.5872 0.890099 18.5459C0.890099 8.5046 9.0302 0.364502 19.0715 0.364502C29.1128 0.364502 37.2529 8.5046 37.2529 18.5459C37.2529 28.5872 29.1128 36.7273 19.0715 36.7273Z" fill="#C7B9B6"></path><path d="M19.0717 13.3512L24.2664 18.5459L19.0717 23.7406" stroke="white" strokeWidth="1.5" strokeLinecap="round" strokeLinejoin="round"></path><path d="M13.877 18.5459H24.2664" stroke="white" strokeWidth="1.5" strokeLinecap="round" strokeLinejoin="round"></path></svg>
+            </div>
+          </div>
+        </div>
+
+
+        <div className='relative image'>
+          <div className=''>
+            <img className='' src={asset25} alt="" />
+          </div>
+          <div className='ovelay w-full  p-3  absolute bottom-0'>
+            <div className='flex justify-between'>
+              <p className=''>Aloe Vera</p>
+              <svg className='hover:translate-x-2 duration-500' xmlns="http://www.w3.org/2000/svg" width="38" height="37" viewBox="0 0 38 37" fill="none"><path d="M19.0715 36.7273C9.0302 36.7273 0.890099 28.5872 0.890099 18.5459C0.890099 8.5046 9.0302 0.364502 19.0715 0.364502C29.1128 0.364502 37.2529 8.5046 37.2529 18.5459C37.2529 28.5872 29.1128 36.7273 19.0715 36.7273Z" fill="#C7B9B6"></path><path d="M19.0717 13.3512L24.2664 18.5459L19.0717 23.7406" stroke="white" strokeWidth="1.5" strokeLinecap="round" strokeLinejoin="round"></path><path d="M13.877 18.5459H24.2664" stroke="white" strokeWidth="1.5" strokeLinecap="round" strokeLinejoin="round"></path></svg>
+            </div>
+          </div>
+        </div>
+
+
+
+        <div className='relative image'>
+          <div className=''>
+            <img className='' src={asset26} alt="" />
+          </div>
+          <div className='ovelay w-full  p-3  absolute bottom-0'>
+            <div className='flex justify-between'>
+              <p className=''>Aloe Vera</p>
+              <svg className='hover:translate-x-2 duration-500' xmlns="http://www.w3.org/2000/svg" width="38" height="37" viewBox="0 0 38 37" fill="none"><path d="M19.0715 36.7273C9.0302 36.7273 0.890099 28.5872 0.890099 18.5459C0.890099 8.5046 9.0302 0.364502 19.0715 0.364502C29.1128 0.364502 37.2529 8.5046 37.2529 18.5459C37.2529 28.5872 29.1128 36.7273 19.0715 36.7273Z" fill="#C7B9B6"></path><path d="M19.0717 13.3512L24.2664 18.5459L19.0717 23.7406" stroke="white" strokeWidth="1.5" strokeLinecap="round" strokeLinejoin="round"></path><path d="M13.877 18.5459H24.2664" stroke="white" strokeWidth="1.5" strokeLinecap="round" strokeLinejoin="round"></path></svg>
+            </div>
+          </div>
+        </div>
+
+
+        <div className='relative image'>
+          <div className=''>
+            <img className='' src={asset24} alt="" />
+          </div>
+          <div className='ovelay w-full  p-3  absolute bottom-0'>
+            <div className='flex justify-between'>
+              <p className=''>Aloe Vera</p>
+              <svg className='hover:translate-x-2 duration-500' xmlns="http://www.w3.org/2000/svg" width="38" height="37" viewBox="0 0 38 37" fill="none"><path d="M19.0715 36.7273C9.0302 36.7273 0.890099 28.5872 0.890099 18.5459C0.890099 8.5046 9.0302 0.364502 19.0715 0.364502C29.1128 0.364502 37.2529 8.5046 37.2529 18.5459C37.2529 28.5872 29.1128 36.7273 19.0715 36.7273Z" fill="#C7B9B6"></path><path d="M19.0717 13.3512L24.2664 18.5459L19.0717 23.7406" stroke="white" strokeWidth="1.5" strokeLinecap="round" strokeLinejoin="round"></path><path d="M13.877 18.5459H24.2664" stroke="white" strokeWidth="1.5" strokeLinecap="round" strokeLinejoin="round"></path></svg>
+            </div>
           </div>
         </div>
 
@@ -132,7 +188,7 @@ const Home = () => {
 
         <div className='max-sm:grid max-sm:grid-cols-2 max-sm:gap-3 max-sm:mt-3 '>
           <div className='md:flex lg:gap-3 md:gap-2'>
-            <div className='relative'>
+            <div className='relative primary-img'>
               <div className='overflow-hidden'>
                 <img className='hover:scale-110 duration-[1s] ease-in-out xl:w-[250px] lg:w-[160px] md:w-[120px]' src="https://emart.wpthemedemos.com/plant-garden/wp-content/uploads/sites/10/2022/12/Monstera.webp" alt="" />
               </div>
@@ -143,13 +199,32 @@ const Home = () => {
                 <del className='text-gray-500'>$60</del>
                 <p className='ms-2 text-gray-500'> $48</p>
               </div>
+              <div className='absolute left-0 top-0 z-10 shop-icon'>
+                <div className='p-3'>
+                  <div className='p-[12px]  rounded-full m-2  bg-white icon-1 '>
+                    <a href="" className=' '>
+                      <img className='icon-1' src={assset27} alt="" height={16} width={16} />
+                    </a>
+                  </div>
+                  <div className='p-[12px] bg-white rounded-full m-2  flex justify-center icon-1'>
+                    <a href="">
+                      <img src={assset28} alt="" height={16} width={16} />
+                    </a>
+                  </div>
+                  <div className='p-[12px] flex justify-center bg-white m-2  rounded-full icon-1'>
+                    <a href="">
+                      <img className='' onClick={() => dispatch(addToCart(item))} src={assset29} alt="" height={8} width={12} />
+                    </a>
+                  </div>
+                </div>
+              </div>
               <div className='absolute xl:top-3 xl:left-44  lg:top-3 lg:left-16 md:top-3 md:left-10 max-sm:hidden'>
                 <p className='ps-2 pe-2 border-2 border-solid border-black bg-black text-white'>-20%</p>
               </div>
             </div>
 
 
-            <div className='relative'>
+            <div className='relative primary-img'>
               <div className='overflow-hidden'>
                 <img className='hover:scale-110 duration-[1s] ease-in-out xl:w-[250px] lg:w-[160px] md:w-[120px]' src="https://emart.wpthemedemos.com/plant-garden/wp-content/uploads/sites/10/2022/12/Haworthia.webp" alt="" />
               </div>
@@ -160,12 +235,31 @@ const Home = () => {
                 <del className='text-gray-500'>$87</del>
                 <p className='ms-2 text-gray-500'>$70</p>
               </div>
+              <div className='absolute left-0 top-0 z-10 shop-icon'>
+                <div className='p-3'>
+                  <div className='p-[12px]  rounded-full m-2  bg-white icon-1 '>
+                    <a href="" className=''>
+                      <img className='icon-1' src={assset27} alt="" height={16} width={16} />
+                    </a>
+                  </div>
+                  <div className='p-[12px] bg-white rounded-full m-2  flex justify-center icon-1'>
+                    <a href="">
+                      <img src={assset28} alt="" height={16} width={16} />
+                    </a>
+                  </div>
+                  <div className='p-[12px] flex justify-center bg-white m-2  rounded-full icon-1'>
+                    <a href="">
+                      <img className='' onClick={() => dispatch(addToCart(item))} src={assset29} alt="" height={8} width={12} />
+                    </a>
+                  </div>
+                </div>
+              </div>
               <div className='absolute xl:top-3 xl:left-44  lg:top-3 lg:left-16 md:top-3 md:left-10 max-sm:hidden'>
                 <p className='ps-2 pe-2 border-2 border-solid border-black bg-black text-white'>-20%</p>
               </div>
             </div>
 
-            <div className='relative'>
+            <div className='relative primary-img'>
               <div className='overflow-hidden'>
                 <img className='hover:scale-110 duration-[1s] ease-in-out xl:w-[250px] lg:w-[160px] md:w-[120px]' src="https://emart.wpthemedemos.com/plant-garden/wp-content/uploads/sites/10/2022/12/Birds-nest-fern-01.webp" alt="" />
               </div>
@@ -175,6 +269,25 @@ const Home = () => {
               <div className='flex justify-center'>
                 <del className='text-gray-500'>$68</del>
                 <p className='ms-2 text-gray-500'>  $54</p>
+              </div>
+              <div className='absolute left-0 top-0 z-10 shop-icon'>
+                <div className='p-3'>
+                  <div className='p-[12px]  rounded-full m-2  bg-white icon-1'>
+                    <a href="" className=' '>
+                      <img className='icon-1' src={assset27} alt="" height={16} width={16} />
+                    </a>
+                  </div>
+                  <div className='p-[12px] bg-white rounded-full m-2  flex justify-center icon-1'>
+                    <a href="">
+                      <img src={assset28} alt="" height={16} width={16} />
+                    </a>
+                  </div>
+                  <div className='p-[12px] flex justify-center bg-white m-2  rounded-full icon-1'>
+                    <a href="">
+                      <img className='' onClick={() => dispatch(addToCart(item))} src={assset29} alt="" height={8} width={12} />
+                    </a>
+                  </div>
+                </div>
               </div>
               <div className='absolute xl:top-3 xl:left-44  lg:top-3 lg:left-16 md:top-3 md:left-10 max-sm:hidden'>
                 <p className='ps-2 pe-2 border-2 border-solid border-black bg-black text-white'>-21%</p>
@@ -307,8 +420,8 @@ const Home = () => {
             {/* icon */}
             <div className='absolute left-0 top-0 z-10 shop-icon'>
               <div className='p-3'>
-                <div className=' flex justify-center'>
-                  <a href="" className='p-[12px]  rounded-full m-2  bg-white icon '>
+                <div className='p-[12px]  rounded-full m-2  bg-white icon'>
+                  <a href="" className=''>
                     <img className='icon-1' src={assset27} alt="" height={16} width={16} />
                   </a>
                 </div>
@@ -340,21 +453,14 @@ const Home = () => {
         </div>
 
 
-
-
-
-
-
-
-
         <div className='relative primary-img'>
           <div className='overflow-hidden inline-block'>
             <img className='hover:scale-110  duration-1000' src="https://emart.wpthemedemos.com/plant-garden/wp-content/uploads/sites/10/2022/12/Monstera.webp" alt="" />
           </div>
           <div className='absolute left-0 top-0 z-10 shop-icon'>
             <div className='p-3'>
-              <div className=' flex justify-center'>
-                <a href="" className='p-[12px]  rounded-full m-2  bg-white icon '>
+              <div className='p-[12px]  rounded-full m-2  bg-white icon'>
+                <a href="" className=''>
                   <img className='icon-1' src={assset27} alt="" height={16} width={16} />
                 </a>
               </div>
@@ -392,8 +498,8 @@ const Home = () => {
           </div>
           <div className='absolute left-0 top-0 z-10 shop-icon'>
             <div className='p-3'>
-              <div className=' flex justify-center'>
-                <a href="" className='p-[12px]  rounded-full m-2  bg-white icon '>
+              <div className='p-[12px]  rounded-full m-2  bg-white icon'>
+                <a href="" className=''>
                   <img className='icon-1' src={assset27} alt="" height={16} width={16} />
                 </a>
               </div>
@@ -431,8 +537,8 @@ const Home = () => {
           </div>
           <div className='absolute left-0 top-0 z-10 shop-icon'>
             <div className='p-3'>
-              <div className=' flex justify-center'>
-                <a href="" className='p-[12px]  rounded-full m-2  bg-white icon '>
+              <div className='p-[12px]  rounded-full m-2  bg-white icon'>
+                <a href="" className=''>
                   <img className='icon-1' src={assset27} alt="" height={16} width={16} />
                 </a>
               </div>
@@ -469,8 +575,8 @@ const Home = () => {
           </div>
           <div className='absolute left-0 top-0 z-10 shop-icon'>
             <div className='p-3'>
-              <div className=' flex justify-center'>
-                <a href="" className='p-[12px]  rounded-full m-2  bg-white icon '>
+              <div className='p-[12px]  rounded-full m-2  bg-white icon'>
+                <a href="" className=''>
                   <img className='icon-1' src={assset27} alt="" height={16} width={16} />
                 </a>
               </div>

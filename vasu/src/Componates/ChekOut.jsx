@@ -9,30 +9,31 @@ import assset52 from '../assets/asset 52.svg'
 import assset53 from '../assets/asset 53.svg'
 import assset54 from '../assets/asset 54.svg'
 import assset55 from '../assets/asset 55.svg'
-
-
+import { NavLink } from 'react-router-dom'
 
 
 const ChekOut = () => {
-    return (
-        <div className='container xl:p-5'>
-            <div className='bg-gray-400'>
-                <p className='text-center p-2 text-white max-sm:hidden'>Free delivery on orders over $1499. Don’t miss discount.</p>
-            </div>
+  return (
+    <div className='container xl:p-5'>
+      <div className='bg-gray-400'>
+        <p className='text-center p-2 text-white max-sm:hidden'>Free delivery on orders over $1499. Don’t miss discount.</p>
+      </div>
 
-            <div className=' p-6 xl:w-full lg:w-full md:w-full sm:w-full shadow-md shadow-gray-500 mt-5'>
-                <p className=''>Your Wishlist is currently empty.</p>
-            </div>
-            <div className='bg-black  text-white xl:h-12 lg:h-12 md:h-12 sm:h-12 xl:max-w-[250px] lg:max-w-[250px] md:max-w-[240px] max-sm:w-[220px] max-sm:p-1 mt-5 p-2 px-5 py-2  duration-500 ease-in-out hover:-translate-y-3'>
-                <p className='mt-1 ms-3 '>Return To Shop</p>
-            </div>
+      <div className=' p-6 xl:w-full lg:w-full md:w-full sm:w-full shadow-md shadow-gray-500 mt-5'>
+        <p className=''>Your Wishlist is currently empty.</p>
+      </div>
+      <div className='bg-black  text-white xl:h-12 lg:h-12 md:h-12 sm:h-12 xl:max-w-[250px] lg:max-w-[250px] md:max-w-[240px] max-sm:w-[220px] max-sm:p-1 mt-5 p-2 px-5 py-2  duration-500 ease-in-out hover:-translate-y-3'>
+        <NavLink className to='/shop_Now'>
+          <p className='mt-1 ms-3 '>Return To Shop</p>
+        </NavLink>
+      </div>
 
 
-            <div className='mt-28'>
-                <hr />
-            </div>
+      <div className='mt-28'>
+        <hr />
+      </div>
 
-            <footer>
+      <footer>
         <div>
           <div className='mt-24 xl:flex xl:justify-center lg:flex lg:justify-center md:flex md:justify-center max-sm:flex max-md:justify-center'>
             <img src={asset51} alt="" />
@@ -72,7 +73,7 @@ const ChekOut = () => {
           </div>
         </div>
       </footer>        </div>
-    )
+  )
 }
 
 export default ChekOut

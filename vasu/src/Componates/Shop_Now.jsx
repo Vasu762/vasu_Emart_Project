@@ -27,8 +27,8 @@ const Shop_Now = () => {
             </div>
             <div className='absolute left-0 top-0 z-10 shop-icon max-sm:hidden'>
               <div className='p-3'>
-                <div className=' flex justify-center'>
-                  <a href="" className='p-[12px]  rounded-full m-2  bg-white icon '>
+                <div className='p-[12px]  rounded-full m-2  bg-white icon '>
+                  <a href="" className=''>
                     <img className='icon-1' src={assset27} alt="" height={16} width={16} />
                   </a>
                 </div>
@@ -62,8 +62,8 @@ const Shop_Now = () => {
             </div>
             <div className='absolute left-0 top-0 z-10 shop-icon max-sm:hidden'>
               <div className='p-3'>
-                <div className=' flex justify-center'>
-                  <a href="" className='p-[12px]  rounded-full m-2  bg-white icon '>
+                <div className='p-[12px]  rounded-full m-2  bg-white icon '>
+                  <a href="" className=''>
                     <img className='icon-1' src={assset27} alt="" height={16} width={16} />
                   </a>
                 </div>
@@ -96,8 +96,8 @@ const Shop_Now = () => {
             </div>
             <div className='absolute left-0 top-0 z-10 shop-icon max-sm:hidden'>
               <div className='p-3'>
-                <div className=' flex justify-center'>
-                  <a href="" className='p-[12px]  rounded-full m-2  bg-white icon '>
+                <div className='p-[12px]  rounded-full m-2  bg-white icon '>
+                  <a href="" className=''>
                     <img className='icon-1' src={assset27} alt="" height={16} width={16} />
                   </a>
                 </div>
@@ -130,8 +130,8 @@ const Shop_Now = () => {
             </div>
             <div className='absolute left-0 top-0 z-10 shop-icon max-sm:hidden'>
               <div className='p-3'>
-                <div className=' flex justify-center'>
-                  <a href="" className='p-[12px]  rounded-full m-2  bg-white icon '>
+                <div className='p-[12px]  rounded-full m-2  bg-white icon '>
+                  <a href="" className=''>
                     <img className='icon-1' src={assset27} alt="" height={16} width={16} />
                   </a>
                 </div>
@@ -160,8 +160,8 @@ const Shop_Now = () => {
             </div>
             <div className='absolute left-0 top-0 z-10 shop-icon max-sm:hidden'>
               <div className='p-3'>
-                <div className=' flex justify-center'>
-                  <a href="" className='p-[12px]  rounded-full m-2  bg-white icon '>
+                <div className='p-[12px]  rounded-full m-2  bg-white icon '>
+                  <a href="" className=''>
                     <img className='icon-1' src={assset27} alt="" height={16} width={16} />
                   </a>
                 </div>
@@ -196,8 +196,8 @@ const Shop_Now = () => {
             </div>
             <div className='absolute left-0 top-0 z-10 shop-icon max-sm:hidden'>
               <div className='p-3'>
-                <div className=' flex justify-center'>
-                  <a href="" className='p-[12px]  rounded-full m-2  bg-white icon '>
+                <div className='p-[12px]  rounded-full m-2  bg-white icon'>
+                  <a href="" className=''>
                     <img className='icon-1' src={assset27} alt="" height={16} width={16} />
                   </a>
                 </div>
@@ -227,8 +227,8 @@ const Shop_Now = () => {
             </div>
             <div className='absolute left-0 top-0 z-10 shop-icon max-sm:hidden'>
               <div className='p-3'>
-                <div className=' flex justify-center'>
-                  <a href="" className='p-[12px]  rounded-full m-2  bg-white icon '>
+                <div className='p-[12px]  rounded-full m-2  bg-white icon '>
+                  <a href="" className=''>
                     <img className='icon-1' src={assset27} alt="" height={16} width={16} />
                   </a>
                 </div>
@@ -262,8 +262,8 @@ const Shop_Now = () => {
             </div>
             <div className='absolute left-0 top-0 z-10 shop-icon max-sm:hidden'>
               <div className='p-3'>
-                <div className=' flex justify-center'>
-                  <a href="" className='p-[12px]  rounded-full m-2  bg-white icon '>
+                <div className='p-[12px]  rounded-full m-2  bg-white icon '>
+                  <a href="" className=''>
                     <img className='icon-1' src={assset27} alt="" height={16} width={16} />
                   </a>
                 </div>
@@ -293,8 +293,8 @@ const Shop_Now = () => {
             </div>
             <div className='absolute left-0 top-0 z-10 shop-icon max-sm:hidden'>
               <div className='p-3'>
-                <div className=' flex justify-center'>
-                  <a href="" className='p-[12px]  rounded-full m-2  bg-white icon '>
+                <div className='p-[12px]  rounded-full m-2  bg-white icon'>
+                  <a href="" className=''>
                     <img className='icon-1' src={assset27} alt="" height={16} width={16} />
                   </a>
                 </div>
@@ -324,8 +324,8 @@ const Shop_Now = () => {
             </div>
             <div className='absolute left-0 top-0 z-10 shop-icon max-sm:hidden'>
               <div className='p-3'>
-                <div className=' flex justify-center'>
-                  <a href="" className='p-[12px]  rounded-full m-2  bg-white icon '>
+                <div className='p-[12px]  rounded-full m-2  bg-white icon'>
+                  <a href="" className=' '>
                     <img className='icon-1' src={assset27} alt="" height={16} width={16} />
                   </a>
                 </div>
@@ -355,12 +355,12 @@ const Shop_Now = () => {
             </div>
             <div className='absolute left-0 top-0 z-10 shop-icon max-sm:hidden'>
               <div className='p-3'>
-                <div className=' flex justify-center'>
-                  <a href="" className='p-[12px]  rounded-full m-2  bg-white icon '>
+                <div className='p-[12px]  rounded-full m-2  bg-white icon'>
+                  <a href="" className=''>
                     <img className='icon-1' src={assset27} alt="" height={16} width={16} />
                   </a>
                 </div>
-                <div className='p-[12px] bg-white rounded-full m-2 flex justify-center icon-1'>
+                <div className='p-[12px] bg-white rounded-full m-2 icon-1'>
                   <a href="">
                     <img src={assset28} alt="" height={16} width={16} />
                   </a>

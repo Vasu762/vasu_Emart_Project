@@ -12,6 +12,23 @@
 /* page-1 */
 
 
+/* Shop by categories */
+
+.ovelay {
+  height: 70px;
+  background-color: whitesmoke;
+  opacity: 0;
+  transition-duration: 0.3s;
+}
+
+.image:hover .ovelay {
+  opacity: 1;
+}
+
+
+
+
+
 
 
 .primary-img:hover img {
@@ -29,7 +46,6 @@
 .shop-icon {
   opacity: 0;
   transition-duration: 1s;
-
 }
 
 .icon:hover {
@@ -79,11 +95,8 @@
 
 /* Navbar */
 
-a#offcanvasNavbarDropdown-expand-xl.dropdown-toggle.nav-link::after{
-  opacity: 0; 
+a#offcanvasNavbarDropdown-expand-xl.dropdown-toggle.nav-link::after {
+  opacity: 0;
 }
 
-.ttt{
-
-}
-
+.ttt {}

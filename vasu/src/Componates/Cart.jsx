@@ -12,25 +12,74 @@ import assset52 from '../assets/asset 52.svg'
 import assset53 from '../assets/asset 53.svg'
 import assset54 from '../assets/asset 54.svg'
 import assset55 from '../assets/asset 55.svg'
+import { useSelector } from 'react-redux'
+import { NavLink } from 'react-router-dom'
+
 
 
 const Cart = () => {
-    return (
-        <div className='container xl:p-5'>
-            <div className='bg-amber-900 max:smhidden'>
-                <p className='text-center text-white max-sm:hidden'>Free delivery on orders over $1499. Don’t miss discount.</p>
-            </div>
 
-            <div className=' p-6 xl:w-full lg:w-full md:w-full sm:w-full shadow-md shadow-gray-500 mt-5'>
-                <p className=''>Your Wishlist is currently empty.</p>
-            </div>
-            <div className='bg-black  text-white xl:h-12 lg:h-12 md:h-12 sm:h-12 xl:max-w-[250px] lg:max-w-[250px] md:max-w-[240px] sm:max-w-[230px] mt-5 p-2 px-5 py-2  duration-500 ease-in-out hover:-translate-y-3'>
-                <p className='mt-1 ms-3 '>Return To Shop</p>
-            </div>
+  const CartData = useSelector((state) => state.reducer)
+  const amount = CartData.length && CartData.map((item) => item.d_price).reduce((prev, next) => prev + next)
 
 
+  return (
+    <div className='container xl:p-5'>
+      <div className='bg-amber-900 max:smhidden'>
+        <p className='text-center text-white max-sm:hidden'>Free delivery on orders over $1499. Don’t miss discount.</p>
+      </div>
 
-            <footer>
+      <div className=' p-6 xl:w-full lg:w-full md:w-full sm:w-full shadow-md shadow-gray-500 mt-5'>
+        <p className=''>Your Wishlist is currently empty.</p>
+      </div>
+      <div className='bg-black  text-white xl:h-12 lg:h-12 md:h-12 sm:h-12 xl:max-w-[250px] lg:max-w-[250px] md:max-w-[240px] sm:max-w-[230px] mt-5 p-2 px-5 py-2  duration-500 ease-in-out hover:-translate-y-3'>
+        <NavLink className to='/shop_Now'>
+          <p className='mt-1 ms-3 '>Return To Shop</p>
+        </NavLink>
+      </div>
+
+      <div className="flex container mx-auto justify-around">
+        <table className="w-[800px] text-center mt-[20px] table-fix ">
+          <thead>
+            <tr className="">
+              <th className="border-2 border-black">Item Image</th>
+              <th className="border-2 border-black">Item Name</th>
+              <th className="border-2 border-black">item Price</th>
+            </tr>
+          </thead>
+          {CartData.map((item) => {
+            return (
+              <tbody key={item.id}>
+                <tr>
+                  <td className="border-2 border-red-600 ">
+                    <img className="h-28 mx-auto" src={item.img} alt="" />
+                  </td>
+                  <td className="border-2 border-red-600 font-bold">{item.name}</td>
+                  <td className="border-2 border-red-600 ">{item.d_price}</td>
+                </tr>
+              </tbody>
+            );
+          })}
+        </table>
+        <div>
+          <table className="mt-20 border-2 border-red-600">
+            <thead>
+              <tr className="border-2 border-red-600">
+                <th>Total Price</th>
+              </tr>
+            </thead>
+            <tbody>
+              <tr className="border-2 border-red-600">
+                <td>{amount}</td>
+              </tr>
+            </tbody>
+          </table>
+        </div>
+      </div>
+
+
+
+      <footer>
         <div>
           <div className='mt-24 xl:flex xl:justify-center lg:flex lg:justify-center md:flex md:justify-center max-sm:flex max-md:justify-center'>
             <img src={asset51} alt="" />
@@ -76,8 +125,8 @@ const Cart = () => {
 
 
 
-        </div>
-    )
+    </div>
+  )
 }
 
 export default Cart

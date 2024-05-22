@@ -15,6 +15,8 @@ import assset52 from '../assets/asset 52.svg'
 import assset53 from '../assets/asset 53.svg'
 import assset54 from '../assets/asset 54.svg'
 import assset55 from '../assets/asset 55.svg'
+import { NavLink } from 'react-router-dom'
+
 
 
 
@@ -70,7 +72,9 @@ const WishList = () => {
                     <p className=''>Your Wishlist is currently empty.</p>
                 </div>
                 <div className='bg-black  text-white xl:h-12 lg:h-12 md:h-12 sm:h-12 xl:max-w-[250px] lg:max-w-[250px] md:max-w-[240px] sm:max-w-[230px] mt-5 p-2 px-5 py-2  duration-500 ease-in-out hover:-translate-y-3'>
+                    <NavLink className to='/shop_Now'>
                     <p className='mt-1 ms-3 '>Return To Shop</p>
+                    </NavLink>
                 </div>
 
 

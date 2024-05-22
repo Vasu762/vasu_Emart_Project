@@ -1,6 +1,6 @@
 import { PRODUCT_LIST,PRODUCT_SET } from "../Redux/Constant";
 
- const productReducer = (data = [],action) =>{
+ const ProductReducer = (data = [],action) =>{
    switch (action.type){
     case PRODUCT_LIST:
         console.warn("productlist called",action);
@@ -15,4 +15,4 @@ import { PRODUCT_LIST,PRODUCT_SET } from "../Redux/Constant";
    }
  }
 
- export default productReducer
+ export default ProductReducer

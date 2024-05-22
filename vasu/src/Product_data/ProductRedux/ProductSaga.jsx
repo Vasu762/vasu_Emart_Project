@@ -9,8 +9,8 @@ function* getproduct(){
     yield put({type:PRODUCT_SET,data})
 }
 
-function* productsaga(){
+function* ProductSaga(){
     yield takeEvery(PRODUCT_LIST,getproduct)
 }
 
-export default productsaga
+export default ProductSaga
