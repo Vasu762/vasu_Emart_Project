@@ -45,14 +45,14 @@ import { productData } from "../Product_data/ProductRedux/ProductAction";
 
 const Home = () => {
 
-  const dispatch = useDispatch();
-  const data = useSelector((state) => state.ProductReducer);
+  // const dispatch = useDispatch();
+  // const data = useSelector((state) => state.ProductReducer);
 
-  console.log("maindata", data);
+  // console.log("maindata", data);
 
-  useEffect(() => {
-    dispatch(productData());
-  }, []);
+  // useEffect(() => {
+  //   dispatch(productData());
+  // }, []);
 
 
   return (
@@ -212,9 +212,11 @@ const Home = () => {
                     </a>
                   </div>
                   <div className='p-[12px] flex justify-center bg-white m-2  rounded-full icon-1'>
+                    {/* <button onClick={() => dispatch(addToCart(item))}> */}
                     <a href="">
-                      <img className='' onClick={() => dispatch(addToCart(item))} src={assset29} alt="" height={8} width={12} />
+                      <img className='' src={assset29} alt="" height={8} width={12} />
                     </a>
+                    {/* </button> */}
                   </div>
                 </div>
               </div>
@@ -629,11 +631,11 @@ const Home = () => {
 
 
           <div className='xl:flex lg:flex lg:justify-betwee md:flex md:justify-between xl:justify-between max max-sm:justify-center'>
-            <div className='xl:flex md:flex md:gap-1 lg:flex lg:gap-3 xl:gap-3 max-sm:flex max-sm:justify-center max-sm:gap-2 max-sm:mt-3'>
-              <img src={assset52} alt="" />
-              <img src={assset53} alt="" />
-              <img src={assset54} alt="" />
-              <img src={assset55} alt="" />
+            <div className='xl:flex xl:mt-4 md:flex md:gap-1 lg:flex lg:gap-3 xl:gap-3 max-sm:flex max-sm:justify-center max-sm:gap-2 max-sm:mt-3'>
+              <img className='w-9' src={assset52} alt="" />
+              <img className='w-9' src={assset53} alt="" />
+              <img className='w-9' src={assset54} alt="" />
+              <img className='w-9' src={assset55} alt="" />
             </div>
             <div className='mt-4 max-sm:flex max-sm:justify-center'>
               <p className='inline-block text-slate-500'>Designed by : </p>

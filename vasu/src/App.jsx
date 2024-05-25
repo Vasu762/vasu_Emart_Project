@@ -17,6 +17,7 @@ import Four_sildbar from './Componates/Four_sildbar'
 import 'bootstrap/dist/css/bootstrap.min.css';
 // import Navbar from './Navbar';
 // import Example from "./Componates/Dropdown";
+import Footer from "./Componates/Footer"
 import { BrowserRouter, Routes, Route } from 'react-router-dom';
 
 

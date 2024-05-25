@@ -459,11 +459,11 @@ const Four_sildbar = () => {
 
 
           <div className='xl:flex lg:flex lg:justify-betwee md:flex md:justify-between xl:justify-between max max-sm:justify-center'>
-            <div className='xl:flex md:flex md:gap-1 lg:flex lg:gap-3 xl:gap-3 max-sm:flex max-sm:justify-center max-sm:gap-2 max-sm:mt-3'>
-              <img src={assset52} alt="" />
-              <img src={assset53} alt="" />
-              <img src={assset54} alt="" />
-              <img src={assset55} alt="" />
+            <div className='xl:flex xl:mt-4 md:flex md:gap-1 lg:flex lg:gap-3 xl:gap-3 max-sm:flex max-sm:justify-center max-sm:gap-2 max-sm:mt-3'>
+              <img className='w-9' src={assset52} alt="" />
+              <img className='w-9' src={assset53} alt="" />
+              <img className='w-9' src={assset54} alt="" />
+              <img className='w-9' src={assset55} alt="" />
             </div>
             <div className='mt-4 max-sm:flex max-sm:justify-center'>
               <p className='inline-block text-slate-500'>Designed by : </p>

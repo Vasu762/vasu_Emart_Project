@@ -71,61 +71,45 @@ const BlogOne = () => {
 
 
             <footer>
-                <div class='bg-slate-300 mt-10'>
+        <div>
+          <div className='mt-24 xl:flex xl:justify-center lg:flex lg:justify-center md:flex md:justify-center max-sm:flex max-md:justify-center'>
+            <img src={asset51} alt="" />
+          </div>
 
-                    <div class='grid grid-cols-1 sm:grid-cols-2 md:grid-cols-2 lg:grid-cols-4 pt-20'>
+          <p className='xl:text-center lg:text-center md:text-center max-sm:text-center mt-3 text-3xl font-semibold text-wrap'>Subscribe newsletter</p>
+          <p className='xl:text-center lg:text-center md:text-center max-sm:text-center mt-3 text-md text-slate-500'>Subscribe Now and get more offers</p>
 
-                        <div class=' sm:text-left'>
-                            <img src="https://emart.wpthemedemos.com/wp-content/uploads/2023/02/e-mart-logo-03.svg" alt="" class=' sm:mx-0' />
-                            <p class='mt-4 text-slate-500'>Molestie vitae massa felis, aliquam lectus at. <br /> Ultricies et, quis sit fermentum.</p>
-                        </div>
+          <div className='xl:flex xl:justify-center lg:flex lg:justify-center md:flex-wrap md:text-center max-sm:flex max-sm:flex-wrap max-sm:justify-center mt-5'>
+            <input className='border-2 border-solid border-inherit p-2 bg-slate-200 xl:w-[400px]  lg:w-[400px] md:w-[400px]   max-sm:w-[350px] ' placeholder='Your Email Address...' type="text" name="" id="" />
+            <button className='bg-black text-white xl:p-3 md:p-2 lg:p-3 max-sm:p-2 xl:w-[220px] lg:w-[220px] lg:ms-3 md:ms-3 xl:ms-3  max-sm:ms-1 max-sm:mt-3 max-sm:w-[350px] '> Subscribe Now</button>
+          </div>
 
-                        <div class=' sm:text-left mt-10 sm:mt-0'>
-                            <p class='font-bold'>Quick Link</p>
-                            <p className='text-slate-500'>About</p>
-                            <p className='text-slate-500'>Product</p>
-                            <p className='text-slate-500'>Responsibility</p>
-                            <p className='text-slate-500'>Career</p>
-                        </div>
-
-                        <div class=' sm:text-left mt-10 sm:mt-0'>
-                            <p class='font-bold '>Services</p>
-                            <p className='text-slate-500'>My Account</p>
-                            <p className='text-slate-500'>Checkout Page</p>
-                            <p className='text-slate-500'>Help Center</p>
-                            <p className='text-slate-500'>Terms & Condition</p>
-                        </div>
-
-                        <div class=' sm:text-left mt-10 sm:mt-0'>
-                            <p class='font-bold'>More</p>
-                            <p className='text-slate-500'>Gift Card</p>
-                            <p className='text-slate-500'>Lookbook</p>
-                            <p className='text-slate-500'>Rewards Program</p>
-                            <p className='text-slate-500'>Wedding Dress</p>
-                        </div>
-
-                    </div>
+          <div className='mt-28'>
+            <hr />
+          </div>
 
 
-                    <div className='mt-20 border-t'>
-
-                        <div className='flex justify-between p-3'>
-                            <div className='flex space-x-3'>
-                                <img src={assets56} alt="" />
-                                <img src={assets57} alt="" />
-                                <img src={assets58} alt="" />
-                                <img src={assets60} alt="" />
-                                <img src={assets61} alt="" />
-                            </div>
-                            <div className='mt-6'>
-                                <p className='text-slate-500 inline-block'>Designed by :</p>
-                                <p className='inline-block text-slate-500  font-bold'>Wpignite</p>
-                            </div>
-                        </div>
-                    </div>
-
-                </div>
-            </footer>
+          <div className='xl:flex lg:flex lg:justify-betwee md:flex md:justify-between xl:justify-between max max-sm:justify-center'>
+            <div className='xl:flex xl:mt-4 md:flex md:gap-1 lg:flex lg:gap-3 xl:gap-3 max-sm:flex max-sm:justify-center max-sm:gap-2 max-sm:mt-3'>
+              <img className='w-9' src={assset52} alt="" />
+              <img className='w-9' src={assset53} alt="" />
+              <img className='w-9' src={assset54} alt="" />
+              <img className='w-9' src={assset55} alt="" />
+            </div>
+            <div className='mt-4 max-sm:flex max-sm:justify-center'>
+              <p className='inline-block text-slate-500'>Designed by : </p>
+              <p className='inline-block font-bold text-slate-500'>Wpignite</p>
+            </div>
+            <div className='xl:flex lg:flex md:flex md:gap-2 xl:gap-3 lg:gap-2  max-sm:flex  max-sm:justify-center  max-sm:gap-1 max-sm:mt-3'>
+              <img src={asset56} alt="" />
+              <img src={asset57} alt="" />
+              <img src={asset58} alt="" />
+              <img src={asset59} alt="" />
+              <img src={asset60} alt="" />
+            </div>
+          </div>
+        </div>
+      </footer>
 
         </div>
     )

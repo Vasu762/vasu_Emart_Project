@@ -27,7 +27,7 @@ import { useSelector } from 'react-redux';
 function OffcanvasExample() {
 
 
-    const result = useSelector((state) => state.Reducer);
+    const result = useSelector((state) => state.reducer);
     console.warn("HeaderData called", result);
 
     const [show1, setShow1] = useState(false);
@@ -151,7 +151,7 @@ function OffcanvasExample() {
                                         id={`offcanvasNavbarDropdown-expand-${expand}`}
                                         show={show2}
                                     >
-                                        <hr className=' xl:-translate-x-[590px] d-xl-block d-md-none d-sm-none  d-lg-none' />
+                                        {/* <hr className=' xl:-translate-x-[590px] d-xl-block d-md-none d-sm-none  d-lg-none' /> */}
                                         <div className='xl:w-[1500px] xl:mt-[20px] xl:pt-[20px]  xl:-translate-x-[550px] xl:container xl:p-32'>
                                             <div className='grid xl:grid-cols-5 lg:grid-cols-1'>
                                                 <div className='ms-3 d-xl-block d-md-none d-sm-none  d-lg-none'>
@@ -298,7 +298,7 @@ function OffcanvasExample() {
                                             <NavDropdown.Item href="#action56" className='text-muted py-[8px] text-[18px] animated-text'> Contact One </NavDropdown.Item>
                                             <NavDropdown.Item href="#action57" className='text-muted py-[8px] text-[18px] animated-text'>  <NavLink className to="/ContactTwo">Contact Two</NavLink></NavDropdown.Item>
 
-                                        </div>
+                                        </div>   
                                     </NavDropdown>
 
                                 </Nav>
@@ -306,12 +306,18 @@ function OffcanvasExample() {
                                 <section className='d-flex '>
                                     <img className='p-2' src={asset44} lt="" />
                                     <img className='p-2' src={asset45} lt="" />
+
+                                    <NavLink className to='/WishList'>
                                     <img className='p-2' src={asset8} lt="" />
+                                    {/* <span className="absolute right-[-5px] top-[-10px] text-white">{result}</span> */}
+                                    </NavLink>
                                     <div>
 
                                         <NavLink className to='/Cart'>
                                             <img className='p-2 mt-1' src={asset47} lt="" />
-                                            <span className="absolute right-[-5px] top-[-10px] text-white">{result}</span>
+                                            {/* <span className="absolute right-[-5px] top-[-10px] text-white">{result}</span> */}
+                                            {/* <span className="absolute right-[-5px] top-[-10px] text-white">{result}</span> */}
+
                                         </NavLink>
                                     </div>
                                 </section>
