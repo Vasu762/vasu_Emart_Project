@@ -1,6 +1,5 @@
 import RootReducer from "./RootReducer";
 import { configureStore } from "@reduxjs/toolkit";
-// import productsaga from "./ProdutRedux/ProductSaga";
 import ProductSaga from "./ProductRedux/ProductSaga";
 import createsagaMiddeleware from'redux-saga'
 

@@ -214,7 +214,7 @@ const Home = () => {
                   <div className='p-[12px] flex justify-center bg-white m-2  rounded-full icon-1'>
                     {/* <button onClick={() => dispatch(addToCart(item))}> */}
                     <a href="">
-                      <img className='' src={assset29} alt="" height={8} width={12} />
+                      <img className=''  src={assset29} alt="" height={8} width={12} />
                     </a>
                     {/* </button> */}
                   </div>
@@ -409,7 +409,7 @@ const Home = () => {
       </div>
 
 
-
+ 
 
       <p className='mt-10 text-4xl font-semibold p-3 vasu1'>New arrivals</p>
 
@@ -534,7 +534,7 @@ const Home = () => {
 
 
         <div className='relative primary-img'>
-          <div className='overflow-hidden inline-block'>
+          <div className='overflow-hidden inline-block'> 
             <img className='hover:scale-110  duration-1000' src="https://emart.wpthemedemos.com/plant-garden/wp-content/uploads/sites/10/2022/12/Monstera.webp" alt="" />
           </div>
           <div className='absolute left-0 top-0 z-10 shop-icon'>
@@ -631,7 +631,7 @@ const Home = () => {
 
 
           <div className='xl:flex lg:flex lg:justify-betwee md:flex md:justify-between xl:justify-between max max-sm:justify-center'>
-            <div className='xl:flex xl:mt-4 md:flex md:gap-1 lg:flex lg:gap-3 xl:gap-3 max-sm:flex max-sm:justify-center max-sm:gap-2 max-sm:mt-3'>
+            <div className='xl:flex xl:mt-4 md:flex md:gap-1 lg:flex lg:gap-3 xl:gap-3 max-sm:flex max-sm:justify-center max-sm:gap-2 max-sm:mt-3 '>
               <img className='w-9' src={assset52} alt="" />
               <img className='w-9' src={assset53} alt="" />
               <img className='w-9' src={assset54} alt="" />
@@ -653,8 +653,9 @@ const Home = () => {
       </footer>
 
 
+
     </div>
   )
 }
 
-export default Home
+export default Home

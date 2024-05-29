@@ -1,6 +1,5 @@
-import React from 'react'
+
 import { NavLink } from 'react-router-dom'
-import { useSelector } from 'react-redux';
 import asset51 from '../assets/asset 51.svg'
 import assset52 from '../assets/asset 52.svg'
 import assset53 from '../assets/asset 53.svg'
@@ -11,25 +10,43 @@ import asset57 from '../assets/asset 57.svg'
 import asset58 from '../assets/asset 58.svg'
 import asset59 from '../assets/asset 59.svg'
 import asset60 from '../assets/asset 60.svg'
+import { useDispatch, useSelector } from 'react-redux';
+import { removeTocart } from '../Product_data/Redux/Action'
+import { increment } from '../Product_data/Redux/Action'
+import { decrement } from '../Product_data/Redux/Action'
+
+
 
 
 
 
 const Cart = () => {
 
+  const dispatch = useDispatch();
+
+  const cartData = useSelector((state) => state.reducer);
+  const calculateSubtotal = () => {
+    return cartData.reduce((total, item) => total + item.d_price * item.quantity, 0);
+  };
 
 
+  function GST() {
+    const gst = calculateSubtotal() * 5 / 100;
+    return GST = calculateSubtotal() + gst;
+  }
 
-  var cartData = useSelector((state) => state.reducer);
-  amount = 0;
-  var amount =
-    cartData.length &&
-    cartData.map((item) => item.d_price).reduce((prev, next) => prev + next);
+  function shaping() {
+    const gst = calculateSubtotal() * 5 / 100;
+    GST = calculateSubtotal() + gst;
+    return shaping = GST + 20;
+  }
+
+
 
   return (
     <>
       <div className='max-sm:hidden' >
-        <p className='text-center text-white bg-amber-700 p-1'>Free delivery on orders over $1499. Don’t miss discount.</p>
+        <p className='text-center text-white bg-white p-1'>Free delivery on orders over $1499. Don’t miss discount.</p>
       </div>
       <div className='container xl:p-5'>
 
@@ -44,7 +61,7 @@ const Cart = () => {
         </div>
         <div className=" container mx-auto justify-between  mt-4 ">
           <table className="xl:w-full  lg:w-full md:w-full max-sm:w-full">
-            <thead className='border-2 border-solid border-red-500  bg-orange-300'>
+            <thead className=''>
               <tr className="flex row justify-between pb-[20px] pt-[30px] px-[20px]">
                 <th className="col-6  font-normal ">Products</th>
                 <th className="col-2 font-normal">Price</th>
@@ -55,20 +72,31 @@ const Cart = () => {
             <hr />
             {cartData.map((item) => {
               return (
-                <tbody key={item.id} className='border-2 border-current border-solid bg-pink-700'>
+                <tbody key={item.id} className=' '>
                   <tr className="flex justify-between pt-[30px] items-center py-[30px] ">
-                    <td className="flex col-6 items-center">
+                    <td className="flex  items-center">
                       <img
-                        className="max-w-[102px] w-[102px] h-[102px] col-6 object-cover  border-2 border-solid border-black"
+                        className="max-w-[102px] w-[102px] h-[102px]  object-cover"
                         src={item.img}
                         alt=""
                       />
-                      <td className="col-6 text-white">{item.name}</td>
+                      <td className=" ">{item.name}</td>
                     </td>
-                    <div class="border-l border-black h-full"></div>
-                    <td className="col-2 text-white">{item.d_price}</td>
-                    <td className="col-2 text-white">1</td>
-                    <td className="col-2 text-white">{item.d_price}</td>
+                    <div class="h-full"></div>
+                    <td className="  ms-56">{item.d_price}</td>
+
+
+                    <div className="  py-[10px] items-center flex justify-around ms-8 p-3">
+                      <button onClick={() => dispatch(decrement(item.id))} className="me-2 border-2 border-solid border-white px-3 bg-black text-white">-</button>
+                      <td>{item.quantity}</td>
+                      <button onClick={() => dispatch(increment(item.id))} className="ms-2 border-2 border-solid border-white px-3  bg-black text-white">+</button>
+                    </div>
+                    <td className="col-2 ">${item.d_price * item.quantity}
+
+                      <button onClick={() => dispatch(removeTocart(item.id))} className='btn btn-denger btn-sm ms-16 border-2 border-solid border-black hover:bg-black hover:text-white '>
+                        Remove
+                      </button>
+                    </td>
                   </tr>
                   <hr />
                 </tbody>
@@ -79,29 +107,38 @@ const Cart = () => {
           <div className="">
 
 
-            <div className="p-[25px] border-2 border-spacing-1 mt-3 border-solid w-full bg-orange-800 font-extrabold">
-              <h4 className="my-[8px] text-white">Cart Totals</h4>
-              <hr className='text-white font-extrabold' />
+            <div className="p-[25px]  w-full  font-extrabold">
+              <h4 className="my-[8px] ">Cart Totals</h4>
+              <hr className=' font-extrabold' />
               <div className="flex justify-between mt-[30px] mb-[20px]">
-                <span className='text-white font-extrabold'>Subtotal</span>
-                <span className='text-yellow-300 font-extrabold'>
-                  {amount}
-                </span>
-
+                <span className=' font-extrabold'>Subtotal</span>
+                <span className=' font-extrabold'>{calculateSubtotal()}</span>
               </div>
-              <hr className='text-white font-extrabold' />
+              <hr className=' font-extrabold' />
               <div className="leading-10 my-[15px]">
-                <h1 className='text-white font-extrabold'>Shipping</h1>
-                <div className="flex justify-between">
-                  <span className='text-white font-extrabold'>Flat Rate:</span>
+                {/* <h1 className=' font-extrabold'>Shipping</h1> */}
+                <div className="">
+
+                  <div className="flex justify-between">
+                    <div className=' font-extrabold'>GST:</div>
+                    <div className=''>%5</div>
+                  </div>
+                  <hr className=' font-extrabold' />
+
+                  <div className='flex justify-between'>
+                    <div className=''>Shiping Charge</div>
+                    <div className=''>+20</div>
+                  </div>
+                  <hr className=' font-extrabold' />
+
+                  <div className="flex justify-between">
+                    <span className=' font-extrabold'>Grand Total:</span>
+                    <span className=''>{shaping()}</span>
+                  </div>
                   <span></span>
-                </div>
-                <div className='text-white font-extrabold'>
-                  Shipping to <sapn className="font-bold">CA</sapn>
-                </div>
-                <h4 className='text-white font-extrabold'>Change address </h4>
+                </div>             
               </div>
-              <hr className='text-white font-extrabold' />
+              <hr className=' font-extrabold' />
             </div>
           </div>
         </div>

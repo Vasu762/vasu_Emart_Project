@@ -11,3 +11,7 @@ export const PRODUCT_SET ="PRODUCT_SET"
 export const ADD_TO_WISHLIST ="ADD_TO_CART"
 export const REMOVE_TO_WISHLIST = "REMOVE_TO_CART"
 export const EMPTY_WISHLIST="EMPTY_CART"
+
+
+export const INCREMENT = "INCREMENT"
+export const DECREMENT = "DECREMENT"

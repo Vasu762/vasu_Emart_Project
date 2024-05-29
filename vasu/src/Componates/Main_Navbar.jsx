@@ -1,6 +1,6 @@
-import Button from 'react-bootstrap/Button';
+// import Button from 'react-bootstrap/Button';
 import Container from 'react-bootstrap/Container';
-import Form from 'react-bootstrap/Form';
+// import Form from 'react-bootstrap/Form';
 import Nav from 'react-bootstrap/Nav';
 import Navbar from 'react-bootstrap/Navbar';
 import NavDropdown from 'react-bootstrap/NavDropdown';
@@ -21,12 +21,16 @@ import asset43 from '../assets/asset 43.svg'
 import asset8 from '../assets/asset 8.svg'
 import asset47 from '../assets/asset 47.svg'
 import { useSelector } from 'react-redux';
+import { useAuth0 } from "@auth0/auth0-react";
 
 
 
 function OffcanvasExample() {
 
+const {user , loginWithRedirect} = useAuth0();
 
+
+console.log("Current",user);
     const result = useSelector((state) => state.reducer);
     console.warn("HeaderData called", result);
 
@@ -298,18 +302,23 @@ function OffcanvasExample() {
                                             <NavDropdown.Item href="#action56" className='text-muted py-[8px] text-[18px] animated-text'> Contact One </NavDropdown.Item>
                                             <NavDropdown.Item href="#action57" className='text-muted py-[8px] text-[18px] animated-text'>  <NavLink className to="/ContactTwo">Contact Two</NavLink></NavDropdown.Item>
 
-                                        </div>   
+                                        </div>
                                     </NavDropdown>
 
                                 </Nav>
 
                                 <section className='d-flex '>
                                     <img className='p-2' src={asset44} lt="" />
-                                    <img className='p-2' src={asset45} lt="" />
+
+                                        <button onClick={(e) => loginWithRedirect()}>
+                                        <img className='p-2' src={asset45} lt="" />
+                                        </button>
+                                   
+
 
                                     <NavLink className to='/WishList'>
-                                    <img className='p-2' src={asset8} lt="" />
-                                    {/* <span className="absolute right-[-5px] top-[-10px] text-white">{result}</span> */}
+                                        <img className='p-2' src={asset8} lt="" />
+                                        {/* <span className="absolute right-[-5px] top-[-10px] text-white">{result}</span> */}
                                     </NavLink>
                                     <div>
 

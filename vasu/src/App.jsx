@@ -43,7 +43,7 @@ function App() {
             {/* <BlogThree /> */}
             {/* <DefualtBlog/> */}
             {/* <WishList />   */}
-            {/* <Cart/> */} 
+            {/* <Cart/> */}
             {/* <ChekOut/> */}
             {/* <Four_sildbar/>  */}
             {/* <ContactOne /> */}
@@ -66,7 +66,8 @@ function App() {
                     <Route path='/Cart' element={<Cart />} />
                     <Route path='/ChekOut' element={<ChekOut />} />
                     <Route path='/Four_sildbar' element={<Four_sildbar />} />
-                </Routes>5
+                    {/* <Route path='/SignInSignUp' element={<SignInSignUp />} /> */}
+                </Routes>
             </BrowserRouter>
         </>
     )

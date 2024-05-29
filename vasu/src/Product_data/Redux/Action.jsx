@@ -1,4 +1,4 @@
-import { ADD_TO_CART, REMOVE_TO_CART, EMPTY_CART ,ADD_TO_WISHLIST ,REMOVE_TO_WISHLIST ,EMPTY_WISHLIST} from './Constant'
+import { ADD_TO_CART, REMOVE_TO_CART, EMPTY_CART ,ADD_TO_WISHLIST ,REMOVE_TO_WISHLIST ,EMPTY_WISHLIST,INCREMENT , DECREMENT} from './Constant'
 
 
 // addTocart
@@ -27,6 +27,10 @@ export const Emptycart = () => {
 
   }
 }
+
+
+
+
 
 
 
@@ -60,4 +64,17 @@ export const EmptyWishlist = () => {
 }
 
 
+export const increment = (data) => {
+  return{
+    type:INCREMENT,
+    data
+  }
 
+}
+
+export const decrement = (data) => {
+return{
+ type:DECREMENT,
+ data
+}
+}
